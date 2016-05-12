@@ -12,3 +12,4 @@ NOTE: ratings data is pretty sparse
 - compare across other late night shows based on any measure
 - categorize types of guests and look at historgram
 - look at popularity or networth of guests and see if it correlates with ratings
+- create markov bot of colbert speach
