@@ -1,5 +1,10 @@
 # The Late Show with Stephen Colbert Analysis
 
+Jupyter Notebook: http://nbviewer.jupyter.org/gist/AlJohri/3825066ecfa4688c87f61c1a250aa778
+
+![](./assets/screenshot1.png)
+![](./assets/screenshot2.png)
+
 ## Usage
 
 1. Update latest `LATEST_EPISODE_NUMBER` in settings.py.
