@@ -36,6 +36,10 @@ def create_df():
 
 def plot_interactive_timeseries(x, y, data, title):
 
+    hover_cols = ['number', 'title', 'airdate', 'rating', 'rating_count']
+
+    df = data[hover_cols].dropna(axis=0, how='any')
+
     p = figure(
         plot_width=bokeh.charts.defaults.width,
         plot_height=bokeh.charts.defaults.height,
@@ -49,8 +53,8 @@ def plot_interactive_timeseries(x, y, data, title):
                 ("Rating", "@rating{1.11}"),
                 ("Rating Count", "@rating_count{1.11}")])
 
-    source = ColumnDataSource(data)
-    source.add(data.airdate.map(lambda x: x.strftime('%x')), 'airdatestr')
+    source = ColumnDataSource(df[hover_cols])
+    source.add(df.airdate.map(lambda x: x.strftime('%x')), 'airdatestr')
     p.circle(x=x, y=y, line_width=2, source=source, size=5)
     p.add_tools(hover)
     p.logo = None
