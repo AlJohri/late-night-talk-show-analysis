@@ -4,7 +4,7 @@
 
 ## Usage
 
-1. `python scraper.py`
-2. `python parser.py`
+1. `python scrape_subtitles.py`
+2. `python parse_subtitles.py`
 3. ???
 

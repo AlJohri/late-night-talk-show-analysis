@@ -1,3 +1,5 @@
+LATEST_EPISODE_NUMBER = 139 # May 10 2016 - http://www.imdb.com/title/tt3697842/episodes
+
 KINDS = ['SMPTE', 'DFXP']
 
 RAW_FOLDER = "data/raw/{kind}/"
