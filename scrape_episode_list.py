@@ -26,7 +26,9 @@ for tv_episode in tv_season.cssselect("div[itemtype='http://schema.org/TVEpisode
         "description": tv_episode.cssselect("div[itemprop='description']")[0].text_content().strip(),
     }
 
-    if episode_dict['number'] > LATEST_EPISODE_NUMBER: continue
+    if episode_dict['number'] > LATEST_EPISODE_NUMBER:
+        print("skipping", episode_dict)
+        continue
 
     episode_dict['airdate'] = arrow.get(episode_dict['airdate'], date_format).strftime("%x") if episode_dict['airdate'] else ""
     episode_dict['url'] = IMDB_BASE_URL + episode_dict['url'].split("?")[0]
