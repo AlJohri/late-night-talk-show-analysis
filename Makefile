@@ -3,9 +3,9 @@
 all: ratings subtitles
 
 ratings:
-	python scrape_episode_list.py
-	python scrape_ratings.py
+	python scraper/scrape_episode_list.py
+	python scraper/scrape_ratings.py
 
 subtitles:
-	python scrape_subtitles.py
-	python parse_subtitles.py
+	python scraper/scrape_subtitles.py
+	python scraper/parse_subtitles.py
