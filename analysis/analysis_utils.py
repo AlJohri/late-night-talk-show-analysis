@@ -10,11 +10,11 @@ bokeh.charts.defaults.height = 400
 from settings import PARSED_FOLDER
 
 kind = "DFXP"
-parsed_folder = PARSED_FOLDER.format(kind=kind)
+parsed_folder = "../" + PARSED_FOLDER.format(kind=kind)
 
 def create_df():
-    ratings = pd.read_csv("data/ratings.csv", index_col='number')
-    episode_list = pd.read_csv("data/episode_list.csv", parse_dates=['airdate'], index_col='number')
+    ratings = pd.read_csv("../data/ratings.csv", index_col='number')
+    episode_list = pd.read_csv("../data/episode_list.csv", parse_dates=['airdate'], index_col='number')
     episode_list.rename(columns={"name": "title"}, inplace=True)
     episode_list.drop('url', axis=1, inplace=True)
 
