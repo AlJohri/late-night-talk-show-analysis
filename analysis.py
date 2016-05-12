@@ -1,6 +1,12 @@
 import os
 import pandas as pd
 
+import bokeh.charts
+from bokeh.plotting import figure
+from bokeh.models import HoverTool, BoxSelectTool, ColumnDataSource
+bokeh.charts.defaults.width = 950
+bokeh.charts.defaults.height = 400
+
 from settings import PARSED_FOLDER
 
 kind = "DFXP"
@@ -27,3 +33,26 @@ def create_df():
     episodes = pd.concat([ratings, episode_list, subtitles], axis=1).reset_index()
 
     return episodes
+
+def plot_interactive_timeseries(x, y, data, title):
+
+    p = figure(
+        plot_width=bokeh.charts.defaults.width,
+        plot_height=bokeh.charts.defaults.height,
+        x_axis_type="datetime",
+        title=title)
+
+    hover = HoverTool(tooltips=[
+                ("Episode", "@number"),
+                ("Title", "@title"),
+                ("Airdate", "@airdatestr"),
+                ("Rating", "@rating{1.11}"),
+                ("Rating Count", "@rating_count{1.11}")])
+
+    source = ColumnDataSource(data)
+    source.add(data.airdate.map(lambda x: x.strftime('%x')), 'airdatestr')
+    p.circle(x=x, y=y, line_width=2, source=source, size=5)
+    p.add_tools(hover)
+    p.logo = None
+
+    return p
