@@ -22,9 +22,11 @@ for response in grequests.imap(reqs, exception_handler=handler):
     if not doc.cssselect('div.notEnoughRatings'):
         rating = float(doc.cssselect("span[itemprop='ratingValue']")[0].text)
         rating_count = int(doc.cssselect("span[itemprop='ratingCount']")[0].text)
-    row = {"number": response.meta['episode_number'], "rating": rating, 'rating_count': rating_count}
+    row = {"number": int(response.meta['episode_number']), "rating": rating, 'rating_count': rating_count}
     print(row['number'], row['rating'], row['rating_count'])
     rows.append(row)
+
+rows.sort(key=lambda x: x['number'])
 
 with open("data/ratings.csv", "w") as f:
     writer = csv.DictWriter(f, fieldnames=['number', 'rating', 'rating_count'])
