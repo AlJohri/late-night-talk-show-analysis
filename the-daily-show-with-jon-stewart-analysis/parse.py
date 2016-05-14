@@ -22,7 +22,7 @@ for raw_filename in os.listdir(raw_folder):
         print("error parsing", str(e))
     root = tree.getroot()
 
-    ns_mapping = {'ns':'http://www.w3.org/ns/ttml'}
+    ns_mapping = {'ns':'http://www.w3.org/2006/10/ttaf1'}
     full_text = " ".join([ptext for ptext in root.xpath('//ns:tt/ns:body/ns:div/ns:p//text()', namespaces=ns_mapping)])
 
     with open(parsed_filepath, "w") as f:
