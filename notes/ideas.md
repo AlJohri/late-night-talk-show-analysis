@@ -13,3 +13,4 @@ NOTE: ratings data is pretty sparse
 - categorize types of guests and look at historgram
 - look at popularity or networth of guests and see if it correlates with ratings
 - create markov bot of colbert speach
+- the different ways "trump" is referred to as in the various night shows
