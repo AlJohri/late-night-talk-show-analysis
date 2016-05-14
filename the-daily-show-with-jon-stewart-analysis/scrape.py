@@ -1,6 +1,6 @@
 import os, grequests
 
-RAW_FOLDER = "data/raw/DXFP/"
+RAW_FOLDER = "data/raw/DFXP/"
 os.makedirs(RAW_FOLDER, exist_ok=True)
 
 FILENAME = "ds_{season:02d}{episode:03d}_act{act}.dfxp.xml"
