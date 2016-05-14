@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.068' end='00:00:02.936' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Stephen: WELL, THAT&apos;S IT<br/>FOR THE REPORT, EVERYBODY.</span></p>
+<p begin='00:00:02.970' end='00:00:07.040' tts:textAlign='left'  space='preserve'><span style='block'>FOLKS, BEFORE I GO, I WANT<br/>TO REMIND YOU THAT IF</span></p>
+<p begin='00:00:07.074' end='00:00:10.444' tts:textAlign='left'  space='preserve'><span style='block'>YOU ENJOYED MY INTERVIEW<br/>WITH BILL COSBY TONIGHT, GET</span></p>
+<p begin='00:00:10.477' end='00:00:11.812' tts:textAlign='left'  space='preserve'><span style='block'>IN LINE.</span></p>
+<p begin='00:00:11.845' end='00:00:14.915' tts:textAlign='left'  space='preserve'><span style='block'>AND TO LEARN MORE ABOUT<br/>MR. COSBY, GO TO YOUR LOCAL</span></p>
+<p begin='00:00:14.948' end='00:00:18.752' tts:textAlign='left'  space='preserve'><span style='block'>LIBRARY AND CHECK OUT COSBY,<br/>HIS LIFE AND TIMES BY MARK</span></p>
+<p begin='00:00:18.785' end='00:00:19.820' tts:textAlign='left'  space='preserve'><span style='block'>WHITAKER.</span></p>
+<p begin='00:00:19.853' end='00:00:21.455' tts:textAlign='left'  space='preserve'><span style='block'>AN WHEN THEY TELL YOU THEY<br/>DON&apos;T HAVE IT YET, GO OUT</span></p>
+<p begin='00:00:21.488' end='00:00:22.523' tts:textAlign='left'  space='preserve'><span style='block'>AND BUY IT, YOU CHEAP SKATE.</span></p>
+<p begin='00:00:22.556' end='00:00:23.557' tts:textAlign='left'  space='preserve'><span style='block'>GOOD NIGHT.</span></p>
+</div>
+</body>
+</tt>

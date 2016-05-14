@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.934' end='00:00:01.401' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: ALRIGHT, THAT&apos;S OUR<br/>SHOW. HERE IT IS,</span></p>
+<p begin='00:00:01.435' end='00:00:02.870' tts:textAlign='left'  space='preserve'><span style='block'>YOUR MOMENT OF ZEN!</span></p>
+<p begin='00:00:02.903' end='00:00:05.572' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; NOW ATTORNEY GENERAL ERIC<br/>HOLDER IS LAUNCHING ANOTHER</span></p>
+<p begin='00:00:05.606' end='00:00:06.573' tts:textAlign='left'  space='preserve'><span style='block'>FEDERAL PROBE.</span></p>
+<p begin='00:00:06.607' end='00:00:09.576' tts:textAlign='left'  space='preserve'><span style='block'>DOES HE HAVE A CASE IN THE DEATH<br/>OF ERIC GARNER?</span></p>
+<p begin='00:00:09.610' end='00:00:12.513' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt;&gt; PLUS BAD OPTICS FOR HILLARY<br/>CLINTON SPEAKING TO WHAT LOOKS</span></p>
+<p begin='00:00:12.546' end='00:00:16.550' tts:textAlign='left'  space='preserve'><span style='block'>LIKE A HALF EMPTY AUDITORIUM IN<br/>THE NATION&apos;S CAPITAL.</span></p>
+</div>
+</body>
+</tt>

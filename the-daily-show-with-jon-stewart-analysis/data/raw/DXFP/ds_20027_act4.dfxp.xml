@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.134' end='00:00:02.469' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon:  THAT&apos;S OUR SHOW. JOIN<br/>US TOMORROW NIGHT AT 11:00.</span></p>
+<p begin='00:00:02.503' end='00:00:03.971' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS, YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:04.004' end='00:00:05.973' tts:textAlign='left'  space='preserve'><span style='block'>OKLAHOMA GOVERNOR MARY FALLIN<br/>BOARDING A TANK.</span></p>
+<p begin='00:00:06.006' end='00:00:10.244' tts:textAlign='left'  space='preserve'><span style='block'>READY TO ROLL RIGHT OVER THIS<br/>DOOMED NISSAN.</span></p>
+<p begin='00:00:10.277' end='00:00:13.013' tts:textAlign='left'  space='preserve'><span style='block'>FALLIN&apos;S FAMOUS RIDE AND THIS<br/>SMASHED UP SACRIFICE ARE PART OF</span></p>
+<p begin='00:00:13.046' end='00:00:15.883' tts:textAlign='left'  space='preserve'><span style='block'>WILSHIRE GUN&apos;S GRAND OPENING<br/>WEEKEND.</span></p>
+<p begin='00:00:15.916' end='00:00:17.651' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; AMD THEN WHEN WE STARTED<br/>CRUSHING IT, I COULD HEAR THE</span></p>
+<p begin='00:00:17.684' end='00:00:18.685' tts:textAlign='left'  space='preserve'><span style='block'>METAL CRUSHING UNDERNEATH.</span></p>
+</div>
+</body>
+</tt>

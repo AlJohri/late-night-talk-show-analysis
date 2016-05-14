@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="">
+<head>
+<styling>
+<style tts:backgroundColor="transparent" tts:color="#ffffff" tts:fontFamily="monospace" tts:fontWeight="bold" xml:id="defaultSpeaker"/>
+<style tts:backgroundColor="#00000088" xml:id="block"/>
+<style xml:id="rollup"/>
+</styling>
+<layout>
+<region style="defaultSpeaker" xml:id="lowerThird">
+ <style tts:displayAlign="after" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+<region style="defaultSpeaker" xml:id="middleThird">
+<style tts:displayAlign="center" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+<region style="defaultSpeaker" xml:id="upperThird">
+<style tts:displayAlign="before" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+</layout>
+</head>
+<body region="lowerThird" tts:textAlign="center">
+<div>
+<p begin="00:00:03.971" end="00:00:04.571" space="preserve" tts:textAlign="left"><span style="block">[ CHEERS AND APPLAUSE ]</span></p>
+<p begin="00:00:04.571" end="00:00:05.239" space="preserve" tts:textAlign="left"><span style="block">&gt;&gt; Stephen: TH</span></p>
+</div>
+</body>
+</tt>

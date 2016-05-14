@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.101' end='00:00:02.336' tts:textAlign='left'  space='preserve'><span style='block'>[CHEERING AND APPLAUSE]<br/>&gt;&gt; Jon: THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:02.369' end='00:00:03.504' tts:textAlign='left'  space='preserve'><span style='block'>JOIN US TOMORROW NIGHT AT 11:00.</span></p>
+<p begin='00:00:03.537' end='00:00:04.438' tts:textAlign='left'  space='preserve'><span style='block'>JERRY SEINFELD WILL BE HERE.</span></p>
+<p begin='00:00:04.471' end='00:00:05.739' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:05.772' end='00:00:11.778' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; THE COMMENT I MADE WAS THE<br/>DEMONIZATION OF CARBON DIOXIDE</span></p>
+<p begin='00:00:11.812' end='00:00:14.448' tts:textAlign='left'  space='preserve'><span style='block'>IS JUST LIKE THE DEMONIZATION OF<br/>THE POOR JEWS UNDER HITLER. </span></p>
+<p begin='00:00:14.481' end='00:00:18.285' tts:textAlign='left'  space='preserve'><span style='block'>CARBON DIOXIDE IS ACTUALLY A<br/>BENEFIT TO THE WORLD,</span></p>
+<p begin='00:00:18.318' end='00:00:19.820' tts:textAlign='left'  space='preserve'><span style='block'>AND SO WERE THE JEWS.</span></p>
+</div>
+</body>
+</tt>

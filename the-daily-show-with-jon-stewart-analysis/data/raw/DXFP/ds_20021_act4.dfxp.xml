@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.101' end='00:00:03.871' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: THAT&apos;S OUR SHOW. JOIN US<br/>TOMORROW NIGHT AT 11:00.</span></p>
+<p begin='00:00:03.904' end='00:00:05.272' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS, YOUR MOMENT OF<br/>ZEN.</span></p>
+<p begin='00:00:05.305' end='00:00:10.744' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; WHAT 25 GRAMS OF MARIJUANA<br/>WOULD LOOK LIKE, THAT&apos;S ABOUT IT</span></p>
+<p begin='00:00:10.777' end='00:00:13.146' tts:textAlign='left'  space='preserve'><span style='block'>AND SO NOT A LARGE AMOUNT.</span></p>
+<p begin='00:00:13.180' end='00:00:16.817' tts:textAlign='left'  space='preserve'><span style='block'>AND THE NUMBER OF JOINTS, IF<br/>YOU WILL, THAT COULD BE MADE</span></p>
+<p begin='00:00:16.850' end='00:00:19.319' space='preserve'><span style='block'>FROM THAT, THAT AMOUNT<br/>VARIES SIGNIFICANTLY</span></p>
+<p begin='00:00:19.353' end='00:00:22.022' tts:textAlign='left'  space='preserve'><span style='block'>DEPENDING ON HOW MUCH THEY<br/>PUT IN EACH JOINT.</span></p>
+</div>
+</body>
+</tt>

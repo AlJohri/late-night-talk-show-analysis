@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.968' end='00:00:02.035' tts:textAlign='left'  space='preserve'><span style='block'>[CHEERING AND APPLAUSE]<br/>&gt;&gt; Jon: THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:02.069' end='00:00:04.371' tts:textAlign='left'  space='preserve'><span style='block'>JOIN US NEXT WEEK AT 11:00,<br/>HERE&apos;S YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:04.404' end='00:00:07.374' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; 18-YEAR-OLD PATRICK KING IS<br/>REHEARSING THE PART HE ALWAYS</span></p>
+<p begin='00:00:07.407' end='00:00:10.611' tts:textAlign='left'  space='preserve'><span style='block'>WANTED, BUT THIS TEENAGER ALSO<br/>LOVES TO SMOKE, AND THAT MAY</span></p>
+<p begin='00:00:10.644' end='00:00:13.213' tts:textAlign='left'  space='preserve'><span style='block'>KEEP HIM FROM PERFORMING ON<br/>OPENING NIGHT.</span></p>
+<p begin='00:00:13.247' end='00:00:16.383' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; I LOVE SMOKING.</span></p>
+<p begin='00:00:16.416' end='00:00:18.785' tts:textAlign='left'  space='preserve'><span style='block'>IT&apos;S LIKE THERE&apos;S A WHOLE<br/>LIFESTYLE THAT GOES ALONG WITH</span></p>
+<p begin='00:00:18.819' end='00:00:19.319' tts:textAlign='left'  space='preserve'><span style='block'>IT.</span></p>
+<p begin='00:00:19.353' end='00:00:20.988' tts:textAlign='left'  space='preserve'><span style='block'>IT&apos;S JUST SO MUCH FUN.</span></p>
+</div>
+</body>
+</tt>

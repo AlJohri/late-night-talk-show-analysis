@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.667' end='00:00:01.335' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:01.368' end='00:00:02.836' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS, YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:02.870' end='00:00:08.609' tts:textAlign='left'  space='preserve'><span style='block'> &#x266A;&#x266A;<br/>&#x266A; WE SHALL LIVE IN PEACE</span></p>
+<p begin='00:00:08.642' end='00:00:13.447' tts:textAlign='left'  space='preserve'><span style='block'>WE SHALL LIVE IN PEACE &#x266A;&#x266A;</span></p>
+</div>
+</body>
+</tt>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.001' end='00:00:03.270' tts:textAlign='left'  space='preserve'><span style='block'>[CHEERS AND APPLAUSE]<br/>&gt;&gt; Stephen: GOOD NIGHT,</span></p>
+<p begin='00:00:03.303' end='00:00:04.671' tts:textAlign='left'  space='preserve'><span style='block'>EVERYBODY.</span></p>
+<p begin='00:00:04.705' end='00:00:05.706' tts:textAlign='left'  space='preserve'><span style='block'>GOOD NIGHT.</span></p>
+</div>
+</body>
+</tt>

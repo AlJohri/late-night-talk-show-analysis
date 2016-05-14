@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.001' end='00:00:02.169' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:02.202' end='00:00:04.771' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:04.805' end='00:00:09.476' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; NO MONKEY BUSINESS AT A<br/>JAPANESE ZOO AS AN EMERGENCY</span></p>
+<p begin='00:00:09.510' end='00:00:13.881' tts:textAlign='left'  space='preserve'><span style='block'>DRILL SIMULATES A SCENARIO<br/>WHERE THE GORILLAS ESCAPE </span></p>
+<p begin='00:00:13.914' end='00:00:17.017' space='preserve'><span style='block'>FOLLOWING AN EARTHQUAKE.</span></p>
+<p begin='00:00:17.050' end='00:00:20.420' tts:textAlign='left'  space='preserve'><span style='block'>A STAFF MEMBER IN A GORILLA<br/>COSTUME RAN THROUGH THE ZOO<br/>BEFORE</span></p>
+<p begin='00:00:20.454' end='00:00:20.521' tts:textAlign='left'  space='preserve'><span style='block'>BEING CAPTURED WITH NETS AND<br/>BEING FAKE SEDATED.</span></p>
+</div>
+</body>
+</tt>

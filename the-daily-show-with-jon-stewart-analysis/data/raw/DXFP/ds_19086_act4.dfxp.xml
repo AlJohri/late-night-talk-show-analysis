@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:02.870' end='00:00:04.304' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: HERE IT IS.</span></p>
+<p begin='00:00:04.338' end='00:00:05.672' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:05.706' end='00:00:08.342' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; MONEY AND POLITICS IS SPEECH<br/>WHETHER YOU ARE GIVING $1 OR</span></p>
+<p begin='00:00:08.375' end='00:00:10.844' tts:textAlign='left'  space='preserve'><span style='block'>$1,000 TO CANDIDATES.</span></p>
+</div>
+</body>
+</tt>

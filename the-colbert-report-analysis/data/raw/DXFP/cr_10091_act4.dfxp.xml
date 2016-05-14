@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.068' end='00:00:04.338' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Stephen: THAT&apos;S IT FOR<br/>THE REPORT, EVERYBODY, GOOD</span></p>
+<p begin='00:00:04.371' end='00:00:05.372' tts:textAlign='left'  space='preserve'><span style='block'>NIGHT!</span></p>
+<p begin='00:00:05.405' end='00:00:08.876' tts:textAlign='left'  space='preserve'><span style='block'>(CHEERS AND APPLAUSE)<br/> </span><span style='block' tts:color="#ffff00">  Captioning sponsored by</span><span style='block'></span></p>
+<p begin='00:00:35.936' end='00:00:37.504' tts:textAlign='left'  space='preserve'><span style='block'> </span><span style='block' tts:color="#ffff00">  COMEDY CENTRAL</span><span style='block'><br/> Captioned by</span></p>
+<p begin='00:00:39.239' end='00:00:39.306' tts:textAlign='left'  space='preserve'><span style='block'> </span><span style='block' tts:color="#00ffff">  Media Access Group at WGBH</span><span style='block'><br/> access.wgbh.org</span></p>
+</div>
+</body>
+</tt>

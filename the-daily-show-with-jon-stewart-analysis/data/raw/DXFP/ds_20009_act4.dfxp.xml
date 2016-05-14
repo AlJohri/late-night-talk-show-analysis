@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.034' end='00:00:02.836' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; THAT&apos;S OUR SHOW. HERE IT IS,<br/>YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:02.870' end='00:00:06.340' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; HOUR-BY-HOUR, 6 A.M., 67<br/>DEGREES, WE&apos;LL HAVE A FEW CLOUDS</span></p>
+<p begin='00:00:06.373' end='00:00:07.374' tts:textAlign='left'  space='preserve'><span style='block'>BY NOON TOMORROW.</span></p>
+<p begin='00:00:07.407' end='00:00:09.943' tts:textAlign='left'  space='preserve'><span style='block'>SUNNY AND HIGHS OF 84, 4 P.M.,<br/>SUNNY AND WARM.</span></p>
+<p begin='00:00:09.977' end='00:00:11.144' tts:textAlign='left'  space='preserve'><span style='block'>88 DEGREES.</span></p>
+<p begin='00:00:11.178' end='00:00:13.080' tts:textAlign='left'  space='preserve'><span style='block'>JUST TO WRAP UP OUR<br/>WORK WEEK.</span></p>
+<p begin='00:00:13.113' end='00:00:14.548' tts:textAlign='left'  space='preserve'><span style='block'>FANTASTIC WEATHER.</span></p>
+</div>
+</body>
+</tt>

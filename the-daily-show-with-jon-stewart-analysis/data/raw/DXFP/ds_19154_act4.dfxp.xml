@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.068' end='00:00:02.069' tts:textAlign='left'  space='preserve'><span style='block'>(APPLAUSE)<br/>&gt;&gt; THAT&apos;S OUR SHOW, JOIN US</span></p>
+<p begin='00:00:02.102' end='00:00:03.003' tts:textAlign='left'  space='preserve'><span style='block'>TOMORROW NIGHT AT 11:00,<br/>HERE IT IS YOUR MOMENT OF</span></p>
+<p begin='00:00:03.036' end='00:00:04.137' tts:textAlign='left'  space='preserve'><span style='block'>ZEN.</span></p>
+<p begin='00:00:04.171' end='00:00:07.174' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; ALL THE PEOPLE THAT HAVE<br/>USED SWITCHES OVER THE YEARS</span></p>
+<p begin='00:00:07.207' end='00:00:09.076' tts:textAlign='left'  space='preserve'><span style='block'>AND USED BELTS, WHAT ARE WE<br/>GOING ARREST THEM ALL?</span></p>
+<p begin='00:00:09.109' end='00:00:12.779' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; I GOT HIT WITH A STRAP, BAM,<br/>BAM, BAM, BAM, AND I&apos;VE NEVER</span></p>
+<p begin='00:00:12.813' end='00:00:13.814' tts:textAlign='left'  space='preserve'><span style='block'>BEEN TO A SHRINK.</span></p>
+</div>
+</body>
+</tt>

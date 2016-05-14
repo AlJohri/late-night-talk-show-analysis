@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.901' end='00:00:02.002' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: HEY EVERYBODY, THAT&apos;S<br/>OUR SHOW.</span></p>
+<p begin='00:00:02.035' end='00:00:04.471' space='preserve'><span style='block'>WHEN WE SEE YOU NEXT<br/>WEEK, WE&apos;LL BE IN TEXAS.</span></p>
+<p begin='00:00:04.505' end='00:00:05.739' tts:textAlign='left'  space='preserve'><span style='block'>HOPE TO SEE YOU THERE.</span></p>
+<p begin='00:00:05.772' end='00:00:09.843' tts:textAlign='left'  space='preserve'><span style='block'>BUT FIRST, A FELLOW WROTE A BOOK<br/>ABOUT BEING IMPRISONED IN IRAN,</span></p>
+<p begin='00:00:09.877' end='00:00:13.480' tts:textAlign='left'  space='preserve'><span style='block'>IT CALLED, &quot;AND THEN THEY CAME<br/>FOR ME.&quot; NOW THE BOOK IS BEING</span></p>
+<p begin='00:00:13.514' end='00:00:15.182' space='preserve'><span style='block'>RERELEASED, IT&apos;S CALLED<br/>&quot;ROSEWATER,&quot; HIS NAME</span></p>
+<p begin='00:00:15.215' end='00:00:17.317' space='preserve'><span style='block'>IS MAZIAR BAHARI. IT&apos;S<br/>AN INCREDIBLE BOOK.</span></p>
+<p begin='00:00:17.351' end='00:00:20.387' tts:textAlign='left'  space='preserve'><span style='block'>IT&apos;S COMING OUT<br/>TUESDAY, OCTOBER 21st.</span></p>
+<p begin='00:00:20.420' end='00:00:21.655' tts:textAlign='left'  space='preserve'><span style='block'>I&apos;M NOT GOING THE READ IT.</span></p>
+<p begin='00:00:21.688' end='00:00:25.492' tts:textAlign='left'  space='preserve'><span style='block'>I&apos;M GOING TO WAIT FOR THE MOVIE <br/>BECAUSE I HEAR THAT&apos;S GOOD TOO. </span></p>
+<p begin='00:00:25.526' end='00:00:27.227' tts:textAlign='left'  space='preserve'><span style='block'>BUT IT&apos;S A BEAUTIFUL PIECE OF <br/>WORK.  </span></p>
+<p begin='00:00:27.261' end='00:00:29.162' tts:textAlign='left'  space='preserve'><span style='block'>I HOPE YOU GET A CHANCE TO TAKE<br/>LOOK  AT IT.  </span></p>
+<p begin='00:00:29.196' end='00:00:31.164' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS, YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:31.198' end='00:00:33.300' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; FRANK, HAVE YOU EVER SEEN <br/>ANYTHING LIKE THIS?  </span></p>
+<p begin='00:00:33.333' end='00:00:34.334' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; NO, I HAVEN&apos;T.  </span></p>
+</div>
+</body>
+</tt>

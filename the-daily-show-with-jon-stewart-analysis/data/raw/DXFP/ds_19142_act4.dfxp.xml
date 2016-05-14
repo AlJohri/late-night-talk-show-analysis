@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.635' end='00:00:04.872' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: HEY, THAT IS OUR SHOW.</span></p>
+<p begin='00:00:04.905' end='00:00:06.507' tts:textAlign='left'  space='preserve'><span style='block'>MAN, THANK YOU SO MUCH FOR<br/>JOINING US.</span></p>
+<p begin='00:00:06.540' end='00:00:10.377' tts:textAlign='left'  space='preserve'><span style='block'>WE&apos;RE OFF HERE ON ANOTHER COUPLE<br/>OF FUN TIMES THERE LIKE WE DO</span></p>
+<p begin='00:00:10.410' end='00:00:13.313' tts:textAlign='left'  space='preserve'><span style='block'>EVERY, LET&apos;S SAY WEEK AND A<br/>HALF.</span></p>
+<p begin='00:00:13.347' end='00:00:15.749' tts:textAlign='left'  space='preserve'><span style='block'>AND HERE IT IS, YOUR MOMENT OF<br/>ZEN.</span></p>
+<p begin='00:00:15.782' end='00:00:17.117' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; THANKS FOR JOINING US.</span></p>
+<p begin='00:00:17.150' end='00:00:19.720' tts:textAlign='left'  space='preserve'><span style='block'>GOOD, THIS MEANS I WON&apos;T GET<br/>LOST IN THE TUNNEL.</span></p>
+<p begin='00:00:19.753' end='00:00:22.456' tts:textAlign='left'  space='preserve'><span style='block'>I&apos;M ON THE SUBWAY, I&apos;M GOING IN<br/>THE RIGHT TRACK.</span></p>
+<p begin='00:00:22.489' end='00:00:23.724' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; YOU&apos;RE ON THE RIGHT TRACK.</span></p>
+<p begin='00:00:23.757' end='00:00:25.025' tts:textAlign='left'  space='preserve'><span style='block'>YOU WON&apos;T GO OFF THE RAILS.</span></p>
+<p begin='00:00:25.058' end='00:00:26.059' tts:textAlign='left'  space='preserve'><span style='block'>SPEAKING OF GOING OFF THE<br/>RAILS...</span></p>
+</div>
+</body>
+</tt>

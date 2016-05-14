@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.068' end='00:00:03.370' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: THAT&apos;S OUR SHOW,<br/>BEFORE WE GO, TOMORROW NIGHT,</span></p>
+<p begin='00:00:03.403' end='00:00:05.839' tts:textAlign='left'  space='preserve'><span style='block'>TOMORROW NIGHT OUR PROGRAM<br/>WILL BE LIVE.</span></p>
+<p begin='00:00:05.873' end='00:00:10.043' tts:textAlign='left'  space='preserve'><span style='block'>WE WILL BE BRINGING YOU UP<br/>TO THE DATE, UP TO THE</span></p>
+<p begin='00:00:10.077' end='00:00:14.248' tts:textAlign='left'  space='preserve'><span style='block'>MINUTE ELECTION RESULTS AS<br/>WE SEE THEM, ON OTHER</span></p>
+<p begin='00:00:14.281' end='00:00:15.282' tts:textAlign='left'  space='preserve'><span style='block'>NETWORKS.</span></p>
+<p begin='00:00:15.315' end='00:00:18.452' tts:textAlign='left'  space='preserve'><span style='block'>AND THEN WE&apos;LL TELL YOU.<br/>HERE IT IS, YOUR MOMENT OF</span></p>
+<p begin='00:00:18.485' end='00:00:19.586' tts:textAlign='left'  space='preserve'><span style='block'>ZEN.</span></p>
+<p begin='00:00:19.620' end='00:00:21.822' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; CAN YOU NAME A COMMODITY<br/>OR A PRODUCT THAT GETS WORSE</span></p>
+<p begin='00:00:21.855' end='00:00:24.825' tts:textAlign='left'  space='preserve'><span style='block'>AND WORSE THAT PRODUCES LESS<br/>AND LESS OF WHAT IT IS</span></p>
+<p begin='00:00:24.858' end='00:00:28.962' tts:textAlign='left'  space='preserve'><span style='block'>SUPPOSED TO PRODUCE YET GETS<br/>MORE EXPENSIVE?</span></p>
+<p begin='00:00:28.996' end='00:00:31.498' tts:textAlign='left'  space='preserve'><span style='block'>MAYBE YOU CAN NAME ONE BUT<br/>THE ONLY THING I CAN THINK</span></p>
+<p begin='00:00:31.532' end='00:00:34.201' tts:textAlign='left'  space='preserve'><span style='block'>OF IS AMERICAN POLITICS.</span></p>
+</div>
+</body>
+</tt>

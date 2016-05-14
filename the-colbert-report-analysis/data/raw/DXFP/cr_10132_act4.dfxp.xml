@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:02.002' end='00:00:04.438' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Stephen: WELL, THAT&apos;S IT<br/>FOR THE SHOW, EVERYBODY.</span></p>
+<p begin='00:00:04.471' end='00:00:08.242' tts:textAlign='left'  space='preserve'><span style='block'>BUT BEFORE WE GO, I JUST WANT TO<br/>TAKE ONE LAST OPPORTUNITY TO</span></p>
+<p begin='00:00:08.275' end='00:00:12.012' tts:textAlign='left'  space='preserve'><span style='block'>THANK MY GOOD FRIEND<br/>P.K. WINSOME.</span></p>
+<p begin='00:00:12.045' end='00:00:13.947' tts:textAlign='left'  space='preserve'><span style='block'>THANK YOU FOR BEING HERE TONIGHT<br/>AND THANK YOU FOR BEING HERE FOR</span></p>
+<p begin='00:00:13.981' end='00:00:17.284' tts:textAlign='left'  space='preserve'><span style='block'>THE PAST NINE YEARS.</span></p>
+<p begin='00:00:17.317' end='00:00:18.452' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; MY PLEASURE.</span></p>
+<p begin='00:00:18.485' end='00:00:21.054' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Stephen: MIGHT BE THE LAST<br/>TIME YOU&apos;RE EVER ON THE SHOW</span></p>
+<p begin='00:00:21.088' end='00:00:22.756' tts:textAlign='left'  space='preserve'><span style='block'>BECAUSE IT&apos;S ENDING THIS YEAR.</span></p>
+<p begin='00:00:22.789' end='00:00:25.092' tts:textAlign='left'  space='preserve'><span style='block'>YOU MIND IF I ASK, P.K., BEFORE<br/>WE GO, WHAT DOES P.K. STAND FOR?</span></p>
+<p begin='00:00:25.125' end='00:00:26.159' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; IT STANDS FOR PERCY KITTENS.</span></p>
+<p begin='00:00:26.193' end='00:00:27.261' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Stephen: THANK YOU, PERCY.</span></p>
+<p begin='00:00:27.294' end='00:00:30.063' tts:textAlign='left'  space='preserve'><span style='block'>THANK YOU FOR YOUR SERVICE.</span></p>
+<p begin='00:00:30.097' end='00:00:40.107' tts:textAlign='left'  space='preserve'><span style='block'>(CHEERS AND APPLAUSE)<br/>GOOD NIGHT, EVERYBODY.</span></p>
+<p begin='00:00:40.140' end='00:00:40.207' tts:textAlign='left'  space='preserve'><span style='block'>(CHEERS AND APPLAUSE)<br/>GOOD NIGHT, EVERYBODY.</span></p>
+</div>
+</body>
+</tt>

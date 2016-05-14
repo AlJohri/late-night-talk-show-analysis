@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.635' end='00:00:03.837' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; LADIES AND GENTLEMEN, THAT IS<br/>OUR SHOW.</span></p>
+<p begin='00:00:03.871' end='00:00:06.473' tts:textAlign='left'  space='preserve'><span style='block'>I JUST WANT TO SAY, A MOMENT OF<br/>SINCERITY HERE,</span></p>
+<p begin='00:00:06.507' end='00:00:08.408' tts:textAlign='left'  space='preserve'><span style='block'>THIS WAS SO MUCH FUN HOSTING<br/>THIS SHOW.</span></p>
+<p begin='00:00:08.442' end='00:00:11.044' tts:textAlign='left'  space='preserve'><span style='block'>I NOW SEE WHY THIS GUY NEVER<br/>LEAVES.</span></p>
+<p begin='00:00:11.078' end='00:00:14.114' tts:textAlign='left'  space='preserve'><span style='block'>IT&apos;S REALLY GREAT. HERE IT IS,<br/>YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:14.147' end='00:00:24.057' tts:textAlign='left'  space='preserve'><span style='block'>&#x266A; OH CANADA <br/>&#x266A; OUR HOME AND NATIVE LAND </span></p>
+<p begin='00:00:24.091' end='00:00:28.095' tts:textAlign='left'  space='preserve'><span style='block'>&#x266A; TRUE PATRIOT LOVE </span></p>
+</div>
+</body>
+</tt>

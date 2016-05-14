@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.068' end='00:00:02.202' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:02.236' end='00:00:06.607' tts:textAlign='left'  space='preserve'><span style='block'>NOW REMEMBER TOMORROW NIGHT<br/>BILL O&apos;REILLY WILL BE HERE.</span></p>
+<p begin='00:00:06.640' end='00:00:09.476' tts:textAlign='left'  space='preserve'><span style='block'>SO PLEASE ENJOY A GOOD HATE<br/>WATCH.</span></p>
+<p begin='00:00:09.510' end='00:00:11.211' tts:textAlign='left'  space='preserve'><span style='block'>I KNOW HOW MUCH YOU LIKE THAT.</span></p>
+<p begin='00:00:11.245' end='00:00:13.213' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:13.247' end='00:00:17.518' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; WE DON&apos;T INADVERTENTLY<br/>INCREASE THE RISK TO PEOPLE IN</span></p>
+<p begin='00:00:17.551' end='00:00:21.355' tts:textAlign='left'  space='preserve'><span style='block'>THIS COUNTRY BY MAKING IT<br/>HARDER FOR US TO RESPOND TO THE</span></p>
+<p begin='00:00:21.388' end='00:00:22.623' tts:textAlign='left'  space='preserve'><span style='block'>NEEDS IN THOSE COUNTRIES.</span></p>
+<p begin='00:00:22.656' end='00:00:26.326' tts:textAlign='left'  space='preserve'><span style='block'>BY MAKING IT HARDER FOR US TO<br/>GET ASSISTANCE IN.</span></p>
+<p begin='00:00:26.360' end='00:00:28.362' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; TOTAL GARBAGE.</span></p>
+</div>
+</body>
+</tt>

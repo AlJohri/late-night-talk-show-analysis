@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:06.673' end='00:00:08.809' tts:textAlign='left'  space='preserve'><span style='block'>[CHEERING AND APPLAUSE]<br/>&gt;&gt; Jon: HEY, YOU EVER HAVE ONE</span></p>
+<p begin='00:00:08.842' end='00:00:11.311' tts:textAlign='left'  space='preserve'><span style='block'>OF THOSE DAYS WHERE YOU THINK TO<br/>YOURSELF, &quot;AH I SURE HOPE THIS</span></p>
+<p begin='00:00:11.345' end='00:00:13.247' tts:textAlign='left'  space='preserve'><span style='block'>ISN&apos;T ON TELEVISION?&quot;</span></p>
+<p begin='00:00:13.280' end='00:00:18.552' tts:textAlign='left'  space='preserve'><span style='block'>[LAUGHTER]<br/>HEY, MAN, YOU KNOW WHAT, WE&apos;LL</span></p>
+<p begin='00:00:18.585' end='00:00:19.553' tts:textAlign='left'  space='preserve'><span style='block'>GET &apos;EM TOMORROW.</span></p>
+<p begin='00:00:19.586' end='00:00:21.421' tts:textAlign='left'  space='preserve'><span style='block'>THAT&apos;S OUR SHOW, JOIN US<br/>TOMORROW NIGHT AT 11:00.</span></p>
+<p begin='00:00:21.455' end='00:00:23.590' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS, YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:23.624' end='00:00:30.030' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; COME SOME NIGHT WITH ME AND<br/>SIT OUT AT THE BORDER ONE, TWO,</span></p>
+<p begin='00:00:30.063' end='00:00:34.401' tts:textAlign='left'  space='preserve'><span style='block'>3:00 IN THE MORNING, DODGE<br/>TARANTULAS, SCORPIONS,</span></p>
+<p begin='00:00:34.434' end='00:00:35.369' tts:textAlign='left'  space='preserve'><span style='block'>RATTLESNAKES.</span></p>
+</div>
+</body>
+</tt>

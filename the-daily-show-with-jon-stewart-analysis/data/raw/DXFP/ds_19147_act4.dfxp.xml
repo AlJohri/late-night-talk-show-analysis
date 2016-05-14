@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.901' end='00:00:01.568' tts:textAlign='left'  space='preserve'><span style='block'>[APPLAUSE]<br/>&gt;&gt; Jon: THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:01.602' end='00:00:03.203' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS, YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:03.237' end='00:00:06.306' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; GAME DESIGNERS FOR MADDEN &apos;15<br/>GOT ANOTHER GLITCH.</span></p>
+<p begin='00:00:06.340' end='00:00:07.608' space='preserve'><span style='block'>&gt;&gt; OH MY GOODNESS.</span></p>
+<p begin='00:00:07.641' end='00:00:09.176' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; LOOK AT THAT LITTLE FELLA.<br/>&gt;&gt; HE&apos;S TINY.</span></p>
+<p begin='00:00:09.209' end='00:00:12.713' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; YEAH, IT&apos;S ROOKIE LINEBACKER<br/>CHRISTIAN KIRKSEY, A MERE ONE</span></p>
+<p begin='00:00:12.746' end='00:00:14.248' tts:textAlign='left'  space='preserve'><span style='block'>FOOT TWO INCHES.</span></p>
+</div>
+</body>
+</tt>

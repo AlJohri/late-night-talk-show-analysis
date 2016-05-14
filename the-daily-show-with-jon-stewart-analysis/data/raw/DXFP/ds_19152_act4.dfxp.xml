@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.802' end='00:00:04.104' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:04.137' end='00:00:05.172' tts:textAlign='left'  space='preserve'><span style='block'>THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:05.205' end='00:00:08.242' tts:textAlign='left'  space='preserve'><span style='block'>JOIN US TOMORROW NIGHT AT<br/>11:00.</span></p>
+<p begin='00:00:08.275' end='00:00:09.543' tts:textAlign='left'  space='preserve'><span style='block'>OBVIOUSLY THAT&apos;S NOT AN<br/>ORDER.</span></p>
+<p begin='00:00:09.576' end='00:00:11.245' tts:textAlign='left'  space='preserve'><span style='block'>I&apos;M REQUESTING YOU JOIN US<br/>TOMORROW NIGHT AT 11:00.</span></p>
+<p begin='00:00:11.278' end='00:00:13.514' tts:textAlign='left'  space='preserve'><span style='block'>I WOULD IN NO WAY DEMAND IT.</span></p>
+<p begin='00:00:13.547' end='00:00:14.715' tts:textAlign='left'  space='preserve'><span style='block'>CERTAINLY YOU MIGHT HAVE<br/>THINGS TO DO.</span></p>
+<p begin='00:00:14.748' end='00:00:17.851' tts:textAlign='left'  space='preserve'><span style='block'>BUT WE-- BUT THEY WILL BE<br/>HERE.</span></p>
+<p begin='00:00:17.885' end='00:00:19.953' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS, YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:19.987' end='00:00:23.557' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; HAYDEN IS THE FORMER HEAD<br/>OF THE CIA.</span></p>
+<p begin='00:00:23.590' end='00:00:26.226' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; AT THE STRATEGIC LEVEL,<br/>AIR POWER HAS ALL THE</span></p>
+<p begin='00:00:26.260' end='00:00:28.662' tts:textAlign='left'  space='preserve'><span style='block'>ATTRACTION OF CASUAL SEX.</span></p>
+<p begin='00:00:28.695' end='00:00:31.698' tts:textAlign='left'  space='preserve'><span style='block'>IT OFFERS GRATIFICATION BUT<br/>WITH LIMITED COMMITMENT.</span></p>
+</div>
+</body>
+</tt>

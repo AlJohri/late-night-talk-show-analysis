@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.634' end='00:00:01.368' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:01.401' end='00:00:02.503' tts:textAlign='left'  space='preserve'><span style='block'>HERE IS THE MOMENT OF ZEN.</span></p>
+<p begin='00:00:02.536' end='00:00:03.637' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; I&apos;LL BE JOGGING IN THE<br/>MORNING, POLICE.</span></p>
+<p begin='00:00:03.670' end='00:00:06.874' tts:textAlign='left'  space='preserve'><span style='block'>ME AND RASHAWN, WE&apos;LL BE TWO<br/>BLACK MEN, WE&apos;LL BE JOGGING.</span></p>
+<p begin='00:00:06.907' end='00:00:10.043' tts:textAlign='left'  space='preserve'><span style='block'>WE&apos;RE NOT ROBBING ANYTHING,<br/>POLICE.</span></p>
+<p begin='00:00:10.077' end='00:00:12.613' tts:textAlign='left'  space='preserve'><span style='block'>DON&apos;T SHOOT US ACCIDENTALLY<br/>AS WE ARE JOGGING ON THE</span></p>
+<p begin='00:00:12.646' end='00:00:12.713' tts:textAlign='left'  space='preserve'><span style='block'>STREETS OF DETROIT. YOU HAVE TO<br/>ANNOUNCE THESE THINGS.</span></p>
+</div>
+</body>
+</tt>

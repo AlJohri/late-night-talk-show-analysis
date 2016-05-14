@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.667' end='00:00:01.768' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:01.802' end='00:00:03.003' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS OUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:03.036' end='00:00:06.406' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; NORTH KOREA STATE TV AIRED<br/>THESE CHEEKY TODDLER PICTURES OF</span></p>
+<p begin='00:00:06.440' end='00:00:09.977' tts:textAlign='left'  space='preserve'><span style='block'>KIM JONG UN ON MONDAY. THE<br/>PICTURES WERE PART OF A</span></p>
+<p begin='00:00:10.010' end='00:00:11.712' tts:textAlign='left'  space='preserve'><span style='block'>DOCUMENTARY THAT RAN AFTER A<br/>CONCERT.</span></p>
+<p begin='00:00:11.745' end='00:00:14.414' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; AND TO THINK HE GREW UP TO<br/>CONDEMN HIS UNCLE TO DEATH.</span></p>
+<p begin='00:00:14.448' end='00:00:14.515' space='preserve'><span style='block'>&gt;&gt; AH YES, WHO WOULD HAVE<br/>THOUGHT.</span></p>
+</div>
+</body>
+</tt>

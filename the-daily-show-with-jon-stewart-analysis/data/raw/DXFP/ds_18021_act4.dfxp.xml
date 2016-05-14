@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="">
+<head>
+<styling>
+<style tts:backgroundColor="transparent" tts:color="#ffffff" tts:fontFamily="monospace" tts:fontWeight="bold" xml:id="defaultSpeaker"/>
+<style tts:backgroundColor="#00000088" xml:id="block"/>
+<style xml:id="rollup"/>
+</styling>
+<layout>
+<region style="defaultSpeaker" xml:id="lowerThird">
+ <style tts:displayAlign="after" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+<region style="defaultSpeaker" xml:id="middleThird">
+<style tts:displayAlign="center" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+<region style="defaultSpeaker" xml:id="upperThird">
+<style tts:displayAlign="before" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+</layout>
+</head>
+<body region="lowerThird" tts:textAlign="center">
+<div>
+<p begin="00:00:02.803" end="00:00:04.404" space="preserve" tts:textAlign="left"><span style="block">&gt;&gt; Jon:  THAT'S OUR SHOW.</span></p>
+<p begin="00:00:04.404" end="00:00:05.939" space="preserve" tts:textAlign="left"><span style="block">JOIN US TOMORROW NIGHT AT 11:00.</span></p>
+<p begin="00:00:05.939" end="00:00:07.608" space="preserve" tts:textAlign="left"><span style="block">HERE IT IS YOUR MOMENT OF ZEN.</span></p>
+<p begin="00:00:07.608" end="00:00:08.208" space="preserve" tts:textAlign="left"><span style="block">&gt;&gt; HI.</span></p>
+<p begin="00:00:08.208" end="00:00:11.445" space="preserve" tts:textAlign="left"><span style="block">I THOUGHT OBAMA WOULD BE BURIED </span><span style="block">IN A LANDSLIDE.</span></p>
+
+<p begin="00:00:11.445" end="00:00:12.246" space="preserve" tts:textAlign="left"><span style="block">INSTEAD I'VE BEEN</span></p>
+</div>
+</body>
+</tt>

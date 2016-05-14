@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="">
+<head>
+<styling>
+<style tts:backgroundColor="transparent" tts:color="#ffffff" tts:fontFamily="monospace" tts:fontWeight="bold" xml:id="defaultSpeaker"/>
+<style tts:backgroundColor="#00000088" xml:id="block"/>
+<style xml:id="rollup"/>
+</styling>
+<layout>
+<region style="defaultSpeaker" xml:id="lowerThird">
+ <style tts:displayAlign="after" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+<region style="defaultSpeaker" xml:id="middleThird">
+<style tts:displayAlign="center" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+<region style="defaultSpeaker" xml:id="upperThird">
+<style tts:displayAlign="before" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+</layout>
+</head>
+<body region="lowerThird" tts:textAlign="center">
+<div>
+<p begin="00:00:01.001" end="00:00:03.971" space="preserve" tts:textAlign="left"><span style="block">&gt;&gt; Jon: THANKS FOR TUNING IN TO <br/>THE SHOW.</span></p>
+<p begin="00:00:04.004" end="00:00:06.840" space="preserve" tts:textAlign="left"><span style="block">&gt;&gt; JON STEWART AND "THE DAILY <br/>SHOW" TWEETS WHAT SHOULD WE CALL</span></p>
+<p begin="00:00:06.874" end="00:00:11.812" space="preserve" tts:textAlign="left"><span style="block">THE COZY CHAIR AREA OF OUR NEW <br/>SET ON #THE REAL STORY?</span></p>
+<p begin="00:00:11.845" end="00:00:13.514" space="preserve" tts:textAlign="left"><span style="block">#GET REAL WITH GRETCHEN.</span></p>
+<p begin="00:00:13.547" end="00:00:20.654" space="preserve" tts:textAlign="left"><span style="block">WELL, I THINK HE SAID HE SHOULD <br/>CALL IT PURGATORY. WE'LL ADD</span></p>
+<p begin="00:00:20.687" end="00:00:20.754" space="preserve"><span style="block">THAT TO THE MIX I THINK.</span></p>
+</div>
+</body>
+</tt>

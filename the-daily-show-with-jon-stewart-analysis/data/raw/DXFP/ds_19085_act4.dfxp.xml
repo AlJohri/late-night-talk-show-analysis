@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.934' end='00:00:01.568' tts:textAlign='left'  space='preserve'><span style='block'>[CHEERS AND APPLAUSE]<br/>&gt;&gt; Jon: THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:01.602' end='00:00:02.803' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:02.836' end='00:00:05.639' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; I DON&apos;T CARE WHAT YOU DO FROM<br/>DAY TO DAY JUST DO IT ON THIS</span></p>
+<p begin='00:00:05.672' end='00:00:06.507' tts:textAlign='left'  space='preserve'><span style='block'>SHOW.</span></p>
+<p begin='00:00:06.540' end='00:00:08.242' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; WHAT DO YOU CALL A CAMEL WITH<br/>NO HUMP?</span></p>
+<p begin='00:00:08.275' end='00:00:09.276' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; HUMP FREE.</span></p>
+<p begin='00:00:09.309' end='00:00:11.745' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; THE ANSWER IN A MOMENT.</span></p>
+</div>
+</body>
+</tt>

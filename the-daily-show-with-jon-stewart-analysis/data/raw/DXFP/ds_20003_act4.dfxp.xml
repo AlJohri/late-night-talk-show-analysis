@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.534' end='00:00:01.702' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:01.735' end='00:00:04.671' tts:textAlign='left'  space='preserve'><span style='block'>JOIN US TOMORROW NIGHT AT 11.<br/>HERE IT IS YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:04.705' end='00:00:06.907' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; THE PRESIDENT DOES HAVE <br/>FULL CONFIDENCE IN DIRECTOR </span></p>
+<p begin='00:00:06.940' end='00:00:09.276' tts:textAlign='left'  space='preserve'><span style='block'>PIERSON AND OTHER MEMBERS OF <br/>THE SECRET SERVICE.</span></p>
+<p begin='00:00:09.309' end='00:00:11.445' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; THE PRESIDENT CONTINUES TO <br/>HAVE CONFIDENCE IN THE MEN AND </span></p>
+<p begin='00:00:11.478' end='00:00:12.779' tts:textAlign='left'  space='preserve'><span style='block'>WOMEN OF THE SECRET SERVICE.</span></p>
+<p begin='00:00:12.813' end='00:00:15.315' tts:textAlign='left'  space='preserve'><span style='block'>DOES THAT EXTEND TO DIRECTOR <br/>PIERSON?</span></p>
+<p begin='00:00:15.349' end='00:00:18.151' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; THE PRESIDENT CONCLUDED THAT<br/>NEW LEADERSHIP OF THAT AGENCY</span></p>
+<p begin='00:00:18.185' end='00:00:19.186' tts:textAlign='left'  space='preserve'><span style='block'>WAS REQUIRED.</span></p>
+</div>
+</body>
+</tt>

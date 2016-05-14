@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="">
+<head>
+<styling>
+<style tts:backgroundColor="transparent" tts:color="#ffffff" tts:fontFamily="monospace" tts:fontWeight="bold" xml:id="defaultSpeaker"/>
+<style tts:backgroundColor="#00000088" xml:id="block"/>
+<style xml:id="rollup"/>
+</styling>
+<layout>
+<region style="defaultSpeaker" xml:id="lowerThird">
+ <style tts:displayAlign="after" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+<region style="defaultSpeaker" xml:id="middleThird">
+<style tts:displayAlign="center" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+<region style="defaultSpeaker" xml:id="upperThird">
+<style tts:displayAlign="before" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+</layout>
+</head>
+<body region="lowerThird" tts:textAlign="center">
+<div>
+<p begin="00:00:04.338" end="00:00:06.006" space="preserve" tts:textAlign="left"><span style="block">&gt;&gt; Stephen: WELL, THAT'S IT </span><span style="block">FOR THE SHOW, EVERYBODY.</span></p>
+
+<p begin="00:00:06.006" end="00:00:08.041" space="preserve" tts:textAlign="left"><span style="block">AND THAT'S IT FOR THE SUPER </span><span style="block">PAC.</span></p>
+
+<p begin="00:00:08.041" end="00:00:10.244" space="preserve" tts:textAlign="left"><span style="block">WE HOPE YOU'VE ENJOYED IT.</span></p>
+<p begin="00:00:10.244" end="00:00:12.112" space="preserve" tts:textAlign="left"><span style="block">IT CERTAINLY SHOCKED US.</span></p>
+<p begin="00:00:12.112" end="00:00:12.546" space="preserve" tts:textAlign="left"><span style="block">GOOD NIGHT.</span></p>
+<p begin="00:00:12.546" end="00:00:13.480" space="preserve" tts:textAlign="left"><span style="block">(CHEERS AND APPLAUSE)</span></p>
+</div>
+</body>
+</tt>

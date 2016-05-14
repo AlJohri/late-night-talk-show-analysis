@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="">
+<head>
+<styling>
+<style tts:backgroundColor="transparent" tts:color="#ffffff" tts:fontFamily="monospace" tts:fontWeight="bold" xml:id="defaultSpeaker"/>
+<style tts:backgroundColor="#00000088" xml:id="block"/>
+<style xml:id="rollup"/>
+</styling>
+<layout>
+<region style="defaultSpeaker" xml:id="lowerThird">
+ <style tts:displayAlign="after" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+<region style="defaultSpeaker" xml:id="middleThird">
+<style tts:displayAlign="center" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+<region style="defaultSpeaker" xml:id="upperThird">
+<style tts:displayAlign="before" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+</layout>
+</head>
+<body region="lowerThird" tts:textAlign="center">
+<div>
+<p begin="00:00:01.068" end="00:00:01.768" space="preserve" tts:textAlign="left"><span style="block">[CHEERS AND APPLAUSE]</span></p>
+<p begin="00:00:01.802" end="00:00:02.369" space="preserve" tts:textAlign="left"><span style="block">&gt;&gt; Jon: THAT'S OUR SHOW.</span></p>
+<p begin="00:00:02.402" end="00:00:03.203" space="preserve" tts:textAlign="left"><span style="block">JOIN US TOMORROW AT 11:00.</span></p>
+<p begin="00:00:03.237" end="00:00:05.372" space="preserve" tts:textAlign="left"><span style="block">HERE IT IS YOUR MOMENT OF ZEN.</span></p>
+<p begin="00:00:05.405" end="00:00:07.841" space="preserve" tts:textAlign="left"><span style="block">&gt;&gt; THE FIRST PERSON WAS A MAYOR<br/>WHO HAPPENED TO BE A MAN.</span></p>
+<p begin="00:00:07.875" end="00:00:10.010" space="preserve" tts:textAlign="left"><span style="block">THE SECOND PERSON WAS A MAYOR<br/>WHO HAPPENED TO BE A LADY. AND</span></p>
+<p begin="00:00:10.043" end="00:00:10.110" space="preserve" tts:textAlign="left"><span style="block">YOU DON'T WANT TO GET THEM MIXED<br/>UP.</span></p>
+</div>
+</body>
+</tt>

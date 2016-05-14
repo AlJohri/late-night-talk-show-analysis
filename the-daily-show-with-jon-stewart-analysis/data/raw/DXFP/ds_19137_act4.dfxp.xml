@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.801' end='00:00:01.535' tts:textAlign='left'  space='preserve'><span style='block'>[APPLAUSE]<br/>&gt;&gt; Jon: THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:01.568' end='00:00:02.636' tts:textAlign='left'  space='preserve'><span style='block'>JOIN US TOMORROW NIGHT AT 11:00.</span></p>
+<p begin='00:00:02.669' end='00:00:04.238' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS, YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:04.271' end='00:00:07.174' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; EVERYBODY&apos;S TALKING ABOUT<br/>INVERSIONS, AS WELL THEY SHOULD,</span></p>
+<p begin='00:00:07.207' end='00:00:09.810' tts:textAlign='left'  space='preserve'><span style='block'>BUT I&apos;LL TELL YOU WHAT, IF YOU<br/>LOOK AT IT FROM THE LENS OF</span></p>
+<p begin='00:00:09.843' end='00:00:10.878' tts:textAlign='left'  space='preserve'><span style='block'>PATRIOTISM, I THINK<br/>YOU&apos;RE WRONG.</span></p>
+<p begin='00:00:10.911' end='00:00:13.947' tts:textAlign='left'  space='preserve'><span style='block'>AND DON&apos;T USE THE WORD<br/>&quot;PATRIOTISM&quot; UNLESS IT&apos;S TRULY</span></p>
+<p begin='00:00:13.981' end='00:00:14.748' tts:textAlign='left'  space='preserve'><span style='block'>PATRIOTIC CONVERSATION.</span></p>
+<p begin='00:00:14.781' end='00:00:15.549' tts:textAlign='left'  space='preserve'><span style='block'>BACK TO YOU.</span></p>
+<p begin='00:00:15.582' end='00:00:16.216' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; ALL RIGHT.</span></p>
+<p begin='00:00:16.250' end='00:00:17.518' tts:textAlign='left'  space='preserve'><span style='block'>THANKS SO MUCH, RICK.</span></p>
+<p begin='00:00:17.551' end='00:00:19.486' tts:textAlign='left'  space='preserve'><span style='block'>IF ONLY IT WERE THAT EASY.</span></p>
+</div>
+</body>
+</tt>

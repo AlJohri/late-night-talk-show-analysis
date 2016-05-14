@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.034' end='00:00:02.035' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: THAT&apos;S OUR SHOW,</span></p>
+<p begin='00:00:02.069' end='00:00:03.303' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS, YOUR MOMENT OF<br/>ZEN.</span></p>
+<p begin='00:00:03.337' end='00:00:06.006' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; BUYING THOSE EVIL SPIRITS<br/>THAT&apos;RE BEHIND THE FEDS, WITH</span></p>
+<p begin='00:00:06.039' end='00:00:10.077' tts:textAlign='left'  space='preserve'><span style='block'>THE BLOOD OF JESUS, THE NAME OF<br/>JESUS, THE POWER</span></p>
+<p begin='00:00:10.110' end='00:00:11.144' tts:textAlign='left'  space='preserve'><span style='block'>OF IN-TUNE-MENT WITH<br/>THE HOLY SPIRIT.</span></p>
+<p begin='00:00:11.178' end='00:00:12.980' tts:textAlign='left'  space='preserve'><span style='block'>TAKE AIR SUPERIORITY AND<br/>THEN ROLL IN WITH YOUR TANKS</span></p>
+<p begin='00:00:13.013' end='00:00:14.982' tts:textAlign='left'  space='preserve'><span style='block'>ON THE GROUND LIKE -- <br/>&gt;&gt; MR. BROWN --</span></p>
+<p begin='00:00:15.015' end='00:00:16.884' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; BLITZKRIEG --</span></p>
+<p begin='00:00:16.917' end='00:00:19.920' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; MR. BROWN, MR. BROWN. THE<br/>QUESTION WAS ABOUT TAXES.</span></p>
+</div>
+</body>
+</tt>

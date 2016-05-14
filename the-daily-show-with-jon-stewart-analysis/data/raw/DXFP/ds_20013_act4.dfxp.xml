@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.101' end='00:00:02.202' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: THAT&apos;S OUR SHOW. JOIN US<br/>TOMORROW NIGHT AT 11:00.</span></p>
+<p begin='00:00:02.236' end='00:00:04.137' space='preserve'><span style='block'>HERE IT<br/>IS, YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:04.171' end='00:00:08.475' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; IN ORDER FOR A NEW YORKER TO<br/>CONTRACT THIS DISEASE FROM</span></p>
+<p begin='00:00:08.509' end='00:00:11.678' tts:textAlign='left'  space='preserve'><span style='block'>SOMEBODY OUT ON THE STREET OR IN<br/>A PUBLIC PLACE, THAT INFECTED</span></p>
+<p begin='00:00:11.712' end='00:00:15.449' tts:textAlign='left'  space='preserve'><span style='block'>PERSON WOULD LITERALLY HAVE TO<br/>VOMIT OR HAVE DIARRHEA SO CLOSE</span></p>
+<p begin='00:00:15.482' end='00:00:17.818' tts:textAlign='left'  space='preserve'><span style='block'>TO YOU THAT YOU TOUCH IT AND PUT<br/>IT IN TO YOUR OWN MOUTH.</span></p>
+</div>
+</body>
+</tt>

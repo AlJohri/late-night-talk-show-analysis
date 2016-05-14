@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.934' end='00:00:01.301' tts:textAlign='left'  space='preserve'><span style='block'>[CHEERS AND APPLAUSE]<br/>&gt;&gt; Jon: THAT&apos;S OUR SHOW,</span></p>
+<p begin='00:00:01.335' end='00:00:01.935' tts:textAlign='left'  space='preserve'><span style='block'>EVERYBODY.</span></p>
+<p begin='00:00:01.969' end='00:00:03.170' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS YOUR MOMENT ZEN.</span></p>
+<p begin='00:00:03.203' end='00:00:05.706' tts:textAlign='left'  space='preserve'><span style='block'>I LOVED HOW YOU ENDED THE WHOLE<br/>PIECE BECAUSE YOU SAY YOU WERE</span></p>
+<p begin='00:00:05.739' end='00:00:09.776' tts:textAlign='left'  space='preserve'><span style='block'>SITTING THERE AND TRYING TO<br/>THINK OF THE PERSON WHO COULD</span></p>
+<p begin='00:00:09.810' end='00:00:12.379' tts:textAlign='left'  space='preserve'><span style='block'>MOST BE LIKE JESUS ON EARTH<br/>TODAY.</span></p>
+<p begin='00:00:12.412' end='00:00:14.081' tts:textAlign='left'  space='preserve'><span style='block'>YOU COME UP WITH POPE FRANCIS.</span></p>
+<p begin='00:00:14.114' end='00:00:15.749' tts:textAlign='left'  space='preserve'><span style='block'>YOU SAY IS HE HOT?</span></p>
+<p begin='00:00:15.782' end='00:00:19.720' tts:textAlign='left'  space='preserve'><span style='block'>IN A WORD, NO.</span></p>
+</div>
+</body>
+</tt>

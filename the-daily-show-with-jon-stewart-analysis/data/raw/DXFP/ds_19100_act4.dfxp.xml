@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.634' end='00:00:01.368' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:01.401' end='00:00:02.703' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:02.736' end='00:00:06.807' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; DON&apos;T FORGET THIS WAS PRIOR,<br/>PRIOR TO OSAMA BIN LADEN BEING</span></p>
+<p begin='00:00:06.840' end='00:00:07.941' tts:textAlign='left'  space='preserve'><span style='block'>TAKEN DOWN.</span></p>
+<p begin='00:00:07.975' end='00:00:09.643' tts:textAlign='left'  space='preserve'><span style='block'>AND THE THOUGHT WAS AND THE<br/>DISCUSSION WAS IS PRESIDENT</span></p>
+<p begin='00:00:09.676' end='00:00:12.813' tts:textAlign='left'  space='preserve'><span style='block'>OBAMA GOING INTO THE REELECTION<br/>SOFT ON TERROR OR NOT?</span></p>
+<p begin='00:00:12.846' end='00:00:15.816' tts:textAlign='left'  space='preserve'><span style='block'>A LOT OF PEOPLE ARE SAYING -- IT<br/>WAS AFTER?</span></p>
+<p begin='00:00:15.849' end='00:00:16.450' tts:textAlign='left'  space='preserve'><span style='block'>MUCH AFTER?</span></p>
+<p begin='00:00:16.483' end='00:00:17.351' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; YEAH, YEAH, YEAH, A YEAR.</span></p>
+<p begin='00:00:17.384' end='00:00:17.451' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; MY BAD, I TAKE IT BACK.</span></p>
+</div>
+</body>
+</tt>

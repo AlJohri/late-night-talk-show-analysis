@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xml:lang="">
+<head>
+<styling>
+<style tts:backgroundColor="transparent" tts:color="#ffffff" tts:fontFamily="monospace" tts:fontWeight="bold" xml:id="defaultSpeaker"/>
+<style tts:backgroundColor="#00000088" xml:id="block"/>
+<style xml:id="rollup"/>
+</styling>
+<layout>
+<region style="defaultSpeaker" xml:id="lowerThird">
+ <style tts:displayAlign="after" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+<region style="defaultSpeaker" xml:id="middleThird">
+<style tts:displayAlign="center" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+<region style="defaultSpeaker" xml:id="upperThird">
+<style tts:displayAlign="before" tts:extent="80% 90%" tts:origin="10% 5%" tts:textAlign="center"/>
+</region>
+</layout>
+</head>
+<body region="lowerThird" tts:textAlign="center">
+<div>
+<p begin="00:00:00.534" end="00:00:01.602" space="preserve" tts:textAlign="left"><span style="block">( CHEERS AND APPLAUSE ).</span></p>
+<p begin="00:00:01.635" end="00:00:03.003" space="preserve" tts:textAlign="left"><span style="block">&gt;&gt; Stephen:  WELL THAT'S IT<br/>FOR THE REPORT, EVERYBODY.</span></p>
+<p begin="00:00:03.036" end="00:00:04.505" space="preserve" tts:textAlign="left"><span style="block">SEE YOU ON SUNDAY.</span></p>
+<p begin="00:00:04.538" end="00:00:14.581" space="preserve" tts:textAlign="left"><span style="block">( CHEERS AND APPLAUSE )<br/> </span><span style="block" tts:color="#ffff00">  Captioning sponsored by</span><span style="block"/></p>
+<p begin="00:00:14.581" end="00:00:24.591" space="preserve" tts:textAlign="left"><span style="block">( CHEERS AND APPLAUSE )<br/> </span><span style="block" tts:color="#ffff00">  Captioning sponsored by</span><span style="block"/></p>
+<p begin="00:00:35.035" end="00:00:36.436" space="preserve" tts:textAlign="left"><span style="block"> </span><span style="block" tts:color="#ffff00">  COMEDY CENTRAL</span><span style="block"><br/> Captioned by</span></p>
+<p begin="00:00:37.271" end="00:00:37.337" space="preserve" tts:textAlign="left"><span style="block"> </span><span style="block" tts:color="#00ffff">  Media Access Group at WGBH</span><span style="block"><br/> access.wgbh.org</span></p>
+</div>
+</body>
+</tt>

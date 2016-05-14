@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:01.068' end='00:00:01.768' tts:textAlign='left'  space='preserve'><span style='block'>(CHEERS AND APPLAUSE)<br/>&gt;&gt; Jon: THAT&apos;S OUR SHOW!</span></p>
+<p begin='00:00:01.802' end='00:00:03.337' tts:textAlign='left'  space='preserve'><span style='block'>HERE IT IS, YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:03.370' end='00:00:06.440' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; DOCTOR KEITH ABLOW PUTS<br/>PRESIDENT OBAMA&apos;S COFFEE CUP</span></p>
+<p begin='00:00:06.473' end='00:00:07.674' tts:textAlign='left'  space='preserve'><span style='block'>SALUTE ON THE COUCH.</span></p>
+<p begin='00:00:07.708' end='00:00:11.912' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; AS A PSYCHIATRIST WE MAY SEE<br/>THESE THINGS UNFOLDING, THESE</span></p>
+<p begin='00:00:11.945' end='00:00:15.582' tts:textAlign='left'  space='preserve'><span style='block'>EPISODES OR ANECDOTES WHEREIN<br/>THE PRESIDENT SEEMS TO BE AT WAR</span></p>
+<p begin='00:00:15.616' end='00:00:19.286' tts:textAlign='left'  space='preserve'><span style='block'>NOT JUST WITH OUR ENEMIES BUT AT<br/>WAR WITH HIMSELF.</span></p>
+</div>
+</body>
+</tt>

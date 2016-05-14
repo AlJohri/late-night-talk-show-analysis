@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.868' end='00:00:03.136' tts:textAlign='left'  space='preserve'><span style='block'>(CHEERS AND APPLAUSE)<br/>&gt;&gt; THAT&apos;S OUR SHOW.</span></p>
+<p begin='00:00:03.170' end='00:00:06.073' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; A LOT OF DEMOCRATS WERE<br/>ELECTED IN 2006 ON A PROMISE</span></p>
+<p begin='00:00:06.106' end='00:00:08.208' space='preserve'><span style='block'>TO CLEAN UP THE SWAMP IN<br/>WASHINGTON AND TO END WHAT</span></p>
+<p begin='00:00:08.242' end='00:00:10.277' tts:textAlign='left'  space='preserve'><span style='block'>THEY CALLED THE CULTURE OF<br/>REPUBLICAN CORRUPTION.</span></p>
+<p begin='00:00:10.310' end='00:00:10.377' tts:textAlign='left'  space='preserve'><span style='block'>NOW, CHARLIE RANGEL IS INNOCENT<br/>TILL PROVEN GUILTY.</span></p>
+</div>
+</body>
+</tt>

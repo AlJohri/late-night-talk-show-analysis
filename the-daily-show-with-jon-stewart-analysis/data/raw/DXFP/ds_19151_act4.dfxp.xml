@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<tt xml:lang="" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" >
+<head>
+<styling>
+<style xml:id='defaultSpeaker' tts:fontFamily='monospace' tts:fontWeight='bold'  tts:backgroundColor='transparent' tts:color='#ffffff' />
+<style xml:id='block' tts:backgroundColor='#00000088' />
+<style xml:id='rollup' />
+</styling>
+<layout>
+<region xml:id='lowerThird' style='defaultSpeaker' >
+ <style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='after' tts:textAlign='center' />
+</region>
+<region xml:id='middleThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='center' tts:textAlign='center' />
+</region>
+<region xml:id='upperThird' style='defaultSpeaker'>
+<style tts:origin='10% 5%' tts:extent='80% 90%' tts:displayAlign='before' tts:textAlign='center' />
+</region>
+</layout>
+</head>
+<body tts:textAlign='center' region='lowerThird'>
+<div>
+<p begin='00:00:00.901' end='00:00:02.035' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; Jon: THAT&apos;S OUR SHOW!</span></p>
+<p begin='00:00:02.069' end='00:00:04.505' tts:textAlign='left'  space='preserve'><span style='block'>JOIN US NEXT WEEK AT 11:00. HERE<br/>IT IS, YOUR MOMENT OF ZEN.</span></p>
+<p begin='00:00:04.538' end='00:00:07.975' tts:textAlign='left'  space='preserve'><span style='block'>&gt;&gt; IS THE WAR OVER, COLONEL?</span></p>
+<p begin='00:00:08.008' end='00:00:10.010' tts:textAlign='left'  space='preserve'><span style='block'>WAR IS NEVER OVER.</span></p>
+</div>
+</body>
+</tt>
