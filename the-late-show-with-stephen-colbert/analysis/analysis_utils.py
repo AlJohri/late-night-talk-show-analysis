@@ -7,10 +7,7 @@ from bokeh.models import HoverTool, BoxSelectTool, ColumnDataSource
 bokeh.charts.defaults.width = 950
 bokeh.charts.defaults.height = 400
 
-from settings import PARSED_FOLDER
-
-kind = "DFXP"
-parsed_folder = "../" + PARSED_FOLDER.format(kind=kind)
+parsed_folder = "../data/parsed/DFXP/"
 
 def create_df():
     ratings = pd.read_csv("../data/ratings.csv", index_col='number')

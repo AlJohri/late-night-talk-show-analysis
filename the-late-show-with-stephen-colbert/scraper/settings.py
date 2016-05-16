@@ -1,4 +1,4 @@
-LATEST_EPISODE_NUMBER = 140 # May 11 2016 - http://www.imdb.com/title/tt3697842/episodes
+LATEST_EPISODE_NUMBER = 142 # May 12 2016 - http://www.imdb.com/title/tt3697842/episodes
 
 KINDS = ['SMPTE', 'DFXP']
 
