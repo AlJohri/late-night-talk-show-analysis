@@ -1,12 +1,11 @@
 import os, grequests
 
-RAW_FOLDER = "data/raw/DXFP/"
-os.makedirs(RAW_FOLDER, exist_ok=True)
+from settings import RAW_FOLDER, XML_FILENAME, RAW_FILEPATH, URL
 
-FILENAME = "cr_{season:02d}{episode:03d}_act{act}.dfxp.xml"
-URL = "http://a1.akadl.mtvnservices.com/9950/mtvnorigin/gsp.comedystor/com/colbert/season_{season:02d}/episode_{episode:03d}/cr_{season:02d}{episode:03d}_act{act}.dfxp.xml"
+kind = "DFXP"
+raw_folder = RAW_FOLDER.format(kind=kind)
+os.makedirs(raw_folder, exist_ok=True)
 
-RAW_FILEPATH = RAW_FOLDER + FILENAME
 
 seasons = [9, 9, 10, 11]
 
@@ -33,13 +32,13 @@ def download_reqs_to_files(reqs):
         if response.status_code != 200:
             print("error downloading %s with code %s" % (response.url, response.status_code))
             continue
-        filepath = RAW_FILEPATH.format(season=response.meta['season'], episode=response.meta['episode'], act=response.meta['act'])
+        filepath = RAW_FILEPATH.format(kind=kind, season=response.meta['season'], episode=response.meta['episode'], act=response.meta['act'])
         with open(filepath, "wb") as f:
             f.write(response.content)
         print("downloaded %s" % filepath)
 
 def subtitle_exists(season, episode, act):
-    return os.path.exists(RAW_FILEPATH.format(season=season, episode=episode, act=act))
+    return os.path.exists(RAW_FILEPATH.format(kind=kind, season=season, episode=episode, act=act))
 
 reqs = []
 for season in seasons:

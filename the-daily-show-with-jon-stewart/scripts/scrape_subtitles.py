@@ -1,17 +1,14 @@
 import os, grequests
 
-RAW_FOLDER = "data/raw/DFXP/"
-os.makedirs(RAW_FOLDER, exist_ok=True)
+from settings import RAW_FOLDER, PARSED_FOLDER, XML_FILENAME, RAW_FILEPATH, URL
 
-FILENAME = "ds_{season:02d}{episode:03d}_act{act}.dfxp.xml"
-URL = "http://a1.akadl.mtvnservices.com/9950/mtvnorigin/gsp.comedystor/com/dailyshow/TDS/season_{season:02d}/episode_{episode:03d}/ds_{season:02d}{episode:03d}_act{act}.dfxp.xml"
-
-RAW_FILEPATH = RAW_FOLDER + FILENAME
+kind = "DFXP"
+raw_folder = RAW_FOLDER.format(kind=kind)
+os.makedirs(raw_folder, exist_ok=True)
 
 # other formats than ttml (dxfp)
 # cea-608 (scc) http://a17.akadl.mtvnservices.com/9950/mtvnorigin/gsp.comedystor/com/dailyshow/TDS/Season_21/21107/ds_21_107_act1_gfdgqnos8v.scc
 # vtt http://media-resolver.mtvnservices.com/caption/convert?mgid=mgid:file:gsp:comedystor:/com/dailyshow/TDS/Season_21/21107/ds_21_107_act1_gfdgqnos8v.dfxp.xml&accountName=comedycentral.com
-
 
 seasons = [16, 17, 18, 19, 20]
 
@@ -44,13 +41,13 @@ def download_reqs_to_files(reqs):
         if response.status_code != 200:
             print("error downloading %s with code %s" % (response.url, response.status_code))
             continue
-        filepath = RAW_FILEPATH.format(season=response.meta['season'], episode=response.meta['episode'], act=response.meta['act'])
+        filepath = RAW_FILEPATH.format(kind=kind, season=response.meta['season'], episode=response.meta['episode'], act=response.meta['act'])
         with open(filepath, "wb") as f:
             f.write(response.content)
         print("downloaded %s" % filepath)
 
 def subtitle_exists(season, episode, act):
-    return os.path.exists(RAW_FILEPATH.format(season=season, episode=episode, act=act))
+    return os.path.exists(RAW_FILEPATH.format(kind=kind, season=season, episode=episode, act=act))
 
 reqs = []
 for season in seasons:

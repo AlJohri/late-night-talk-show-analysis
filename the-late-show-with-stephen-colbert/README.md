@@ -8,7 +8,8 @@ Jupyter Notebook: http://nbviewer.jupyter.org/gist/AlJohri/3825066ecfa4688c87f61
 
 ## Usage
 
-1. Update latest `LATEST_EPISODE_NUMBER` in `scripts/settings.py`.
-3. `make data` - download latest data
-4. `make notebook` - open jupyter notebook
-5. `make gist` - upload latest jupyter notebook to gist and open nbviewer
+Update latest `LATEST_EPISODE_NUMBER` in `scripts/settings.py`.
+
+1. `make data` - download latest data
+2. `make notebook` - open jupyter notebook
+3. `make gist` - upload latest jupyter notebook to gist and open nbviewer

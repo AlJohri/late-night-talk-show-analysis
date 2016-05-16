@@ -2,8 +2,7 @@ import os
 from lxml import etree
 from pprint import pprint as pp
 
-RAW_FOLDER = "data/raw/{kind}/"
-PARSED_FOLDER = "data/parsed/{kind}/"
+from settings import RAW_FOLDER, PARSED_FOLDER
 
 kind = "DFXP"
 
@@ -22,7 +21,7 @@ for raw_filename in os.listdir(raw_folder):
         print("error parsing", str(e))
     root = tree.getroot()
 
-    ns_mapping = {'ns':'http://www.w3.org/2006/10/ttaf1'}
+    ns_mapping = {'ns':'http://www.w3.org/ns/ttml'}
     full_text = " ".join([ptext for ptext in root.xpath('//ns:tt/ns:body/ns:div/ns:p//text()', namespaces=ns_mapping)])
 
     with open(parsed_filepath, "w") as f:
