@@ -2,8 +2,8 @@
 
 ## Shows
 
-- [The Colbert Report](./the-colbert-report)
 - [The Late Show with Stephen Colbert](./the-late-show-with-stephen-colbert)
+- [The Colbert Report](./the-colbert-report)
 - [The Daily Show with Jon Stewart](./the-daily-show-with-jon-stewart)
 - The Daily Show with Trevor Noah
 
