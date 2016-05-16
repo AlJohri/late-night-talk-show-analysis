@@ -1,4 +1,4 @@
-# The Late Show with Stephen Colbert Analysis
+# The Late Show with Stephen Colbert
 
 Jupyter Notebook: http://nbviewer.jupyter.org/gist/AlJohri/3825066ecfa4688c87f61c1a250aa778
 
