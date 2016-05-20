@@ -10,8 +10,8 @@ bokeh.charts.defaults.height = 400
 parsed_folder = "../data/parsed/DFXP/"
 
 def create_df():
-    ratings = pd.read_csv("../data/ratings.csv", index_col='number')
-    episode_list = pd.read_csv("../data/episode_list.csv", parse_dates=['airdate'], index_col='number')
+    ratings = pd.read_csv("../data/imdb_ratings.csv", index_col='episode_number')
+    episode_list = pd.read_csv("../data/imdb_episode_list.csv", parse_dates=['air_date'], index_col='episode_number')
     episode_list.rename(columns={"name": "title"}, inplace=True)
     episode_list.drop('url', axis=1, inplace=True)
 
@@ -22,10 +22,10 @@ def create_df():
             text = f.read()
             subtitles.append({"filename": parsed_filename, "text": text})
     subtitles = pd.DataFrame(subtitles)
-    subtitles['number'] = subtitles.filename.str.replace("CBS_COLBERT_", "") \
+    subtitles['episode_number'] = subtitles.filename.str.replace("CBS_COLBERT_", "") \
                                             .str.replace("_CONTENT_CIAN_caption_DFXP.txt", "").astype(int)
     subtitles.drop('filename', axis=1, inplace=True)
-    subtitles.set_index('number', inplace=True)
+    subtitles.set_index('episode_number', inplace=True)
 
     episodes = pd.concat([ratings, episode_list, subtitles], axis=1).reset_index()
 
@@ -33,7 +33,7 @@ def create_df():
 
 def plot_interactive_timeseries(x, y, data, title):
 
-    hover_cols = ['number', 'title', 'airdate', 'rating', 'rating_count']
+    hover_cols = ['episode_number', 'title', 'air_date', 'rating', 'rating_count']
 
     df = data[hover_cols].dropna(axis=0, how='any')
 
@@ -46,12 +46,12 @@ def plot_interactive_timeseries(x, y, data, title):
     hover = HoverTool(tooltips=[
                 ("Episode", "@number"),
                 ("Title", "@title"),
-                ("Airdate", "@airdatestr"),
+                ("Air Date", "@air_date_str"),
                 ("Rating", "@rating{1.11}"),
                 ("Rating Count", "@rating_count{1.11}")])
 
     source = ColumnDataSource(df[hover_cols])
-    source.add(df.airdate.map(lambda x: x.strftime('%x')), 'airdatestr')
+    source.add(df.air_date.map(lambda x: x.strftime('%x')), 'air_date_str')
     p.circle(x=x, y=y, line_width=2, source=source, size=5)
     p.add_tools(hover)
     p.logo = None

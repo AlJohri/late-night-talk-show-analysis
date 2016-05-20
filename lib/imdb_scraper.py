@@ -96,13 +96,6 @@ class IMDBScraper():
 
     def save_ratings(self, rows):
         with open("data/imdb_ratings.csv", "w") as f:
-            writer = csv.DictWriter(f, fieldnames=['episode_number', 'rating', 'rating_count'])
+            writer = csv.DictWriter(f, fieldnames=['season', 'episode_number', 'rating', 'rating_count'])
             writer.writeheader()
             writer.writerows(rows)
-
-if __name__ == "__main__":
-
-    imdb_scraper = IMDBScraper("tt3697842")
-    rows = imdb_scraper.get_episode_list()
-    for row in rows:
-        print(row)

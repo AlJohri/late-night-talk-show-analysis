@@ -1,5 +1,9 @@
+import logging
 from lib.imdb_scraper import IMDBScraper
 from settings import IMDB_SERIES_ID, LATEST_EPISODE_NUMBER
+
+logging.basicConfig(level=logging.DEBUG)
+logging.getLogger('requests').setLevel(logging.WARN)
 
 season = 1
 

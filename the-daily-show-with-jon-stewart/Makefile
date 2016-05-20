@@ -11,3 +11,7 @@ imdb:
 
 comedy_central_metadata:
 	python scripts/scrape_comedy_central_metadata.py
+
+gist:
+	gist --update https://gist.github.com/31ce93ae800552e844448d80cc7353fe analysis/analysis.ipynb
+	open "http://nbviewer.jupyter.org/gist/AlJohri/31ce93ae800552e844448d80cc7353fe"
