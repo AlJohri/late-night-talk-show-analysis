@@ -1,4 +1,4 @@
-.PHONY: data subtitles
+.PHONY: gist data subtitles imdb comedy_central_metadata
 
 data: subtitles imdb
 

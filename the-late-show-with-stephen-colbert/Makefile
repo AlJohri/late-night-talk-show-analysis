@@ -1,4 +1,4 @@
-.PHONY: data ratings subtitles notebook gist
+.PHONY: gist data imdb subtitles notebook
 
 data: subtitles imdb
 

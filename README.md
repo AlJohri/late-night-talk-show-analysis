@@ -2,13 +2,10 @@
 
 ## Shows
 
-- [The Late Show with Stephen Colbert](./the-late-show-with-stephen-colbert)
-	- http://nbviewer.jupyter.org/gist/AlJohri/3825066ecfa4688c87f61c1a250aa778
-- [The Colbert Report](./the-colbert-report)
-	- http://nbviewer.jupyter.org/gist/AlJohri/cfcad84b3922922fef837d45c19b31df
-- [The Daily Show with Jon Stewart](./the-daily-show-with-jon-stewart)
-	- http://nbviewer.jupyter.org/gist/AlJohri/31ce93ae800552e844448d80cc7353fe
-- The Daily Show with Trevor Noah
+- [The Late Show with Stephen Colbert](./the-late-show-with-stephen-colbert) | [Notebook](http://nbviewer.jupyter.org/gist/AlJohri/3825066ecfa4688c87f61c1a250aa778)
+- [The Colbert Report](./the-colbert-report) | [Notebook](http://nbviewer.jupyter.org/gist/AlJohri/cfcad84b3922922fef837d45c19b31df)
+- [The Daily Show with Jon Stewart](./the-daily-show-with-jon-stewart) | [Notebook](http://nbviewer.jupyter.org/gist/AlJohri/31ce93ae800552e844448d80cc7353fe)
+- [The Daily Show with Trevor Noah](./the-daily-show-with-trevor-noah)
 
 ## Usage
 
