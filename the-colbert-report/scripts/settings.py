@@ -1,3 +1,5 @@
+IMDB_SERIES_ID="tt0458254"
+
 RAW_FOLDER = "data/raw/{kind}/"
 PARSED_FOLDER = "data/parsed/{kind}/"
 

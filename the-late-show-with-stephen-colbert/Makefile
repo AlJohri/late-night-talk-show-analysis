@@ -1,10 +1,9 @@
 .PHONY: data ratings subtitles notebook gist
 
-data: ratings subtitles
+data: subtitles imdb
 
-ratings:
-	python scripts/scrape_episode_list.py
-	python scripts/scrape_ratings.py
+imdb:
+	python scripts/scrape_imdb.py
 
 subtitles:
 	python scripts/scrape_subtitles.py

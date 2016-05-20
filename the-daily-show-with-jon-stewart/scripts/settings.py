@@ -1,3 +1,5 @@
+IMDB_SERIES_ID="tt0115147" # for the daily show with jon stewart and trevor noah
+
 RAW_FOLDER = "data/raw/{kind}/"
 PARSED_FOLDER = "data/parsed/{kind}/"
 
