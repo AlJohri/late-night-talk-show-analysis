@@ -12,9 +12,10 @@ if not os.path.exists("data/imdb_episode_list.csv"):
     for season in range(1, 20+1):
         season_episodes = imdb_scraper.scrape_episode_list(season)
         episodes += season_episodes
+    imdb_scraper.save_episode_list(episodes)
 else:
     episodes = imdb_scraper.read_episode_list()
 
-imdb_scraper.save_episode_list(episodes)
-ratings = imdb_scraper.scrape_ratings(episodes)
-imdb_scraper.save_ratings(ratings)
+if not os.path.exists("data/imdb_ratings.csv"):
+    ratings = imdb_scraper.scrape_ratings(episodes)
+    imdb_scraper.save_ratings(ratings)

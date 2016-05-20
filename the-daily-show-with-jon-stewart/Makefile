@@ -7,7 +7,7 @@ subtitles:
 	python scripts/parse_subtitles.py
 
 imdb:
-	python scripts/scripts_imdb.py
+	python scripts/scrape_imdb.py
 
 comedy_central_metadata:
 	python scripts/scrape_comedy_central_metadata.py
