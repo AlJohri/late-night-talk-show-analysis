@@ -36,6 +36,6 @@ def plot_interactive_timeseries(x, y, data, title, hover_cols=None):
 
     p.circle(x=x, y=y, line_width=2, source=source, size=5)
     p.add_tools(hover)
-    p.logo = None
+    p.toolbar.logo = None
 
     return p

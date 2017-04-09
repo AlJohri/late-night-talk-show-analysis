@@ -90,7 +90,7 @@ class IMDBScraper():
             logging.debug(msg)
             rows.append(row)
 
-        rows.sort(key=lambda x: x['episode_number'])
+        rows.sort(key=lambda x: (x['season'], x['episode_number']))
 
         return rows
 
