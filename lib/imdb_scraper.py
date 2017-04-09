@@ -3,7 +3,7 @@ import requests, grequests, lxml.html, csv, arrow, logging
 from lib.utils import set_meta, handler
 
 class IMDBScraper():
-    
+
     base_url = "http://www.imdb.com"
     date_format = 'D MMM(.)? YYYY'
     episodes_url = "http://www.imdb.com/title/%s/episodes?season=%d"

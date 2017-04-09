@@ -1,4 +1,4 @@
-LATEST_EPISODE_NUMBER = 144 # May 12 2016 - http://www.imdb.com/title/tt3697842/episodes
+LATEST_EPISODE_NUMBER = 331 # http://www.imdb.com/title/tt3697842/episodes
 IMDB_SERIES_ID = "tt3697842"
 
 KINDS = ['SMPTE', 'DFXP']

@@ -1,14 +1,22 @@
+import os
 import logging
 from lib.imdb_scraper import IMDBScraper
-from settings import IMDB_SERIES_ID, LATEST_EPISODE_NUMBER
+from settings import IMDB_SERIES_ID
 
 logging.basicConfig(level=logging.DEBUG)
 logging.getLogger('requests').setLevel(logging.WARN)
 
-season = 1
+imdb_scraper = IMDBScraper(IMDB_SERIES_ID)
 
-imdb_scraper = IMDBScraper(IMDB_SERIES_ID, LATEST_EPISODE_NUMBER)
-episodes = imdb_scraper.scrape_episode_list(season)
-imdb_scraper.save_episode_list(episodes)
-ratings = imdb_scraper.scrape_ratings(episodes)
-imdb_scraper.save_ratings(ratings)
+if not os.path.exists("data/imdb_episode_list.csv"):
+    episodes = []
+    for season in range(1, 3):
+        season_episodes = imdb_scraper.scrape_episode_list(season)
+        episodes += season_episodes
+    imdb_scraper.save_episode_list(episodes)
+else:
+    episodes = imdb_scraper.read_episode_list()
+
+if not os.path.exists("data/imdb_ratings.csv"):
+    ratings = imdb_scraper.scrape_ratings(episodes)
+    imdb_scraper.save_ratings(ratings)
