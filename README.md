@@ -7,6 +7,13 @@
 - [The Daily Show with Jon Stewart](./the-daily-show-with-jon-stewart) | [Notebook](http://nbviewer.jupyter.org/gist/AlJohri/31ce93ae800552e844448d80cc7353fe)
 - [The Daily Show with Trevor Noah](./the-daily-show-with-trevor-noah)
 
+
+## Setup
+
+```
+mkvirtualenv -p python3 -a "$(pwd)" -r requirements.txt late-night-talk-show-analysis
+```
+
 ## Usage
 
 Within each show:

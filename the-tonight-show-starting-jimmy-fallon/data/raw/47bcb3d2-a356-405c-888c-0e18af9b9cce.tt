@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tt xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:smpte="http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt" xmlns:m608="http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt#cea608" xml:lang="en" ttp:timeBase="media" ttp:frameRate="1" ttp:frameRateMultiplier="30000 1001"> 
+<head>
+<ttm:desc>SMPTE Timed Text document created by Anvato</ttm:desc>
+	<metadata>
+		<smpte:information xmlns:m608="http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt#cea608" origin="http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt#cea608" mode="Enhanced" m608:channel="CC1" m608:programName="/tmp/ccc1AsAI" m608:captionService="F1C1CC"/>
+	</metadata>
+	<styling>
+		<style xml:id="basic" tts:color="white" tts:backgroundColor="black" tts:fontFamily="monospace" tts:lineHeight="100%" tts:fontSize="80%" tts:fontWeight="normal" tts:fontStyle="normal"/>
+	</styling>
+	<layout>
+		<region xml:id="pop1" tts:backgroundColor="transparent" tts:showBackground="whenActive"/>
+		<region xml:id="pop2" tts:backgroundColor="transparent" tts:showBackground="whenActive"/>
+		<region xml:id="pop3" tts:backgroundColor="transparent" tts:showBackground="whenActive"/>
+		<region xml:id="pop4" tts:backgroundColor="transparent" tts:showBackground="whenActive"/>
+		<region xml:id="rollup1" tts:backgroundColor="transparent" tts:showBackground="whenActive"/>
+		<region xml:id="rollup2" tts:backgroundColor="transparent" tts:showBackground="whenActive"/>
+		<region xml:id="rollup3" tts:backgroundColor="transparent" tts:showBackground="whenActive"/>
+	</layout>
+</head>
+	<body>
+		<div>
+		</div>
+	</body>
+</tt>
