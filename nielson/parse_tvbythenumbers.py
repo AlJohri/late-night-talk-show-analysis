@@ -46,15 +46,6 @@ def parse_table(title, table):
     assert headers[0] == 'Show'
     assert headers[1] == 'Net'
 
-    if '2017' in title:
-        year = '2017'
-    elif '2016' in title:
-        year = '2016'
-    elif '2015' in title:
-        year = '2015'
-    else:
-        raise Exception(t.red(f'unable to parse year for {title}'))
-
     # m1 = re.match(r'Adults 18-49, (\d+/\d+)(?:\s)?(?:–|-)(?:\s)?(\d+/\d+)', headers[2])
     # if m1:
     #     start_date, end_date = m1.groups()
@@ -81,10 +72,12 @@ def parse_table(title, table):
 
     # print("DATES", start_date, end_date)
 
-    headers[2] = 'Adults 18-49, Week'
-    headers[3] = 'Viewers (millions), Week'
-    headers[4] = 'Adults 18-49, Season'
-    headers[5] = 'Viewers (millions), Season'
+    headers[0] = 'show'
+    headers[1] = 'network'
+    headers[2] = 'adults_18_49_week'
+    headers[3] = 'viewers_week'
+    headers[4] = 'adults_18_49_season'
+    headers[5] = 'viewers_season'
 
     results = [{headers[i]: cell.text_content() for i, cell in enumerate(row.cssselect("td"))} for row in table.cssselect("tbody tr:not(:first-child)")
         if " p.m." not in row.cssselect("td")[0].text_content() and
@@ -94,7 +87,7 @@ def parse_table(title, table):
     headers.append('start_date')
     headers.append('end_date')
     for result in results:
-        result['Show'] = result['Show'].replace(' – R', '').replace(' –R', '').replace(' -R', '')
+        result['show'] = result['show'].replace(' – R', '').replace(' –R', '').replace(' -R', '')
         result['start_date'] = start_date
         result['end_date'] = end_date
 
@@ -129,8 +122,8 @@ for entry in entries:
 
 last_headers = headers
 
-df = pd.DataFrame(all_results, columns=last_headers).sort_values(by='start_date')
+df = pd.DataFrame(all_results, columns=last_headers).sort_values(by=['start_date', 'show'])
 print(df)
 print()
 
-df.to_csv('ratings.csv')
+df.to_csv('ratings.csv', index=False)
