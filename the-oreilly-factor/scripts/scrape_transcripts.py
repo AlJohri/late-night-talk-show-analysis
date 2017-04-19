@@ -30,9 +30,6 @@ def download_article(url):
         "html": lxml.html.tostring(transcript_el).decode('utf-8')
     }
 
-with open('data/transcript_list_ids.json', 'w') as f:
-    pass
-
 for item in transcript_list:
     url = item.pop('url')[0]
 
@@ -49,5 +46,5 @@ for item in transcript_list:
         "date": item['date']
     }
 
-    with open(f'data/raw/{vcmId}.json', 'w') as f:
+    with open(f'data/transcripts/raw/{vcmId}.json', 'w') as f:
         json.dump(output, f)

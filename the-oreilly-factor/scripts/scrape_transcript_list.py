@@ -71,12 +71,12 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if not args.keep:
-        with open('data/stories.json', 'w') as f:
+        with open('data/transcripts/transcript_list.json', 'w') as f:
             pass
 
     story_iterator = get_stories(args.start)
     for i, story in enumerate(story_iterator):
         date, title = story['date'], story['title']
         print(i, date, title)
-        with open('data/stories.json', 'a') as f:
+        with open('data/transcripts/transcript_list.json', 'a') as f:
             f.write(json.dumps(story) + "\n")

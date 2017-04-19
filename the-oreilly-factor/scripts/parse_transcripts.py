@@ -53,7 +53,7 @@ def parse_transcript(html):
 
 for filename in os.listdir("data/raw"):
 
-    with open(f"data/raw/{filename}") as f:
+    with open(f"data/transcripts/raw/{filename}") as f:
         item = json.load(f)
 
     date, title, url = item['date'], item['title'], item['url']
@@ -78,5 +78,5 @@ for filename in os.listdir("data/raw"):
 
     output = {**item, **parsed}
 
-    with open(f"data/parsed/{filename}", "w") as f:
+    with open(f"data/transcripts/parsed/{filename}", "w") as f:
         json.dump(output, f)
