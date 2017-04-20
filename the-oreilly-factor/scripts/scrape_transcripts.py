@@ -6,7 +6,7 @@ import arrow
 import lxml.html
 import requests
 
-with open('data/transcript_list.json') as f:
+with open('data/transcripts/transcript_list.json') as f:
     transcript_list_gen = (json.loads(line) for line in f)
     transcript_list = sorted(transcript_list_gen, key=lambda x: x['date'])
 
