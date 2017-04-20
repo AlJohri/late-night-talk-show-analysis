@@ -1,0 +1,1721 @@
+<HTML><BODY><HRESULT>0x80004005</HRESULT><br /><br /><DESC>"<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Whoops! There was an error.</title>
+
+    <style>.cf:before, .cf:after {content: " ";display: table;} .cf:after {clear: both;} .cf {*zoom: 1;}
+body {
+  font: 14px helvetica, arial, sans-serif;
+  color: #2B2B2B;
+  background-color: #D4D4D4;
+  padding:0;
+  margin: 0;
+  max-height: 100%;
+}
+  a {
+    text-decoration: none;
+  }
+
+.container{
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+}
+
+.branding {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #777777;
+  font-size: 10px;
+    z-index: 100;
+}
+  .branding a {
+    color: #CD3F3F;
+  }
+
+header {
+  padding: 30px 20px;
+  color: white;
+  background: #272727;
+  box-sizing: border-box;
+  border-left: 5px solid #CD3F3F;
+}
+  .exc-title {
+    margin: 0;
+    color: #616161;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  }
+    .exc-title-primary { color: #CD3F3F; }
+    .exc-message {
+      font-size: 32px;
+      margin: 5px 0;
+      word-wrap: break-word;
+    }
+
+.stack-container {
+    height: 100%;
+    position: relative;
+}
+
+.details-container {
+  height: 100%;
+  overflow: auto;
+  float: right;
+  width: 70%;
+  background: #DADADA;
+}
+  .details {
+    padding: 10px;
+    padding-left: 5px;
+    border-left: 5px solid rgba(0, 0, 0, .1);
+  }
+
+.frames-container {
+  height: 100%;
+  overflow: auto;
+  float: left;
+  width: 30%;
+  background: #FFF;
+}
+  .frame {
+    padding: 14px;
+    background: #F3F3F3;
+    border-right: 1px solid rgba(0, 0, 0, .2);
+    cursor: pointer;
+  }
+    .frame.active {
+      background-color: #4288CE;
+      color: #F3F3F3;
+              box-shadow: inset -2px 0 0 rgba(255, 255, 255, .1);
+      text-shadow: 0 1px 0 rgba(0, 0, 0, .2);
+    }
+
+    .frame:not(.active):hover {
+      background: #BEE9EA;
+    }
+
+    .frame-class, .frame-function, .frame-index {
+      font-weight: bold;
+    }
+
+    .frame-index {
+      font-size: 11px;
+      color: #BDBDBD;
+    }
+
+    .frame-class {
+      color: #4288CE;
+    }
+      .active .frame-class {
+        color: #BEE9EA;
+      }
+
+    .frame-file {
+      font-family: "Inconsolata", "Fira Mono", "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace;
+      word-wrap:break-word;
+    }
+
+      .frame-file .editor-link {
+        color: #272727;
+      }
+
+    .frame-line {
+      font-weight: bold;
+      color: #4288CE;
+    }
+
+    .active .frame-line { color: #BEE9EA; }
+    .frame-line:before {
+      content: ":";
+    }
+
+    .frame-code {
+      padding: 10px;
+      padding-left: 5px;
+      background: #BDBDBD;
+      display: none;
+      border-left: 5px solid #4288CE;
+    }
+
+    .frame-code.active {
+      display: block;
+    }
+
+    .frame-code .frame-file {
+      background: #C6C6C6;
+      color: #525252;
+      text-shadow: 0 1px 0 #E7E7E7;
+      padding: 10px 10px 5px 10px;
+
+      border-top-right-radius: 6px;
+      border-top-left-radius:  6px;
+
+      border: 1px solid rgba(0, 0, 0, .1);
+      border-bottom: none;
+      box-shadow: inset 0 1px 0 #DADADA;
+    }
+
+    .code-block {
+      padding: 10px;
+      margin: 0;
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    }
+
+    .linenums {
+      margin: 0;
+      margin-left: 10px;
+    }
+
+    .frame-comments {
+      box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+      border: 1px solid rgba(0, 0, 0, .2);
+      border-top: none;
+
+      border-bottom-right-radius: 6px;
+      border-bottom-left-radius:  6px;
+
+      padding: 5px;
+      font-size: 12px;
+      background: #404040;
+    }
+
+    .frame-comments.empty {
+      padding: 8px 15px;
+    }
+
+    .frame-comments.empty:before {
+      content: "No comments for this stack frame.";
+      font-style: italic;
+      color: #828282;
+    }
+
+    .frame-comment {
+      padding: 10px;
+      color: #D2D2D2;
+    }
+      .frame-comment a {
+        color: #BEE9EA;
+        font-weight: bold;
+        text-decoration: none;
+      }
+        .frame-comment a:hover {
+          color: #4bb1b1;
+        }
+
+    .frame-comment:not(:last-child) {
+      border-bottom: 1px dotted rgba(0, 0, 0, .3);
+    }
+
+    .frame-comment-context {
+      font-size: 10px;
+      font-weight: bold;
+      color: #86D2B6;
+    }
+
+.data-table-container label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #4288CE;
+  margin: 10px 0;
+  padding: 10px 0;
+
+  display: block;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px dotted rgba(0, 0, 0, .2);
+}
+  .data-table {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .data-table tbody {
+    font: 13px "Inconsolata", "Fira Mono", "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace;
+  }
+
+  .data-table thead {
+    display: none;
+  }
+
+  .data-table tr {
+    padding: 5px 0;
+  }
+
+  .data-table td:first-child {
+    width: 20%;
+    min-width: 130px;
+    overflow: hidden;
+    font-weight: bold;
+    color: #463C54;
+    padding-right: 5px;
+
+  }
+
+  .data-table td:last-child {
+    width: 80%;
+    -ms-word-break: break-all;
+    word-break: break-all;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+
+  .data-table span.empty {
+    color: rgba(0, 0, 0, .3);
+    font-style: italic;
+  }
+  .data-table label.empty {
+	display: inline;
+  }
+
+.handler {
+  padding: 10px;
+  font: 14px "Inconsolata", "Fira Mono", "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.handler.active {
+  color: #BBBBBB;
+  background: #989898;
+  font-weight: bold;
+}
+
+/* prettify code style
+Uses the Doxy theme as a base */
+pre .str, code .str { color: #BCD42A; }  /* string  */
+pre .kwd, code .kwd { color: #4bb1b1;  font-weight: bold; }  /* keyword*/
+pre .com, code .com { color: #888; font-weight: bold; } /* comment */
+pre .typ, code .typ { color: #ef7c61; }  /* type  */
+pre .lit, code .lit { color: #BCD42A; }  /* literal */
+pre .pun, code .pun { color: #fff; font-weight: bold;  } /* punctuation  */
+pre .pln, code .pln { color: #e9e4e5; }  /* plaintext  */
+pre .tag, code .tag { color: #4bb1b1; }  /* html/xml tag  */
+pre .htm, code .htm { color: #dda0dd; }  /* html tag */
+pre .xsl, code .xsl { color: #d0a0d0; }  /* xslt tag */
+pre .atn, code .atn { color: #ef7c61; font-weight: normal;} /* html/xml attribute name */
+pre .atv, code .atv { color: #bcd42a; }  /* html/xml attribute value  */
+pre .dec, code .dec { color: #606; }  /* decimal  */
+pre.prettyprint, code.prettyprint {
+  font-family: "Inconsolata", "Fira Mono", "Source Code Pro", Monaco, Consolas, "Lucida Console", monospace;
+  background: #333;
+  color: #e9e4e5;
+}
+  pre.prettyprint {
+    white-space: pre-wrap;
+  }
+
+  pre.prettyprint a, code.prettyprint a {
+    text-decoration:none;
+  }
+
+  .linenums li {
+    color: #A5A5A5;
+  }
+
+  .linenums li.current{
+    background: rgba(255, 100, 100, .07);
+    padding-top: 4px;
+    padding-left: 1px;
+  }
+    .linenums li.current.active {
+      background: rgba(255, 100, 100, .17);
+    }
+
+#plain-exception {
+	display: none;
+}
+
+#copy-button {
+	display: none;
+	float: right;
+	cursor: pointer;	
+	border: 0;
+}
+
+.clipboard {
+	width:            29px;
+	height:           28px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAcCAYAAACdz7SqAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3gUUByMD0ZSoGQAAAB1pVFh0Q29tbWVudAAAAAAAQ3JlYXRlZCB3aXRoIEdJTVBkLmUHAAACAklEQVRIx72Wv0sbYRjHP29y1VoXxR9UskjpXTaHoBUcpGgKkS5OZ1Ec/QeKOIhalEghoOCqQsGhFAWbISKYyaFDS1BKKW0TCYrQSdElXSReh9bkksu9iZdLbnrvvee9z/N83+d9nldo2gvjzd5Hxp4246W6J5tJszsxwvxPIbXzwBQDLgABvM1P6JsAwzCkdopl5vqIuWev2K4QpH/4QjjQci/nPCVny3iaNzMcrVUsC1sChFMpwtTu8dTqx7J9dR3a2BngUb0j7Xr+jtjasBR8f+jpNqqqoqoqmqblxjOJq/8GTfhCK8TWhmmykdhRpEIIhBCWMcD51wQXN3KwY3nvYGYgQPbXOMHJKOlMA77QCvsbugXsOFLZ+5+jGULBtyQuFB4PzlrAVSWSGWaptpdbjAcniaZv6RhcIL6VByvVZqsQouBMdutJkrrVrr1/gdjqN4Ze/3DvyBwcnnF9I7N4gC8YYdqNSHP7uD5G/7pdJRrl/ecIva1t9IRcgpolLk6qQic8eB+6GOkdrDjSf/OiTD91CS4r+jXrMqWkrgvUtuDbeVNTKGzw6SRDto5QBc5Yehlg0WbTc8mwHCeld1u+yZSySySlspTHFmZUeIkrgBYvtvPcyBdXkqWKq5OLmbk/luqVYjPOd3lxLXf/J/P7mJ0oCL/fX1Yfs4RO5CxW8C97dLBw2Q3fUwAAAABJRU5ErkJggg==');
+	background-repeat: no-repeat;
+}
+
+.help button {
+	cursor: help;
+	height:   28px;
+	float: right;
+	margin-left: 10px;
+}
+
+.help button:hover + #help-overlay {
+	display: block;
+}
+
+#help-overlay {
+	pointer-events: none;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(54, 54, 54, 0.5);
+}
+
+#help-overlay div {
+	width: 200px;
+	padding: 5px;
+	color: #463c54;
+	background-color: white;
+	border-radius: 10px;
+}
+
+#help-clipboard {
+	position: absolute;
+	right: 30px;
+	top: 90px;
+}
+
+#help-framestack {
+	position: absolute;
+	left: 200px;
+	top: 50px;
+}
+
+#help-exc-message {
+	position: absolute;
+	left: 65%;
+	top: 10px;
+}
+
+#help-code {
+	position: absolute;
+	right: 30px;
+	top: 250px;
+}
+
+#help-request {
+	position: absolute;
+	right: 30px;
+	top: 480px;
+}
+
+#help-appinfo {
+	position: absolute;
+	right: 30px;
+	top: 550px;
+}
+
+/* inspired by githubs kbd styles */
+kbd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fcfcfc;
+    border-color: #ccc #ccc #bbb;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 -1px 0 #bbb inset;
+    color: #555;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 10px;
+    padding: 3px 5px;
+    vertical-align: middle;
+}
+</style>
+  </head>
+  <body>
+
+    <div class="Whoops container">
+
+      <div class="stack-container">
+        <div class="frames-container cf ">
+            <div class="frame active" id="frame-line-0">
+      <div class="frame-method-info">
+        <span class="frame-index">35.</span>
+        <span class="frame-class">ErrorException</span>
+        <span class="frame-function"></span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\app\models\UserAuth.php<!--
+   --><span class="frame-line">116</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-1">
+      <div class="frame-method-info">
+        <span class="frame-index">34.</span>
+        <span class="frame-class">Illuminate\Exception\Handler</span>
+        <span class="frame-function">handleError</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\app\models\UserAuth.php<!--
+   --><span class="frame-line">116</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-2">
+      <div class="frame-method-info">
+        <span class="frame-index">33.</span>
+        <span class="frame-class">UserAuth</span>
+        <span class="frame-function">check</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\app\start\global.php<!--
+   --><span class="frame-line">138</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-3">
+      <div class="frame-method-info">
+        <span class="frame-index">32.</span>
+        <span class="frame-class"></span>
+        <span class="frame-function">{closure}</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\volicon\laravel-acl-rbac\src\Volicon\Acl\Acl.php<!--
+   --><span class="frame-line">142</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-4">
+      <div class="frame-method-info">
+        <span class="frame-index">31.</span>
+        <span class="frame-class">Volicon\Acl\Acl</span>
+        <span class="frame-function">runUnguardCallback</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php<!--
+   --><span class="frame-line">208</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-5">
+      <div class="frame-method-info">
+        <span class="frame-index">30.</span>
+        <span class="frame-class">Illuminate\Support\Facades\Facade</span>
+        <span class="frame-function">__callStatic</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\app\start\global.php<!--
+   --><span class="frame-line">139</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-6">
+      <div class="frame-method-info">
+        <span class="frame-index">29.</span>
+        <span class="frame-class">Volicon\Acl\Facades\Acl</span>
+        <span class="frame-function">runUnguardCallback</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\app\start\global.php<!--
+   --><span class="frame-line">139</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-7">
+      <div class="frame-method-info">
+        <span class="frame-index">28.</span>
+        <span class="frame-class"></span>
+        <span class="frame-function">{closure}</span>
+      </div>
+
+    <span class="frame-file">
+      <#unknown><!--
+   --><span class="frame-line">0</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-8">
+      <div class="frame-method-info">
+        <span class="frame-index">27.</span>
+        <span class="frame-class"></span>
+        <span class="frame-function">call_user_func_array</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Events\Dispatcher.php<!--
+   --><span class="frame-line">199</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-9">
+      <div class="frame-method-info">
+        <span class="frame-index">26.</span>
+        <span class="frame-class">Illuminate\Events\Dispatcher</span>
+        <span class="frame-function">fire</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Auth\Guard.php<!--
+   --><span class="frame-line">395</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-10">
+      <div class="frame-method-info">
+        <span class="frame-index">25.</span>
+        <span class="frame-class">Illuminate\Auth\Guard</span>
+        <span class="frame-function">fireAttemptEvent</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Auth\Guard.php<!--
+   --><span class="frame-line">352</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-11">
+      <div class="frame-method-info">
+        <span class="frame-index">24.</span>
+        <span class="frame-class">Illuminate\Auth\Guard</span>
+        <span class="frame-function">attempt</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Auth\Guard.php<!--
+   --><span class="frame-line">263</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-12">
+      <div class="frame-method-info">
+        <span class="frame-index">23.</span>
+        <span class="frame-class">Illuminate\Auth\Guard</span>
+        <span class="frame-function">validate</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Auth\Guard.php<!--
+   --><span class="frame-line">245</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-13">
+      <div class="frame-method-info">
+        <span class="frame-index">22.</span>
+        <span class="frame-class">Illuminate\Auth\Guard</span>
+        <span class="frame-function">once</span>
+      </div>
+
+    <span class="frame-file">
+      <#unknown><!--
+   --><span class="frame-line">0</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-14">
+      <div class="frame-method-info">
+        <span class="frame-index">21.</span>
+        <span class="frame-class"></span>
+        <span class="frame-function">call_user_func_array</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Support\Manager.php<!--
+   --><span class="frame-line">138</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-15">
+      <div class="frame-method-info">
+        <span class="frame-index">20.</span>
+        <span class="frame-class">Illuminate\Support\Manager</span>
+        <span class="frame-function">__call</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php<!--
+   --><span class="frame-line">208</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-16">
+      <div class="frame-method-info">
+        <span class="frame-index">19.</span>
+        <span class="frame-class">Illuminate\Auth\AuthManager</span>
+        <span class="frame-function">once</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php<!--
+   --><span class="frame-line">208</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-17">
+      <div class="frame-method-info">
+        <span class="frame-index">18.</span>
+        <span class="frame-class">Illuminate\Support\Facades\Facade</span>
+        <span class="frame-function">__callStatic</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\app\models\UserAuth.php<!--
+   --><span class="frame-line">202</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-18">
+      <div class="frame-method-info">
+        <span class="frame-index">17.</span>
+        <span class="frame-class">Illuminate\Support\Facades\Auth</span>
+        <span class="frame-function">once</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\app\models\UserAuth.php<!--
+   --><span class="frame-line">202</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-19">
+      <div class="frame-method-info">
+        <span class="frame-index">16.</span>
+        <span class="frame-class">UserAuth</span>
+        <span class="frame-function">authenticate</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\app\filters.php<!--
+   --><span class="frame-line">54</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-20">
+      <div class="frame-method-info">
+        <span class="frame-index">15.</span>
+        <span class="frame-class"></span>
+        <span class="frame-function">{closure}</span>
+      </div>
+
+    <span class="frame-file">
+      <#unknown><!--
+   --><span class="frame-line">0</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-21">
+      <div class="frame-method-info">
+        <span class="frame-index">14.</span>
+        <span class="frame-class"></span>
+        <span class="frame-function">call_user_func_array</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Events\Dispatcher.php<!--
+   --><span class="frame-line">199</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-22">
+      <div class="frame-method-info">
+        <span class="frame-index">13.</span>
+        <span class="frame-class">Illuminate\Events\Dispatcher</span>
+        <span class="frame-function">fire</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Events\Dispatcher.php<!--
+   --><span class="frame-line">154</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-23">
+      <div class="frame-method-info">
+        <span class="frame-index">12.</span>
+        <span class="frame-class">Illuminate\Events\Dispatcher</span>
+        <span class="frame-function">until</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Routing\Router.php<!--
+   --><span class="frame-line">1473</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-24">
+      <div class="frame-method-info">
+        <span class="frame-index">11.</span>
+        <span class="frame-class">Illuminate\Routing\Router</span>
+        <span class="frame-function">callRouteFilter</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Routing\Router.php<!--
+   --><span class="frame-line">1435</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-25">
+      <div class="frame-method-info">
+        <span class="frame-index">10.</span>
+        <span class="frame-class">Illuminate\Routing\Router</span>
+        <span class="frame-function">callAttachedBefores</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Routing\Router.php<!--
+   --><span class="frame-line">1322</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-26">
+      <div class="frame-method-info">
+        <span class="frame-index">9.</span>
+        <span class="frame-class">Illuminate\Routing\Router</span>
+        <span class="frame-function">callRouteBefore</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Routing\Router.php<!--
+   --><span class="frame-line">1029</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-27">
+      <div class="frame-method-info">
+        <span class="frame-index">8.</span>
+        <span class="frame-class">Illuminate\Routing\Router</span>
+        <span class="frame-function">dispatchToRoute</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Routing\Router.php<!--
+   --><span class="frame-line">1001</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-28">
+      <div class="frame-method-info">
+        <span class="frame-index">7.</span>
+        <span class="frame-class">Illuminate\Routing\Router</span>
+        <span class="frame-function">dispatch</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Foundation\Application.php<!--
+   --><span class="frame-line">775</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-29">
+      <div class="frame-method-info">
+        <span class="frame-index">6.</span>
+        <span class="frame-class">Illuminate\Foundation\Application</span>
+        <span class="frame-function">dispatch</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Foundation\Application.php<!--
+   --><span class="frame-line">745</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-30">
+      <div class="frame-method-info">
+        <span class="frame-index">5.</span>
+        <span class="frame-class">Illuminate\Foundation\Application</span>
+        <span class="frame-function">handle</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Session\Middleware.php<!--
+   --><span class="frame-line">72</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-31">
+      <div class="frame-method-info">
+        <span class="frame-index">4.</span>
+        <span class="frame-class">Illuminate\Session\Middleware</span>
+        <span class="frame-function">handle</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Cookie\Queue.php<!--
+   --><span class="frame-line">47</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-32">
+      <div class="frame-method-info">
+        <span class="frame-index">3.</span>
+        <span class="frame-class">Illuminate\Cookie\Queue</span>
+        <span class="frame-function">handle</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Cookie\Guard.php<!--
+   --><span class="frame-line">51</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-33">
+      <div class="frame-method-info">
+        <span class="frame-index">2.</span>
+        <span class="frame-class">Illuminate\Cookie\Guard</span>
+        <span class="frame-function">handle</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\stack\builder\src\Stack\StackedHttpKernel.php<!--
+   --><span class="frame-line">23</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-34">
+      <div class="frame-method-info">
+        <span class="frame-index">1.</span>
+        <span class="frame-class">Stack\StackedHttpKernel</span>
+        <span class="frame-function">handle</span>
+      </div>
+
+    <span class="frame-file">
+      &hellip;\vendor\laravel\framework\src\Illuminate\Foundation\Application.php<!--
+   --><span class="frame-line">641</span>
+    </span>
+  </div>
+  <div class="frame " id="frame-line-35">
+      <div class="frame-method-info">
+        <span class="frame-index">0.</span>
+        <span class="frame-class">Illuminate\Foundation\Application</span>
+        <span class="frame-function">run</span>
+      </div>
+
+    <span class="frame-file">
+      C:\Program Files\Volicon\Observer\htdocs\api\index.php<!--
+   --><span class="frame-line">49</span>
+    </span>
+  </div>
+        </div>
+        <div class="details-container cf">
+          <header>
+            <div class="exception">
+  <h3 class="exc-title">
+                  <span class="exc-title-primary">ErrorException</span>
+                    <span title="Exception Code">(E_WARNING)</span>
+      </h3>
+
+  <div class="help">
+    <button title="show help">HELP</button>
+
+    <div id="help-overlay">
+      <div id="help-framestack">Callstack information; navigate with mouse or keyboard using <kbd>Ctrl+&uparrow;</kbd> or <kbd>Ctrl+&downarrow;</kbd></div>
+      <div id="help-clipboard">Copy-to-clipboard button</div>
+      <div id="help-exc-message">Exception message and its type</div>
+      <div id="help-code">Code snippet where the error was thrown</div>
+      <div id="help-request">Server state information</div>
+      <div id="help-appinfo">Application provided context information</div>
+    </div>
+  </div>
+
+  <button id="copy-button" class="clipboard" data-clipboard-target="plain-exception" title="copy exception into clipboard"></button>
+  <span id="plain-exception">ErrorException thrown with message &quot;Cannot use a scalar value as an array&quot;
+
+Stacktrace:
+#35 ErrorException in C:\Program Files\Volicon\Observer\framework\app\models\UserAuth.php:116
+#34 Illuminate\Exception\Handler:handleError in C:\Program Files\Volicon\Observer\framework\app\models\UserAuth.php:116
+#33 UserAuth:check in C:\Program Files\Volicon\Observer\framework\app\start\global.php:138
+#32 {closure} in C:\Program Files\Volicon\Observer\framework\vendor\volicon\laravel-acl-rbac\src\Volicon\Acl\Acl.php:142
+#31 Volicon\Acl\Acl:runUnguardCallback in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:208
+#30 Illuminate\Support\Facades\Facade:__callStatic in C:\Program Files\Volicon\Observer\framework\app\start\global.php:139
+#29 Volicon\Acl\Facades\Acl:runUnguardCallback in C:\Program Files\Volicon\Observer\framework\app\start\global.php:139
+#28 {closure} in &lt;#unknown&gt;:0
+#27 call_user_func_array in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Events\Dispatcher.php:199
+#26 Illuminate\Events\Dispatcher:fire in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Auth\Guard.php:395
+#25 Illuminate\Auth\Guard:fireAttemptEvent in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Auth\Guard.php:352
+#24 Illuminate\Auth\Guard:attempt in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Auth\Guard.php:263
+#23 Illuminate\Auth\Guard:validate in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Auth\Guard.php:245
+#22 Illuminate\Auth\Guard:once in &lt;#unknown&gt;:0
+#21 call_user_func_array in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Support\Manager.php:138
+#20 Illuminate\Support\Manager:__call in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:208
+#19 Illuminate\Auth\AuthManager:once in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php:208
+#18 Illuminate\Support\Facades\Facade:__callStatic in C:\Program Files\Volicon\Observer\framework\app\models\UserAuth.php:202
+#17 Illuminate\Support\Facades\Auth:once in C:\Program Files\Volicon\Observer\framework\app\models\UserAuth.php:202
+#16 UserAuth:authenticate in C:\Program Files\Volicon\Observer\framework\app\filters.php:54
+#15 {closure} in &lt;#unknown&gt;:0
+#14 call_user_func_array in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Events\Dispatcher.php:199
+#13 Illuminate\Events\Dispatcher:fire in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Events\Dispatcher.php:154
+#12 Illuminate\Events\Dispatcher:until in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1473
+#11 Illuminate\Routing\Router:callRouteFilter in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1435
+#10 Illuminate\Routing\Router:callAttachedBefores in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1322
+#9 Illuminate\Routing\Router:callRouteBefore in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1029
+#8 Illuminate\Routing\Router:dispatchToRoute in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Routing\Router.php:1001
+#7 Illuminate\Routing\Router:dispatch in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:775
+#6 Illuminate\Foundation\Application:dispatch in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:745
+#5 Illuminate\Foundation\Application:handle in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Session\Middleware.php:72
+#4 Illuminate\Session\Middleware:handle in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Cookie\Queue.php:47
+#3 Illuminate\Cookie\Queue:handle in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Cookie\Guard.php:51
+#2 Illuminate\Cookie\Guard:handle in C:\Program Files\Volicon\Observer\framework\vendor\stack\builder\src\Stack\StackedHttpKernel.php:23
+#1 Stack\StackedHttpKernel:handle in C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Foundation\Application.php:641
+#0 Illuminate\Foundation\Application:run in C:\Program Files\Volicon\Observer\htdocs\api\index.php:49
+</span>
+
+  <p class="exc-message">
+    Cannot use a scalar value as an array  </p>
+</div>
+          </header>
+          <div class="frame-code-container ">
+            <div class="frame-code active" id="frame-code-0">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Capp%5Cmodels%5CUserAuth.php&line=116" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\app\models\UserAuth.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:109">        self::$active_users = Cache::get(self::$key);
+
+        if (!self::$active_users)
+            return;
+
+        foreach (self::$active_users as &amp;$user) {
+            $id = $user[&#039;user_id&#039;];
+            $user[&#039;life_time&#039;] = (Date(&#039;U&#039;) - $user[&#039;last_time&#039;]) * 1000;
+
+            $sessionTimeout = self::getSessionTimeout($id);</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-1">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Capp%5Cmodels%5CUserAuth.php&line=116" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\app\models\UserAuth.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:109">        self::$active_users = Cache::get(self::$key);
+
+        if (!self::$active_users)
+            return;
+
+        foreach (self::$active_users as &amp;$user) {
+            $id = $user[&#039;user_id&#039;];
+            $user[&#039;life_time&#039;] = (Date(&#039;U&#039;) - $user[&#039;last_time&#039;]) * 1000;
+
+            $sessionTimeout = self::getSessionTimeout($id);</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-2">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Capp%5Cstart%5Cglobal.php&line=138" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\app\start\global.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:131">    });
+}
+
+
+Event::listen(&#039;auth.*&#039;, function ($options) {
+    $e = Event::firing();
+    Acl::runUnguardCallback(function() {
+        UserAuth::check();
+    });
+    if ($e == &#039;auth.login&#039; || $e == &#039;auth.check&#039;) {</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-3">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Cvolicon%5Claravel-acl-rbac%5Csrc%5CVolicon%5CAcl%5CAcl.php&line=142" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\volicon\laravel-acl-rbac\src\Volicon\Acl\Acl.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:135">	 * run function without ACL restictions.	 
+	 * @param Closure $closure
+	 * @return mix closure result
+	 */
+	public function runUnguardCallback(Closure $closure) {
+		$isGuard = $this-&gt;isGuard();
+		$this-&gt;unguard();
+		$result = $closure();
+		if($isGuard) {
+			$this-&gt;reguard();</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-4">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CSupport%5CFacades%5CFacade.php&line=208" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:201">
+		switch (count($args))
+		{
+			case 0:
+				return $instance-&gt;$method();
+
+			case 1:
+				return $instance-&gt;$method($args[0]);
+
+			case 2:</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-5">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Capp%5Cstart%5Cglobal.php&line=139" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\app\start\global.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:132">}
+
+
+Event::listen(&#039;auth.*&#039;, function ($options) {
+    $e = Event::firing();
+    Acl::runUnguardCallback(function() {
+        UserAuth::check();
+    });
+    if ($e == &#039;auth.login&#039; || $e == &#039;auth.check&#039;) {
+        if ($e == &#039;auth.login&#039;) {</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-6">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Capp%5Cstart%5Cglobal.php&line=139" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\app\start\global.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:132">}
+
+
+Event::listen(&#039;auth.*&#039;, function ($options) {
+    $e = Event::firing();
+    Acl::runUnguardCallback(function() {
+        UserAuth::check();
+    });
+    if ($e == &#039;auth.login&#039; || $e == &#039;auth.check&#039;) {
+        if ($e == &#039;auth.login&#039;) {</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-7">
+        <div class="frame-file">
+                                <strong>&lt;#unknown&gt;</strong>
+                  </div>
+        
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-8">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CEvents%5CDispatcher.php&line=199" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Events\Dispatcher.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:192">		// payload to each of them so that they receive each of these arguments.
+		if ( ! is_array($payload)) $payload = array($payload);
+
+		$this-&gt;firing[] = $event;
+
+		foreach ($this-&gt;getListeners($event) as $listener)
+		{
+			$response = call_user_func_array($listener, $payload);
+
+			// If a response is returned from the listener and event halting is enabled</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-9">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CAuth%5CGuard.php&line=395" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Auth\Guard.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:388">	 */
+	protected function fireAttemptEvent(array $credentials, $remember, $login)
+	{
+		if ($this-&gt;events)
+		{
+			$payload = array($credentials, $remember, $login);
+
+			$this-&gt;events-&gt;fire(&#039;auth.attempt&#039;, $payload);
+		}
+	}</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-10">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CAuth%5CGuard.php&line=352" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Auth\Guard.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:345">	 * @param  array  $credentials
+	 * @param  bool   $remember
+	 * @param  bool   $login
+	 * @return bool
+	 */
+	public function attempt(array $credentials = array(), $remember = false, $login = true)
+	{
+		$this-&gt;fireAttemptEvent($credentials, $remember, $login);
+
+		$this-&gt;lastAttempted = $user = $this-&gt;provider-&gt;retrieveByCredentials($credentials);</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-11">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CAuth%5CGuard.php&line=263" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Auth\Guard.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:256">	 * Validate a user&#039;s credentials.
+	 *
+	 * @param  array  $credentials
+	 * @return bool
+	 */
+	public function validate(array $credentials = array())
+	{
+		return $this-&gt;attempt($credentials, false, false);
+	}
+</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-12">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CAuth%5CGuard.php&line=245" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Auth\Guard.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:238">	 * Log a user into the application without sessions or cookies.
+	 *
+	 * @param  array  $credentials
+	 * @return bool
+	 */
+	public function once(array $credentials = array())
+	{
+		if ($this-&gt;validate($credentials))
+		{
+			$this-&gt;setUser($this-&gt;lastAttempted);</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-13">
+        <div class="frame-file">
+                                <strong>&lt;#unknown&gt;</strong>
+                  </div>
+        
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-14">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CSupport%5CManager.php&line=138" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Support\Manager.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:131">	 *
+	 * @param  string  $method
+	 * @param  array   $parameters
+	 * @return mixed
+	 */
+	public function __call($method, $parameters)
+	{
+		return call_user_func_array(array($this-&gt;driver(), $method), $parameters);
+	}
+</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-15">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CSupport%5CFacades%5CFacade.php&line=208" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:201">
+		switch (count($args))
+		{
+			case 0:
+				return $instance-&gt;$method();
+
+			case 1:
+				return $instance-&gt;$method($args[0]);
+
+			case 2:</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-16">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CSupport%5CFacades%5CFacade.php&line=208" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Support\Facades\Facade.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:201">
+		switch (count($args))
+		{
+			case 0:
+				return $instance-&gt;$method();
+
+			case 1:
+				return $instance-&gt;$method($args[0]);
+
+			case 2:</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-17">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Capp%5Cmodels%5CUserAuth.php&line=202" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\app\models\UserAuth.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:195">                    return Response::make($error_message, 401);
+                }
+            }
+
+            $login_result = false;
+
+            if ($once) {
+                $login_result = Auth::once($credentials);
+            } else {
+                $login_result = Auth::attempt($credentials);</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-18">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Capp%5Cmodels%5CUserAuth.php&line=202" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\app\models\UserAuth.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:195">                    return Response::make($error_message, 401);
+                }
+            }
+
+            $login_result = false;
+
+            if ($once) {
+                $login_result = Auth::once($credentials);
+            } else {
+                $login_result = Auth::attempt($credentials);</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-19">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Capp%5Cfilters.php&line=54" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\app\filters.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:47">        }
+    }
+
+    $header_username = Request::header(&#039;Username&#039;, null);
+    $user = User::getUser();
+    if ($header_username) {
+        $header_password = Request::header(&#039;Password&#039;, null);
+        $auth_result = UserAuth::authenticate($header_username, $header_password, true);
+
+        if (is_a($auth_result, &#039;Illuminate\Http\Response&#039;)) {</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-20">
+        <div class="frame-file">
+                                <strong>&lt;#unknown&gt;</strong>
+                  </div>
+        
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-21">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CEvents%5CDispatcher.php&line=199" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Events\Dispatcher.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:192">		// payload to each of them so that they receive each of these arguments.
+		if ( ! is_array($payload)) $payload = array($payload);
+
+		$this-&gt;firing[] = $event;
+
+		foreach ($this-&gt;getListeners($event) as $listener)
+		{
+			$response = call_user_func_array($listener, $payload);
+
+			// If a response is returned from the listener and event halting is enabled</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-22">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CEvents%5CDispatcher.php&line=154" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Events\Dispatcher.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:147">	 *
+	 * @param  string  $event
+	 * @param  array   $payload
+	 * @return mixed
+	 */
+	public function until($event, $payload = array())
+	{
+		return $this-&gt;fire($event, $payload, true);
+	}
+</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-23">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CRouting%5CRouter.php&line=1473" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Routing\Router.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:1466">	 */
+	public function callRouteFilter($filter, $parameters, $route, $request, $response = null)
+	{
+		if ( ! $this-&gt;filtering) return null;
+
+		$data = array_merge(array($route, $request, $response), $parameters);
+
+		return $this-&gt;events-&gt;until(&#039;router.filter: &#039;.$filter, $this-&gt;cleanFilterParameters($data));
+	}
+</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-24">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CRouting%5CRouter.php&line=1435" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Routing\Router.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:1428">	 * @param  \Illuminate\Http\Request  $request
+	 * @return mixed
+	 */
+	protected function callAttachedBefores($route, $request)
+	{
+		foreach ($route-&gt;beforeFilters() as $filter =&gt; $parameters)
+		{
+			$response = $this-&gt;callRouteFilter($filter, $parameters, $route, $request);
+
+			if ( ! is_null($response)) return $response;</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-25">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CRouting%5CRouter.php&line=1322" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Routing\Router.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:1315">	 * @param  \Illuminate\Http\Request  $request
+	 * @return mixed
+	 */
+	public function callRouteBefore($route, $request)
+	{
+		$response = $this-&gt;callPatternFilters($route, $request);
+
+		return $response ?: $this-&gt;callAttachedBefores($route, $request);
+	}
+</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-26">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CRouting%5CRouter.php&line=1029" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Routing\Router.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:1022">		$route = $this-&gt;findRoute($request);
+
+		$this-&gt;events-&gt;fire(&#039;router.matched&#039;, array($route, $request));
+
+		// Once we have successfully matched the incoming request to a given route we
+		// can call the before filters on that route. This works similar to global
+		// filters in that if a response is returned we will not call the route.
+		$response = $this-&gt;callRouteBefore($route, $request);
+
+		if (is_null($response))</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-27">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CRouting%5CRouter.php&line=1001" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Routing\Router.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:994">		// If no response was returned from the before filter, we will call the proper
+		// route instance to get the response. If no route is found a response will
+		// still get returned based on why no routes were found for this request.
+		$response = $this-&gt;callFilter(&#039;before&#039;, $request);
+
+		if (is_null($response))
+		{
+			$response = $this-&gt;dispatchToRoute($request);
+		}
+</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-28">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CFoundation%5CApplication.php&line=775" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Foundation\Application.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:768">		}
+
+		if ($this-&gt;runningUnitTests() &amp;&amp; ! $this[&#039;session&#039;]-&gt;isStarted())
+		{
+			$this[&#039;session&#039;]-&gt;start();
+		}
+
+		return $this[&#039;router&#039;]-&gt;dispatch($this-&gt;prepareRequest($request));
+	}
+</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-29">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CFoundation%5CApplication.php&line=745" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Foundation\Application.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:738">	{
+		try
+		{
+			$this-&gt;refreshRequest($request = Request::createFromBase($request));
+
+			$this-&gt;boot();
+
+			return $this-&gt;dispatch($request);
+		}
+		catch (\Exception $e)</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-30">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CSession%5CMiddleware.php&line=72" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Session\Middleware.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:65">		if ($this-&gt;sessionConfigured())
+		{
+			$session = $this-&gt;startSession($request);
+
+			$request-&gt;setSession($session);
+		}
+
+		$response = $this-&gt;app-&gt;handle($request, $type, $catch);
+
+		// Again, if the session has been configured we will need to close out the session</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-31">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CCookie%5CQueue.php&line=47" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Cookie\Queue.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:40">	 * @param  \Symfony\Component\HttpFoundation\Request  $request
+	 * @param  int   $type
+	 * @param  bool  $catch
+	 * @return \Symfony\Component\HttpFoundation\Response
+	 */
+	public function handle(Request $request, $type = HttpKernelInterface::MASTER_REQUEST, $catch = true)
+	{
+		$response = $this-&gt;app-&gt;handle($request, $type, $catch);
+
+		foreach ($this-&gt;cookies-&gt;getQueuedCookies() as $cookie)</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-32">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CCookie%5CGuard.php&line=51" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Cookie\Guard.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:44">	 * @param  \Symfony\Component\HttpFoundation\Request  $request
+	 * @param  int   $type
+	 * @param  bool  $catch
+	 * @return \Symfony\Component\HttpFoundation\Response
+	 */
+	public function handle(Request $request, $type = HttpKernelInterface::MASTER_REQUEST, $catch = true)
+	{
+		return $this-&gt;encrypt($this-&gt;app-&gt;handle($this-&gt;decrypt($request), $type, $catch));
+	}
+</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-33">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Cstack%5Cbuilder%5Csrc%5CStack%5CStackedHttpKernel.php&line=23" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\stack\builder\src\Stack\StackedHttpKernel.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:16">    {
+        $this-&gt;app = $app;
+        $this-&gt;middlewares = $middlewares;
+    }
+
+    public function handle(Request $request, $type = HttpKernelInterface::MASTER_REQUEST, $catch = true)
+    {
+        return $this-&gt;app-&gt;handle($request, $type, $catch);
+    }
+</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-34">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Cframework%5Cvendor%5Claravel%5Cframework%5Csrc%5CIlluminate%5CFoundation%5CApplication.php&line=641" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\framework\vendor\laravel\framework\src\Illuminate\Foundation\Application.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:634">	 * @param  \Symfony\Component\HttpFoundation\Request  $request
+	 * @return void
+	 */
+	public function run(SymfonyRequest $request = null)
+	{
+		$request = $request ?: $this[&#039;request&#039;];
+
+		$response = with($stack = $this-&gt;getStackedClient())-&gt;handle($request);
+
+		$response-&gt;send();</pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+            <div class="frame-code " id="frame-code-35">
+        <div class="frame-file">
+                                Open:
+            <a href="subl://open?url=file://C%3A%5CProgram%20Files%5CVolicon%5CObserver%5Chtdocs%5Capi%5Cindex.php&line=49" class="editor-link">
+              <strong>C:\Program Files\Volicon\Observer\htdocs\api\index.php</strong>
+            </a>
+                  </div>
+                    <pre class="code-block prettyprint linenums:42">| Once we have the application, we can simply call the run method,
+| which will execute the request and send the response back to
+| the client&#039;s browser allowing them to enjoy the creative
+| and wonderful application we have whipped up for them.
+|
+*/
+
+$app-&gt;run();
+ </pre>
+                  
+                <div class="frame-comments empty">
+                  </div>
+
+      </div>
+  </div>
+          <div class="details">
+  <div class="data-table-container" id="data-tables">
+          <div class="data-table" id="sg-get-data">
+                    <label>GET Data</label>
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <td class="data-table-k">Key</td>
+                  <td class="data-table-v">Value</td>
+                </tr>
+              </thead>
+                          <tr>
+                <td>type</td>
+                <td>DFXP</td>
+              </tr>
+                          <tr>
+                <td>time</td>
+                <td>1458781132</td>
+              </tr>
+                          <tr>
+                <td>duration</td>
+                <td>533532992</td>
+              </tr>
+                          <tr>
+                <td>encoder</td>
+                <td>E (0x80004005)"</DESC><br /><div style="text-align:right;color:#0000FF;font-size:small;background-color:#EEEEFF;border-top:solid;border-color:Black;border-width:thin"><b>Observer Encoder</b><sup>TM</sup></div></BODY></HTML>
