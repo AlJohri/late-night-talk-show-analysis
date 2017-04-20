@@ -19,15 +19,15 @@ print(f"Loaded {len(video_ids)} video segment ids...")
 
 yd = YoutubeDL()
 
-for id_ in video_ids:
+for i, id_ in enumerate(video_ids):
 
     metadata_filename = f'data/metadata/parsed/{id_}.json'
     if os.path.isfile(metadata_filename):
-        print(f'Already downloaded metadata for {id_}')
+        print(f'[{i}] Already downloaded metadata for {id_}')
         with open(metadata_filename) as f:
             info = json.load(f)
     else:
-        print(f'Downloading metadata for {id_}')
+        print(f'[{i}] Downloading metadata for {id_}')
         url = f'http://video.foxnews.com/v/{id_}/'
         try:
             info = yd.extract_info(url, download=False, ie_key='FoxNews', process=False)
@@ -40,7 +40,7 @@ for id_ in video_ids:
 
     subtitle_filename = f'data/captions/raw/{id_}.xml'
     if os.path.isfile(subtitle_filename):
-        print(f'Already downloaded subtitles for {id_}')
+        print(f'[{i}] Already downloaded subtitles for {id_}')
     else:
         try:
             subtitle_url = info['subtitles']['en-us'][0]['url']
@@ -48,7 +48,7 @@ for id_ in video_ids:
             print(t.yellow(f'No subtitles found for {id_}'))
             continue
 
-        print(f'Downloading subtitles for {id_}')
+        print(f'[{i}] Downloading subtitles for {id_}')
         assert len(info['subtitles']['en-us']) == 1
         response = requests.get(subtitle_url)
         with open(subtitle_filename, 'wb') as f:
