@@ -31,7 +31,11 @@ def scrape_comedy_central(url):
 
     while True:
         print("downloading page %d..." % page)
-        data = requests.get(url % page).json()
+        response = requests.get(url % page)
+        print(url % page)
+        print(response.status_code)
+        print(response.content) # doesn't work anymore
+        data = response.json()
         if len(data['result']['items']) == 0: break
 
         for item in data['result']['items']:
