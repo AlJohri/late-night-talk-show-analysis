@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+import sys; sys.path.append("../lib")
 import os
 from lxml import etree
 from pprint import pprint as pp

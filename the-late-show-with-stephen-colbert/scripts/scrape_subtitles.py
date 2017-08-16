@@ -1,3 +1,6 @@
+#!/usr/bin/env python3
+
+import sys; sys.path.append("../lib/")
 import os, grequests
 
 EPISODES_TO_SKIP = [38, 39, 40, 52]

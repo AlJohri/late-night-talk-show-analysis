@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import sys; sys.path.append("../lib")
 import re, csv
 
 with open('data/imdb_episode_list.csv') as f:

@@ -1,6 +1,9 @@
+#!/usr/bin/env python3
+
+import sys; sys.path.append("../lib")
 import os
 import logging
-from lib.imdb_scraper import IMDBScraper
+from imdb_scraper import IMDBScraper
 from settings import IMDB_SERIES_ID
 
 logging.basicConfig(level=logging.DEBUG)

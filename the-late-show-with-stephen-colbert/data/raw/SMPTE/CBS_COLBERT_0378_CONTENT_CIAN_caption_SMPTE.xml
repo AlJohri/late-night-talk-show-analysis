@@ -1,0 +1,1230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:smpte="http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt" xmlns:m608="http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt#cea608" ttp:timeBase="smpte" ttp:dropMode="dropNTSC" ttp:frameRate="30" ttp:frameRateMultiplier="1000 1001">
+    <head>
+        <metadata>
+            <ttm:desc>SMPTE 2052 Timed Text Captions document created by MacCaption™ version 6.6.01 (16x9)</ttm:desc>
+            <smpte:information xmlns:m608="http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt#cea608" origin="http://www.smpte-ra.org/schemas/2052-1/2010/smpte-tt#cea608" mode="Preserved" m608:channel="CC1" m608:programName="Demo" m608:captionService="F1C1CC"/>
+        </metadata>
+        <styling>
+            <style xml:id="basic" tts:color="white" tts:backgroundColor="black" tts:showBackground="whenActive" tts:fontFamily="monospace" tts:fontSize="80%" tts:fontWeight="normal" tts:fontStyle="normal"/>
+        </styling>
+        <layout>
+            <region xml:id="pop1" tts:backgroundColor="transparent" tts:showBackground="whenActive"/>
+            <region xml:id="pop2" tts:backgroundColor="transparent" tts:showBackground="whenActive"/>
+            <region xml:id="pop3" tts:backgroundColor="transparent" tts:showBackground="whenActive"/>
+            <region xml:id="pop4" tts:backgroundColor="transparent" tts:showBackground="whenActive"/>
+        </layout>
+    </head>
+    <body>
+        <div>
+            <p begin="00:00:02:23" end="00:00:04:10" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%"><span tts:color="yellow"> Captioning sponsored by CBS</span></p>
+            <p begin="00:00:02:23" end="00:00:04:10" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">>> RED SQUARE.</p>
+            <p begin="00:00:04:11" end="00:00:07:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">WHEN THIS WAS THE SOVIET UNION,</p>
+            <p begin="00:00:04:11" end="00:00:07:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">WE AMERICANS WERE TAUGHT IT WAS</p>
+            <p begin="00:00:07:28" end="00:00:12:21" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">THE EPICENTER OF ALL EVIL AND</p>
+            <p begin="00:00:07:28" end="00:00:12:21" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">SHOULD THE NUCLEAR FIRE BALL</p>
+            <p begin="00:00:12:21" end="00:00:16:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">CONSUME THIS PLANET, THE</p>
+            <p begin="00:00:12:21" end="00:00:16:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">DECISION TO LAUNCH THE MISS ALSO</p>
+            <p begin="00:00:16:09" end="00:00:18:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">WILL COME FROM THE MEN BEHIND</p>
+            <p begin="00:00:16:09" end="00:00:18:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">THAT WALL.</p>
+            <p begin="00:00:18:22" end="00:00:21:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">ARE WE IN A NEW COLD WAR?</p>
+            <p begin="00:00:21:20" end="00:00:26:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="41.25% 5.33%">LET ME ASK YOU CARAMEL</p>
+            <p begin="00:00:21:20" end="00:00:26:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">FRAPPUCCINO I JUST BOUGHT OVER</p>
+            <p begin="00:00:26:25" end="00:00:31:09" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">THERE.</p>
+            <p begin="00:00:31:09" end="00:00:34:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">>> IT'S "THE LATE SHOW" WITH</p>
+            <p begin="00:00:31:09" end="00:00:34:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">STEPHEN COLBERT!</p>
+            <p begin="00:00:34:20" end="00:00:44:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">>> TONIGHT, STEPHEN WELCOMES</p>
+            <p begin="00:00:34:20" end="00:00:44:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">FORMER PRESIDENT AL GORE!</p>
+            <p begin="00:00:44:28" end="00:00:52:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">ISSA RAE, A PERFORMANCE BY</p>
+            <p begin="00:00:44:28" end="00:00:52:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">PLANETARIUM AND RUSSIA'S STATE</p>
+            <p begin="00:00:52:08" end="00:00:54:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">TELEVISION'S ONLY LATE NIGHT</p>
+            <p begin="00:00:52:08" end="00:00:54:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">SHOW.</p>
+            <p begin="00:00:54:06" end="00:00:59:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">LIVE ON TAPE FROM THE ED</p>
+            <p begin="00:00:54:06" end="00:00:59:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">SULLIVAN THEATER IN NEW YORK</p>
+            <p begin="00:00:59:08" end="00:01:02:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">CITY, IT'S STEPHEN COLBERT!</p>
+            <p begin="00:01:02:03" end="00:01:15:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:01:02:03" end="00:01:15:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">( BAND PLAYING )</p>
+            <p begin="00:01:15:29" end="00:01:17:23" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">>> Stephen: VERY NICE.</p>
+            <p begin="00:01:17:23" end="00:01:19:05" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">HEY, EVERYBODY!</p>
+            <p begin="00:01:19:05" end="00:01:24:00" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">HOW ARE YA?</p>
+            <p begin="00:01:24:00" end="00:01:28:07" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">HI, JON, GOOD TO SEE YA!</p>
+            <p begin="00:01:28:07" end="00:01:35:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">( AUDIENCE CHANTING STEPHEN )</p>
+            <p begin="00:01:28:07" end="00:01:35:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">( PIANO RIFF )</p>
+            <p begin="00:01:35:08" end="00:01:37:14" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">>> Stephen: THANKS, EVERYBODY!</p>
+            <p begin="00:01:37:14" end="00:01:39:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">THANK YOU SO MUCH!</p>
+            <p begin="00:01:39:08" end="00:01:44:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:01:39:08" end="00:01:44:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">WELCOME TO "THE LATE SHOW."</p>
+            <p begin="00:01:44:06" end="00:01:45:19" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">PLEASE HAVE A SEAT.</p>
+            <p begin="00:01:45:19" end="00:01:47:16" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">THANK YOU SO MUCH, EVERYBODY.</p>
+            <p begin="00:01:47:16" end="00:01:49:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">WELL, FOLKS, WELCOME TO "THE</p>
+            <p begin="00:01:47:16" end="00:01:49:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">LATE SHOW."</p>
+            <p begin="00:01:49:17" end="00:01:53:04" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">I'M YOUR HOST, STEPHEN COLBERT.</p>
+            <p begin="00:01:53:04" end="00:01:59:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">IT IS -- IT'S RUSSIA WEEK, AND I</p>
+            <p begin="00:01:53:04" end="00:01:59:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">JUST WANT TO GET OUT AHEAD OF</p>
+            <p begin="00:01:59:24" end="00:02:00:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">THE STORY HERE.</p>
+            <p begin="00:02:00:20" end="00:02:03:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">I RECENTLY MET WITH A LOT OF</p>
+            <p begin="00:02:00:20" end="00:02:03:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">RUSSIANS.</p>
+            <p begin="00:02:03:11" end="00:02:04:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">I CAN'T REMEMBER WHY.</p>
+            <p begin="00:02:04:20" end="00:02:07:01" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">MAYBE BECAUSE I WAS IN RUSSIA.</p>
+            <p begin="00:02:07:01" end="00:02:10:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">OH, SOME OF THEM WORKED FOR THE</p>
+            <p begin="00:02:07:01" end="00:02:10:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">GOVERNMENT.</p>
+            <p begin="00:02:10:06" end="00:02:14:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">THIS WEEK, WE'LL BE SHOWING YOU</p>
+            <p begin="00:02:10:06" end="00:02:14:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">ONE RUSSIAN FIELD PIECE.</p>
+            <p begin="00:02:14:15" end="00:02:14:21" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">SORRY.</p>
+            <p begin="00:02:14:21" end="00:02:19:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">I MEANT TO SAY TWO RUSSIAN -- MY</p>
+            <p begin="00:02:14:21" end="00:02:19:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">LAWYERS ARE TELLING ME FIVE</p>
+            <p begin="00:02:19:20" end="00:02:20:12" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">RUSSIAN FIELD PIECES.</p>
+            <p begin="00:02:20:12" end="00:02:22:13" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">I DIDN'T THINK YOU'D FIND OUT.</p>
+            <p begin="00:02:22:13" end="00:02:25:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">THE WHOLE WEEK WAS SUPPOSED TO</p>
+            <p begin="00:02:22:13" end="00:02:25:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">BE A SECRET BUT SOMEONE LEAKED</p>
+            <p begin="00:02:25:19" end="00:02:28:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="39.38% 5.33%">IT TO CBS'S MARKETING</p>
+            <p begin="00:02:25:19" end="00:02:28:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">DEPARTMENT.</p>
+            <p begin="00:02:28:25" end="00:02:31:00" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">I DIDN'T.</p>
+            <p begin="00:02:31:00" end="00:02:34:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">ANYWAY, RUSSIA'S COMING UP LATER</p>
+            <p begin="00:02:31:00" end="00:02:34:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">IN THE SHOW.</p>
+            <p begin="00:02:34:06" end="00:02:39:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">MEANWHILE, BACK IN THE UNITED</p>
+            <p begin="00:02:34:06" end="00:02:39:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">STATES, RUSSIA.</p>
+            <p begin="00:02:39:09" end="00:02:48:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">FOLKS, THINGS ARE NOT LOOKING</p>
+            <p begin="00:02:39:09" end="00:02:48:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">GOOD FOR PRESIDENT SON AND STORE</p>
+            <p begin="00:02:48:06" end="00:02:49:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">BRAND</p>
+            <p begin="00:02:48:06" end="00:02:49:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">BILLY BALDWIN, DONALD TRUMP, JR.</p>
+            <p begin="00:02:49:01" end="00:02:50:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">BECAUSE OF A MEETING HE TOOK</p>
+            <p begin="00:02:49:01" end="00:02:50:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">LAST YEAR WITH RUSSIAN LAWYER</p>
+            <p begin="00:02:50:20" end="00:03:01:00" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">NATALIA VESELNITSKAYA.</p>
+            <p begin="00:03:01:00" end="00:03:02:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">AND NOW WE'VE LEARNED THAT THERE</p>
+            <p begin="00:03:01:00" end="00:03:02:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">WAS ANOTHER RUSSIAN AT THAT</p>
+            <p begin="00:03:02:15" end="00:03:16:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">MEETING, RUSSIAN LOBBYIST RINAT</p>
+            <p begin="00:03:02:15" end="00:03:16:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">AKHMYETSHIN.</p>
+            <p begin="00:03:16:19" end="00:03:18:21" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">FUNNY DETAIL -- HE'S REPORTEDLY</p>
+            <p begin="00:03:16:19" end="00:03:18:21" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">A FORMER SOVIET</p>
+            <p begin="00:03:18:21" end="00:03:19:29" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">COUNTERINTELLIGENCE OFFICER.</p>
+            <p begin="00:03:19:29" end="00:03:21:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">OF COURSE, WHEN IT COMES TO DON,</p>
+            <p begin="00:03:19:29" end="00:03:21:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">JR., THERE'S NOT MUCH</p>
+            <p begin="00:03:21:28" end="00:03:33:06" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">INTELLIGENCE TO COUNTER.</p>
+            <p begin="00:03:33:06" end="00:03:35:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:03:33:06" end="00:03:35:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">( PIANO RIFF )</p>
+            <p begin="00:03:35:09" end="00:03:39:12" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">NOW, AKHMYETSHIN "DENIES ANY</p>
+            <p begin="00:03:35:09" end="00:03:39:12" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">CURRENT TIES TO RUSSIAN SPY</p>
+            <p begin="00:03:39:12" end="00:03:40:07" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">AGENCIES."</p>
+            <p begin="00:03:40:07" end="00:03:41:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">IT MUST BE TRUE.</p>
+            <p begin="00:03:41:03" end="00:03:42:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">REMEMBER THE FIRST RULE OF</p>
+            <p begin="00:03:41:03" end="00:03:42:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">SPY CLUB -- TELL EVERYONE YOU'RE</p>
+            <p begin="00:03:42:19" end="00:03:47:14" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">IN SPY CLUB.</p>
+            <p begin="00:03:47:14" end="00:03:49:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:03:47:14" end="00:03:49:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">POINT IS, THERE'S ANOTHER LIE</p>
+            <p begin="00:03:49:23" end="00:03:53:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">BECAUSE, LAST WEEK, DON, JR.</p>
+            <p begin="00:03:49:23" end="00:03:53:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">DIDN'T MENTION THIS RUSSIAN GUY.</p>
+            <p begin="00:03:53:02" end="00:03:55:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="35.63% 5.33%">NO, HE SAID THIS --</p>
+            <p begin="00:03:53:02" end="00:03:55:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">>> THIS IS EVERYTHING.</p>
+            <p begin="00:03:55:15" end="00:04:00:10" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">THIS IS EVERYTHING.</p>
+            <p begin="00:04:00:10" end="00:04:02:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="35.63% 5.33%">>> Stephen: THIS IS</p>
+            <p begin="00:04:00:10" end="00:04:02:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">EVERYTHING.</p>
+            <p begin="00:04:02:04" end="00:04:04:12" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">MUST HAVE SLIPPED HIS MIND.</p>
+            <p begin="00:04:04:12" end="00:04:07:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">WITH ALL THAT HAIR GEL, THINGS</p>
+            <p begin="00:04:04:12" end="00:04:07:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">JUST SLIDE OUT.</p>
+            <p begin="00:04:07:20" end="00:04:09:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="26.25% 5.33%">( PIANO RIFF )</p>
+            <p begin="00:04:07:20" end="00:04:09:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:04:09:00" end="00:04:10:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">SO THERE WAS A FIFTH PERSON WE</p>
+            <p begin="00:04:09:00" end="00:04:10:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">DIDN'T KNOW ABOUT.</p>
+            <p begin="00:04:10:00" end="00:04:10:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">THEN WE FOUND OUT THERE WAS A</p>
+            <p begin="00:04:10:00" end="00:04:10:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">SIXTH PERSON.</p>
+            <p begin="00:04:10:28" end="00:04:12:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="7.5% 5.33%">SIX!</p>
+            <p begin="00:04:12:20" end="00:04:19:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">THAT'S MORE PEOPLE THAN ARE</p>
+            <p begin="00:04:12:20" end="00:04:19:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">CURRENTLY WORKING AT THE E.P.A.!</p>
+            <p begin="00:04:19:00" end="00:04:21:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:04:19:00" end="00:04:21:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">WHO WAS THE SIXTH PERSON?</p>
+            <p begin="00:04:21:11" end="00:04:22:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">WE DON'T KNOW.</p>
+            <p begin="00:04:22:25" end="00:04:24:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">I'M GUESSING THE GUY WHO HAD TO</p>
+            <p begin="00:04:22:25" end="00:04:24:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">KEEP BRINGING CHAIRS INTO THE</p>
+            <p begin="00:04:24:02" end="00:04:25:15" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">CONFERENCE ROOM.</p>
+            <p begin="00:04:25:15" end="00:04:32:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">NOW, NO ONE'S SAYING THERE WERE</p>
+            <p begin="00:04:25:15" end="00:04:32:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">SEVEN PEOPLE IN THE MEETING</p>
+            <p begin="00:04:32:01" end="00:04:33:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">BECAUSE, TURNS OUT, THERE WERE</p>
+            <p begin="00:04:32:01" end="00:04:33:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">AT LEAST EIGHT PEOPLE IN THE</p>
+            <p begin="00:04:33:29" end="00:04:35:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">ROOM.</p>
+            <p begin="00:04:35:27" end="00:04:38:06" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">EIGHT!</p>
+            <p begin="00:04:38:06" end="00:04:39:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">AND THAT'S NOT EVEN COUNTING THE</p>
+            <p begin="00:04:38:06" end="00:04:39:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">OTHER RUSSIANS THAT ARE NESTED</p>
+            <p begin="00:04:39:18" end="00:04:42:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">INSIDE OF THEM!</p>
+            <p begin="00:04:42:27" end="00:04:53:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:04:42:27" end="00:04:53:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">( APPLAUSE )</p>
+            <p begin="00:04:53:22" end="00:04:57:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">DON, JR.'S DEFENSE THIS ENTIRE</p>
+            <p begin="00:04:53:22" end="00:04:57:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">TIME HAS BEEN THAT HE WANTED TO</p>
+            <p begin="00:04:57:02" end="00:04:59:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">COLLUDE WITH RUSSIA BUT GOT</p>
+            <p begin="00:04:57:02" end="00:04:59:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">NOTHING.</p>
+            <p begin="00:04:59:16" end="00:05:05:09" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">THEREFORE, INNOCENT?</p>
+            <p begin="00:05:05:09" end="00:05:11:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">BUT YOU KNOW WHO DOESN'T</p>
+            <p begin="00:05:05:09" end="00:05:11:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">REMEMBER IT THAT WAY?</p>
+            <p begin="00:05:11:08" end="00:05:22:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:05:11:08" end="00:05:22:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">RINAT AKHMYETSHIN.</p>
+            <p begin="00:05:22:23" end="00:05:24:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="1.88% 5.33%">♪</p>
+            <p begin="00:05:22:23" end="00:05:24:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:05:24:23" end="00:05:30:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">HE CLAIMS THAT NATALIA, THE</p>
+            <p begin="00:05:24:23" end="00:05:30:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">RUSSIAN LAWYER, GAVE DON "A</p>
+            <p begin="00:05:30:09" end="00:05:33:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">PLASTIC FOLDER WITH PRINTED-OUT</p>
+            <p begin="00:05:30:09" end="00:05:33:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">DOCUMENTS THAT DETAILED WHAT SHE</p>
+            <p begin="00:05:33:22" end="00:05:36:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">BELIEVED WAS THE FLOW OF ILLICIT</p>
+            <p begin="00:05:33:22" end="00:05:36:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">FUNDS TO THE DEMOCRATS."</p>
+            <p begin="00:05:36:02" end="00:05:41:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">OKAY, THEY NEVER MET WITH</p>
+            <p begin="00:05:36:02" end="00:05:41:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">RUSSIANS, BUT TURNS OUT THEY</p>
+            <p begin="00:05:41:17" end="00:05:43:05" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="7.5% 5.33%">DID.</p>
+            <p begin="00:05:43:05" end="00:05:44:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">BUT ALL THEY TALKED ABOUT WAS</p>
+            <p begin="00:05:43:05" end="00:05:44:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">ADOPTION, BUT IT TURNS OUT THEY</p>
+            <p begin="00:05:44:29" end="00:05:46:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">TALKED ABOUT COLLUDING, BUT THE</p>
+            <p begin="00:05:44:29" end="00:05:46:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">ONE RUSSIAN DIDN'T GIVE THEM ANY</p>
+            <p begin="00:05:46:07" end="00:05:47:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">DOCUMENTS, BUT IT TURNS SHE DID</p>
+            <p begin="00:05:46:07" end="00:05:47:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">AND IT WASN'T ONE RUSSIAN, IT</p>
+            <p begin="00:05:47:16" end="00:05:50:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">WAS FIVE.</p>
+            <p begin="00:05:50:26" end="00:05:52:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">THIS IS THE FIRST TIME A TRUMP</p>
+            <p begin="00:05:50:26" end="00:05:52:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">HAS LIED ABOUT HAVING A SMALLER</p>
+            <p begin="00:05:52:22" end="00:05:59:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">CROWD SIZE.</p>
+            <p begin="00:05:59:20" end="00:06:08:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:05:59:20" end="00:06:08:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">MEANWHILE, DONALD TRUMP HAS</p>
+            <p begin="00:06:08:08" end="00:06:10:12" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">ADDED ANOTHER LAWYER TO HIS</p>
+            <p begin="00:06:08:08" end="00:06:10:12" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">TEAM, FORMER FEDERAL PROSECUTOR</p>
+            <p begin="00:06:10:12" end="00:06:18:05" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">AND MAN HIRING THE THREE STOOGES</p>
+            <p begin="00:06:10:12" end="00:06:18:05" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">TO MOVE A PIANO, TY COBB.</p>
+            <p begin="00:06:18:05" end="00:06:18:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">YES, THAT'S REALLY HIS NAME.</p>
+            <p begin="00:06:18:27" end="00:06:25:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">SO WHO IS TRUMP'S NEW LAWYER AND</p>
+            <p begin="00:06:18:27" end="00:06:25:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">MODEL TRAIN MAGAZINE'S 2010 BAD</p>
+            <p begin="00:06:25:24" end="00:06:31:23" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">BOY OF THE YEAR, TY COBB?</p>
+            <p begin="00:06:31:23" end="00:06:35:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">WELL, ACCORDING TO THE BIO ON</p>
+            <p begin="00:06:31:23" end="00:06:35:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">HIS FIRM'S WEBSITE, TY COBB GETS</p>
+            <p begin="00:06:35:23" end="00:06:38:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">RESULTS THE OLD-FASHIONED WAY,</p>
+            <p begin="00:06:35:23" end="00:06:38:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">WHICH, PRESUMABLY, IS ALSO HOW</p>
+            <p begin="00:06:38:25" end="00:06:42:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">HE GETS HIS MUSTACHE WAX AND</p>
+            <p begin="00:06:38:25" end="00:06:42:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">HOMEMADE ROOT BEER.</p>
+            <p begin="00:06:42:07" end="00:06:44:15" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">BUT HE'S NO SLOUCH.</p>
+            <p begin="00:06:44:15" end="00:06:52:05" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">BY "HE" I MEAN SALTWATER TAFFY</p>
+            <p begin="00:06:44:15" end="00:06:52:05" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">MASCOT, TY COBB.</p>
+            <p begin="00:06:52:05" end="00:06:55:12" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">HE'S WON HUGE LEGAL CASES</p>
+            <p begin="00:06:52:05" end="00:06:55:12" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">INCLUDING WHEN HE SUCCESSFULLY</p>
+            <p begin="00:06:55:12" end="00:06:57:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">DEFENDED A BEEF PROCESSOR</p>
+            <p begin="00:06:55:12" end="00:06:57:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">AGAINST CHARGES OF LYING TO</p>
+            <p begin="00:06:57:16" end="00:06:59:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">INVESTIGATORS.</p>
+            <p begin="00:06:59:25" end="00:07:01:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">THAT WAS VERY GENEROUS OF COBB</p>
+            <p begin="00:06:59:25" end="00:07:01:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">TO HELP OUT A RIVAL CATTLE</p>
+            <p begin="00:07:01:17" end="00:07:03:24" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">BARON.</p>
+            <p begin="00:07:03:24" end="00:07:07:10" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">BUT JUST BECAUSE HE'S RUTHLESS</p>
+            <p begin="00:07:03:24" end="00:07:07:10" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">IN THE COURT ROOM DOESN'T MEAN</p>
+            <p begin="00:07:07:10" end="00:07:10:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">THAT THERE ISN'T A SOFT SIDE TO</p>
+            <p begin="00:07:07:10" end="00:07:10:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">TRUMP LAWYER AND LOLLIPOP GUILD</p>
+            <p begin="00:07:10:00" end="00:07:21:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">STRIKE BREAKER, TY COBB.</p>
+            <p begin="00:07:21:26" end="00:07:23:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">FOR EXAMPLE, HE WAS DESCRIBED BY</p>
+            <p begin="00:07:21:26" end="00:07:23:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">CNN LEGAL ANALYST MICHAEL ZELDIN</p>
+            <p begin="00:07:23:20" end="00:07:24:10" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">AS "A GENUINELY NICE MAN."</p>
+            <p begin="00:07:24:10" end="00:07:26:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">OF COURSE, IT'S NOT SURPRISING</p>
+            <p begin="00:07:24:10" end="00:07:26:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">THAT YOU'D GET A NICE VIBE FROM</p>
+            <p begin="00:07:26:09" end="00:07:27:26" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">TRUMP LAWYER AND REJECTED</p>
+            <p begin="00:07:26:09" end="00:07:27:26" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">WESTWORLD SALOON KEEPER, TY</p>
+            <p begin="00:07:27:26" end="00:07:33:05" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">COBB.</p>
+            <p begin="00:07:33:05" end="00:07:35:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">TODAY, HIS NEW CLIENT, DONALD</p>
+            <p begin="00:07:33:05" end="00:07:35:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">TRUMP, UNVEILED "MADE IN</p>
+            <p begin="00:07:35:00" end="00:07:37:11" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">AMERICA" WEEK.</p>
+            <p begin="00:07:37:11" end="00:07:38:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">POSSIBLY TO DISTRACT FROM THE</p>
+            <p begin="00:07:37:11" end="00:07:38:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">FACT THAT HIS CAMPAIGN WAS MADE</p>
+            <p begin="00:07:38:24" end="00:07:41:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">IN RUSSIA.</p>
+            <p begin="00:07:41:20" end="00:07:44:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">ONE OF THE PRODUCTS MADE IN</p>
+            <p begin="00:07:41:20" end="00:07:44:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">AMERICA THAT HE HIGHLIGHTED WAS</p>
+            <p begin="00:07:44:18" end="00:07:48:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">A BIG SHINY FIRE TRUCK!</p>
+            <p begin="00:07:48:08" end="00:07:53:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">AND THE PRESIDENT, OF COURSE,</p>
+            <p begin="00:07:48:08" end="00:07:53:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">COULD NOT RESIST GETTING IN.</p>
+            <p begin="00:07:53:28" end="00:07:58:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:07:53:28" end="00:07:58:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">WHERE'S THE FIRE?</p>
+            <p begin="00:07:58:16" end="00:07:59:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">WE HAVEN'T FOUND THE FIRE, YET,</p>
+            <p begin="00:07:58:16" end="00:07:59:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">MR. PRESIDENT, BUT THERE'S MORE</p>
+            <p begin="00:07:59:24" end="00:08:02:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">SMOKE EVERY DAY.</p>
+            <p begin="00:08:02:08" end="00:08:04:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">WE'VE GOT A GREAT SHOW FOR YOU</p>
+            <p begin="00:08:02:08" end="00:08:04:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">TONIGHT.</p>
+            <p begin="00:08:04:23" end="00:08:06:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:08:04:23" end="00:08:06:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">( BAND PLAYING )</p>
+            <p begin="00:08:06:01" end="00:08:06:22" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">AL GORE IS HERE.</p>
+            <p begin="00:08:06:22" end="00:08:08:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">BUT WHEN WE RETURN, I'M IN</p>
+            <p begin="00:08:06:22" end="00:08:08:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">RUSSIA!</p>
+            <p begin="00:08:08:09" end="00:08:10:01" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">STICK AROUND.</p>
+            <p begin="00:08:33:22" end="00:08:35:27" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:08:33:22" end="00:08:35:27" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="1.88% 5.33%">♪</p>
+            <p begin="00:08:35:27" end="00:08:38:10" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">>> Stephen: WELCOME BACK,</p>
+            <p begin="00:08:35:27" end="00:08:38:10" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">EVERYBODY!</p>
+            <p begin="00:08:38:10" end="00:08:40:29" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">JON BATISTE AND "STAY HUMAN"!</p>
+            <p begin="00:08:40:29" end="00:08:42:23" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">RIGHT THERE!</p>
+            <p begin="00:08:42:23" end="00:08:51:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:08:42:23" end="00:08:51:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">WELL, LADIES AND GENTLEMEN,</p>
+            <p begin="00:08:51:11" end="00:08:52:18" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">WELCOME BACK.</p>
+            <p begin="00:08:52:18" end="00:08:58:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">AS YOU CAN SEE, IT'S "RUSSIA</p>
+            <p begin="00:08:52:18" end="00:08:58:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">WEEK"</p>
+            <p begin="00:08:58:01" end="00:08:59:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">HERE AT THE "LATE SHOW," WHICH</p>
+            <p begin="00:08:58:01" end="00:08:59:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">IS PART OF "RUSSIA FOUR YEARS"</p>
+            <p begin="00:08:59:07" end="00:08:59:18" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">HERE IN AMERICA.</p>
+            <p begin="00:08:59:18" end="00:09:00:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">BECAUSE EVER SINCE TRUMP'S</p>
+            <p begin="00:08:59:18" end="00:09:00:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">ELECTION, EVERYONE HAS BEEN</p>
+            <p begin="00:09:00:24" end="00:09:01:16" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">TALKING ABOUT RUSSIA.</p>
+            <p begin="00:09:01:16" end="00:09:03:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">IT'S IN ALL THE PAPERS, IT'S ON</p>
+            <p begin="00:09:01:16" end="00:09:03:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">TV, IT'S IN THE</p>
+            <p begin="00:09:03:04" end="00:09:08:21" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">SELF-INCRIMINATING EMAILS WE</p>
+            <p begin="00:09:03:04" end="00:09:08:21" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">TWEET FOR SOME REASON.</p>
+            <p begin="00:09:08:21" end="00:09:11:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">IN FACT, TO GET AWAY FROM THE</p>
+            <p begin="00:09:08:21" end="00:09:11:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">RUSSIA ELECTION HACKING STORY,</p>
+            <p begin="00:09:11:18" end="00:09:14:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">YOU'D HAVE TO TRAVEL ALL THE WAY</p>
+            <p begin="00:09:11:18" end="00:09:14:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">TO WHATEVER COUNTRY PRODUCES</p>
+            <p begin="00:09:14:06" end="00:09:17:22" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">"FOX AND FRIENDS."</p>
+            <p begin="00:09:17:22" end="00:09:21:10" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">BUT DESPITE ALL THE RUSSIA TALK,</p>
+            <p begin="00:09:17:22" end="00:09:21:10" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">WE KNOW ALMOST NOTHING ABOUT</p>
+            <p begin="00:09:21:10" end="00:09:28:00" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">WHAT AVERAGE RUSSIANS THINK.</p>
+            <p begin="00:09:28:00" end="00:09:29:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">SO I THOUGHT, SOMEONE SHOULD GO</p>
+            <p begin="00:09:28:00" end="00:09:29:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">TO RUSSIA AND FIND OUT.</p>
+            <p begin="00:09:29:14" end="00:09:34:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">AND THEN I THOUGHT OF THE</p>
+            <p begin="00:09:29:14" end="00:09:34:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">PERFECT PERSON -- NOT ME.</p>
+            <p begin="00:09:34:07" end="00:09:37:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">BECAUSE, AND THIS IS TRUE, MY</p>
+            <p begin="00:09:34:07" end="00:09:37:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">EXECUTIVE PRODUCER CHRIS OVER</p>
+            <p begin="00:09:37:29" end="00:09:40:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">THERE BACK IN DECEMBER SAID,</p>
+            <p begin="00:09:37:29" end="00:09:40:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">HEY, DO YOU WANT THE TAKE A TRIP</p>
+            <p begin="00:09:40:16" end="00:09:41:21" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">TO RUSSIA?</p>
+            <p begin="00:09:41:21" end="00:09:44:06" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">AND I SAID, ABSOLUTELY NOT.</p>
+            <p begin="00:09:44:06" end="00:09:46:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:09:44:06" end="00:09:46:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">AND HE SAID, WHAT IF I JUST</p>
+            <p begin="00:09:46:14" end="00:09:48:26" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">FOUND OUT HOW MUCH IT WOULD COST</p>
+            <p begin="00:09:46:14" end="00:09:48:26" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">TO GO?</p>
+            <p begin="00:09:48:26" end="00:09:51:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">I SAID, WELL, THAT COULDN'T HURT</p>
+            <p begin="00:09:48:26" end="00:09:51:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">ANYTHING.</p>
+            <p begin="00:09:51:16" end="00:09:55:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">THE NEXT THING I KNEW, I WAS IN</p>
+            <p begin="00:09:51:16" end="00:09:55:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">MOSCOW.</p>
+            <p begin="00:09:55:22" end="00:09:57:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:09:55:22" end="00:09:57:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">THE TRIP WAS AMAZING.</p>
+            <p begin="00:09:57:29" end="00:09:59:13" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">THE RUSSIAN PEOPLE WERE</p>
+            <p begin="00:09:57:29" end="00:09:59:13" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">INCREDIBLY FRIENDLY AND</p>
+            <p begin="00:09:59:13" end="00:10:02:05" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">WELCOMING.</p>
+            <p begin="00:10:02:05" end="00:10:05:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">IN FACT, THERE WERE TEAMS OF</p>
+            <p begin="00:10:02:05" end="00:10:05:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">THEM FOLLOWING ME ABOUT A BLOCK</p>
+            <p begin="00:10:05:15" end="00:10:08:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">BEHIND WHEREVER I WENT -- IN</p>
+            <p begin="00:10:05:15" end="00:10:08:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">CASE I NEEDED SOMETHING I GUESS.</p>
+            <p begin="00:10:08:18" end="00:10:12:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">I TALKED TO THE PEOPLE ON THE</p>
+            <p begin="00:10:08:18" end="00:10:12:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">STREET, I SPENT A DAY WITH</p>
+            <p begin="00:10:12:20" end="00:10:15:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">RUSSIAN OLIGARCH MIKHAIL</p>
+            <p begin="00:10:12:20" end="00:10:15:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">PROKEROV, I MET WITH A RUSSIAN</p>
+            <p begin="00:10:15:28" end="00:10:18:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">SECURITY EXPERT AND PUTIN</p>
+            <p begin="00:10:15:28" end="00:10:18:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">DISSIDENT.</p>
+            <p begin="00:10:18:23" end="00:10:21:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">I EVEN STAYED IN THE RITZ</p>
+            <p begin="00:10:18:23" end="00:10:21:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">CARLTON PRESIDENTIAL SUITE.</p>
+            <p begin="00:10:21:23" end="00:10:26:15" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">YES, THAT ONE.</p>
+            <p begin="00:10:26:15" end="00:10:28:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:10:26:15" end="00:10:28:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:10:28:09" end="00:10:28:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="7.5% 5.33%">YES.</p>
+            <p begin="00:10:28:25" end="00:10:29:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">VERY NICE.</p>
+            <p begin="00:10:29:27" end="00:10:32:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">VERY NICE.</p>
+            <p begin="00:10:32:26" end="00:10:35:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="26.25% 5.33%">( PIANO RIFF )</p>
+            <p begin="00:10:32:26" end="00:10:35:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">( APPLAUSE )</p>
+            <p begin="00:10:35:01" end="00:10:37:22" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">I WORE A HAZMAT SUIT.</p>
+            <p begin="00:10:37:22" end="00:10:38:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:10:37:22" end="00:10:38:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">WE'LL HAVE ALL OF THAT ALL THIS</p>
+            <p begin="00:10:38:23" end="00:10:41:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">WEEK, AND TONIGHT, OUR FIRST</p>
+            <p begin="00:10:38:23" end="00:10:41:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">PIECE FROM BEAUTIFUL</p>
+            <p begin="00:10:41:06" end="00:10:45:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">ST. PETERSBURG.</p>
+            <p begin="00:10:45:26" end="00:10:48:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> STEPHEN: WHEN YOU THINK OF</p>
+            <p begin="00:10:45:26" end="00:10:48:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">RUSSIA, YOU THINK OF ONE</p>
+            <p begin="00:10:48:18" end="00:10:51:16" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">THING -- LATE NIGHT COMEDY.</p>
+            <p begin="00:10:51:16" end="00:10:55:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">IVAN URGANT IS RUSSIA'S MOST</p>
+            <p begin="00:10:51:16" end="00:10:55:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">POPULAR AND ONLY LATE NIGHT TALK</p>
+            <p begin="00:10:55:29" end="00:11:00:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">SHOW HOST AND WAS GRACIOUS</p>
+            <p begin="00:10:55:29" end="00:11:00:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">ENOUGH TO INVITE ME ON AS A</p>
+            <p begin="00:11:00:17" end="00:11:03:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">GUEST OF "EVENING URGANT."</p>
+            <p begin="00:11:03:27" end="00:11:05:26" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">BUT BEFORE I TOOK TO THE</p>
+            <p begin="00:11:03:27" end="00:11:05:26" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">KREMLIN-SANCTIONED AIR-WAVES OF</p>
+            <p begin="00:11:05:26" end="00:11:06:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">STATE-RUN TELEVISION.</p>
+            <p begin="00:11:06:20" end="00:11:09:12" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">I FIRST WANTED TO HIT THE</p>
+            <p begin="00:11:06:20" end="00:11:09:12" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">STREETS OF ST. PETERSBURG TO</p>
+            <p begin="00:11:09:12" end="00:11:11:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">LEARN A LITTLE BIT ABOUT THE</p>
+            <p begin="00:11:09:12" end="00:11:11:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">RUSSIAN SENSE OF HUMOR.</p>
+            <p begin="00:11:11:20" end="00:11:15:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">WHAT'S LIKE A CLASSIC RUSSIAN</p>
+            <p begin="00:11:11:20" end="00:11:15:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">JOKE?</p>
+            <p begin="00:11:15:15" end="00:11:16:13" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">>> THE CROW FLIES.</p>
+            <p begin="00:11:16:13" end="00:11:20:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">>> STEPHEN: THE CROW FLIES.</p>
+            <p begin="00:11:20:08" end="00:11:23:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">>> AND IT SMACKS INTO THE STOP</p>
+            <p begin="00:11:20:08" end="00:11:23:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">SIGN.</p>
+            <p begin="00:11:23:00" end="00:11:28:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">>> STEPHEN: OH, THE CROW SMACKS</p>
+            <p begin="00:11:23:00" end="00:11:28:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">INTO THE STOP SIGN.</p>
+            <p begin="00:11:28:22" end="00:11:34:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">>> AND THEN IT SAYS, SCHLAGBAUM,</p>
+            <p begin="00:11:28:22" end="00:11:34:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">BAUM BAUM... IT'S THE SOUND OF</p>
+            <p begin="00:11:34:04" end="00:11:37:24" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">HITTING THE STOP SIGN.</p>
+            <p begin="00:11:37:24" end="00:11:42:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">AND THAT'S THE WORD THAT</p>
+            <p begin="00:11:37:24" end="00:11:42:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">INDICATES THE STOP SIGN ITSELF.</p>
+            <p begin="00:11:42:22" end="00:11:44:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">>> STEPHEN: OH, SO THE STOP SIGN</p>
+            <p begin="00:11:42:22" end="00:11:44:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">MAKES THE SOUND OF THE STOP</p>
+            <p begin="00:11:44:06" end="00:11:46:22" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">SIGN.</p>
+            <p begin="00:11:46:22" end="00:11:48:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">>> OF THE CROW HITTING THE STOP</p>
+            <p begin="00:11:46:22" end="00:11:48:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">SIGN.</p>
+            <p begin="00:11:48:18" end="00:11:50:28" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">>> STEPHEN: OKAY.</p>
+            <p begin="00:11:50:28" end="00:11:52:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">NOW THAT I'VE HEARD FROM THE</p>
+            <p begin="00:11:50:28" end="00:11:52:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">PEOPLE, I WANTED TO HEAR FROM MY</p>
+            <p begin="00:11:52:23" end="00:11:55:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">COMRADE IN LATE NIGHT.</p>
+            <p begin="00:11:55:26" end="00:11:59:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">SO I SAT DOWN WITH IVAN URGANT</p>
+            <p begin="00:11:55:26" end="00:11:59:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">HIMSELF TO DISCUSS THE OBSTACLES</p>
+            <p begin="00:11:59:07" end="00:12:03:01" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">HE FACES DOING COMEDY IN RUSSIA.</p>
+            <p begin="00:12:03:01" end="00:12:04:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">OKAY, SO LET'S TALK ABOUT LIKE</p>
+            <p begin="00:12:03:01" end="00:12:04:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">RESTRICTIONS.</p>
+            <p begin="00:12:04:16" end="00:12:09:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">ARE THERE THINGS YOU CAN AND</p>
+            <p begin="00:12:04:16" end="00:12:09:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">CANNOT SAY ON YOUR SHOW?</p>
+            <p begin="00:12:09:02" end="00:12:11:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">DO YOU FEEL COMFORTABLE DOING</p>
+            <p begin="00:12:09:02" end="00:12:11:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">POLITICS ON YOUR SHOW?</p>
+            <p begin="00:12:11:19" end="00:12:15:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">>> NOT REALLY TOO MUCH POLITICS.</p>
+            <p begin="00:12:15:03" end="00:12:16:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">WE DO SOME.</p>
+            <p begin="00:12:16:26" end="00:12:17:27" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> STEPHEN: DO YOU TALK ABOUT</p>
+            <p begin="00:12:16:26" end="00:12:17:27" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">TRUMP ON YOUR SHOW?</p>
+            <p begin="00:12:17:27" end="00:12:18:22" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">>> FROM TIME TO TIME.</p>
+            <p begin="00:12:18:22" end="00:12:20:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">>> STEPHEN: BECAUSE WE TALK</p>
+            <p begin="00:12:18:22" end="00:12:20:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">ABOUT HIM ALL THE TIME.</p>
+            <p begin="00:12:20:18" end="00:12:24:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">>> YEAH, THAT'S WHY YOU GUYS ARE</p>
+            <p begin="00:12:20:18" end="00:12:24:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">NUMBER ONE NOW IN THE STATES.</p>
+            <p begin="00:12:24:02" end="00:12:25:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">THANK YOU, MR. PRESIDENT.</p>
+            <p begin="00:12:25:25" end="00:12:29:09" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">>> STEPHEN: THANK YOU VERY MUCH.</p>
+            <p begin="00:12:29:09" end="00:12:33:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">>> SO WE'RE MORE CLOSE TO</p>
+            <p begin="00:12:29:09" end="00:12:33:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">FALLON, THAN TO JOHN OLIVER.</p>
+            <p begin="00:12:33:15" end="00:12:37:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">>> STEPHEN: DOES PUTIN WATCH</p>
+            <p begin="00:12:33:15" end="00:12:37:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">YOUR SHOW?</p>
+            <p begin="00:12:37:17" end="00:12:53:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">>> NO, I DON'T KNOW.</p>
+            <p begin="00:12:53:03" end="00:12:53:18" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">>> ASK HIM ABOUT PUTIN.</p>
+            <p begin="00:12:53:18" end="00:12:54:01" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">ASK HIM ABOUT PUTIN.</p>
+            <p begin="00:12:54:01" end="00:12:54:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">IS HE LIKE TO SIT NAKED ON A</p>
+            <p begin="00:12:54:01" end="00:12:54:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">HORSE?</p>
+            <p begin="00:12:54:24" end="00:13:01:13" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">I WON'T SAY IT!</p>
+            <p begin="00:13:01:13" end="00:13:02:00" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">>> STEPHEN: THAT I KNOW OF!</p>
+            <p begin="00:13:02:00" end="00:13:03:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">I WAS FINALLY READY TO MAKE MY</p>
+            <p begin="00:13:02:00" end="00:13:03:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">RUSSIAN DEBUT.</p>
+            <p begin="00:13:03:03" end="00:13:04:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">>> STEPHEN: INTRODUCING STEPHEN</p>
+            <p begin="00:13:03:03" end="00:13:04:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">COLBERT!</p>
+            <p begin="00:13:04:11" end="00:13:08:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">>> STEPHEN: I LOVE THE RUSSIAN</p>
+            <p begin="00:13:04:11" end="00:13:08:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">PEOPLE.</p>
+            <p begin="00:13:08:14" end="00:13:10:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">>> WHY DO YOU LOVE RUSSIAN</p>
+            <p begin="00:13:08:14" end="00:13:10:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">PEOPLE?</p>
+            <p begin="00:13:10:01" end="00:13:12:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">HOW COME YOU SUDDENLY STARTED</p>
+            <p begin="00:13:10:01" end="00:13:12:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">LOVING US?</p>
+            <p begin="00:13:12:02" end="00:13:15:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">>> STEPHEN: BECAUSE THEY'RE SO</p>
+            <p begin="00:13:12:02" end="00:13:15:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">FRIENDLY... THEY'RE SO FRIENDLY,</p>
+            <p begin="00:13:15:19" end="00:13:19:07" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">THEY'RE SO WELCOMING.</p>
+            <p begin="00:13:19:07" end="00:13:22:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">I WAS OUT ON THE STREETS LAST</p>
+            <p begin="00:13:19:07" end="00:13:22:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">NIGHT HERE IN ST. PETERSBURG.</p>
+            <p begin="00:13:22:23" end="00:13:24:27" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">>> THAT'S YOUR VERY FIRST VISIT</p>
+            <p begin="00:13:22:23" end="00:13:24:27" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">TO RUSSIA?</p>
+            <p begin="00:13:24:27" end="00:13:27:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">YOU'VE NEVER BEEN TO RUSSIA</p>
+            <p begin="00:13:24:27" end="00:13:27:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">BEFORE?</p>
+            <p begin="00:13:27:03" end="00:13:28:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> STEPHEN: THIS IS THE FIRST</p>
+            <p begin="00:13:27:03" end="00:13:28:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">TIME I'VE EVER BEEN IN RUSSIA.</p>
+            <p begin="00:13:28:09" end="00:13:30:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="7.5% 5.33%">I --</p>
+            <p begin="00:13:28:09" end="00:13:30:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">>> YOU'VE NEVER BEEN TO THE</p>
+            <p begin="00:13:30:29" end="00:13:32:12" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">SOVIET UNION?</p>
+            <p begin="00:13:32:12" end="00:13:37:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> STEPHEN: I'D LIKE A LAWYER</p>
+            <p begin="00:13:32:12" end="00:13:37:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">PRESENT BEFORE I ANSWER THAT.</p>
+            <p begin="00:13:37:09" end="00:13:40:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:13:37:09" end="00:13:40:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">I WANT TO TELL YOU, I AM SO</p>
+            <p begin="00:13:40:03" end="00:13:42:21" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">HONORED TO BE HERE RIGHT NOW</p>
+            <p begin="00:13:40:03" end="00:13:42:21" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">BECAUSE YOU ARE THE NUMBER ONE</p>
+            <p begin="00:13:42:21" end="00:13:45:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">SHOW HERE AND THIS IS THE STATE</p>
+            <p begin="00:13:42:21" end="00:13:45:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">TV, SO YOU ARE OFFICIALLY THE</p>
+            <p begin="00:13:45:22" end="00:13:47:24" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">EMPLOYEE OF THE STATE.</p>
+            <p begin="00:13:47:24" end="00:13:51:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">AND WE AGREED THAT I WILL BE ON</p>
+            <p begin="00:13:47:24" end="00:13:51:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">THE SHOW.</p>
+            <p begin="00:13:51:28" end="00:13:54:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">WE-- WHAT'S THE WORD FOR IT-- WE</p>
+            <p begin="00:13:51:28" end="00:13:54:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">COLLUDED THAT I WOULD BE ON THE</p>
+            <p begin="00:13:54:29" end="00:13:58:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">SHOW, AND SO I LOOK FORWARD TO</p>
+            <p begin="00:13:54:29" end="00:13:58:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">GOING BACK TO AMERICA AND</p>
+            <p begin="00:13:58:01" end="00:14:00:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">TESTIFYING BEFORE THE SENATE</p>
+            <p begin="00:13:58:01" end="00:14:00:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">INTELLIGENCE COMMITTEE ABOUT</p>
+            <p begin="00:14:00:06" end="00:14:01:11" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">COLLUDING WITH RUSSIANS.</p>
+            <p begin="00:14:01:11" end="00:14:05:22" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">THANK YOU FOR THAT OPPORTUNITY.</p>
+            <p begin="00:14:05:22" end="00:14:07:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">>> THE THING IS, LOOK, THERE'S A</p>
+            <p begin="00:14:05:22" end="00:14:07:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">LOT GOING ON BETWEEN OUR</p>
+            <p begin="00:14:07:08" end="00:14:09:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">COUNTRIES.</p>
+            <p begin="00:14:09:26" end="00:14:11:13" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">BUT WE HAVE TO BE FRIENDS.</p>
+            <p begin="00:14:11:13" end="00:14:13:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">WE HAVE TO BE FRIENDS.</p>
+            <p begin="00:14:13:25" end="00:14:16:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">BUT BEFORE WE CAN BE FRIENDS,</p>
+            <p begin="00:14:13:25" end="00:14:16:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">HERE IN RUSSIA, WE MUST</p>
+            <p begin="00:14:16:20" end="00:14:18:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">QUARREL -- OR TO PUT IT SIMPLY,</p>
+            <p begin="00:14:16:20" end="00:14:18:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">TO FIGHT.</p>
+            <p begin="00:14:18:24" end="00:14:24:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">HIT ME.</p>
+            <p begin="00:14:24:08" end="00:14:30:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:14:24:08" end="00:14:30:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">( APPLAUSE )</p>
+            <p begin="00:14:30:18" end="00:14:33:07" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">NOW WE CAN BE FRIENDS.</p>
+            <p begin="00:14:33:07" end="00:14:39:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">PLEASE TAKE A LOOK WHAT I GOT</p>
+            <p begin="00:14:33:07" end="00:14:39:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">FOR YOU.</p>
+            <p begin="00:14:39:22" end="00:14:44:26" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="35.63% 5.33%">STEPHEN, STEPHEN --</p>
+            <p begin="00:14:39:22" end="00:14:44:26" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">>> Stephen: YES?</p>
+            <p begin="00:14:44:26" end="00:14:47:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">THIS IS THE SEGMENT AND THE</p>
+            <p begin="00:14:44:26" end="00:14:47:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="7.5% 5.33%">GAME</p>
+            <p begin="00:14:47:23" end="00:14:49:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">CALLED "THE RUSSIAN RUSSIAN</p>
+            <p begin="00:14:47:23" end="00:14:49:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">ROULETTE."</p>
+            <p begin="00:14:49:22" end="00:14:53:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">PLEASE.</p>
+            <p begin="00:14:53:20" end="00:14:55:13" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="1.88% 5.33%">♪</p>
+            <p begin="00:14:53:20" end="00:14:55:13" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">>> Stephen: WHAT'S THIS?</p>
+            <p begin="00:14:55:13" end="00:14:58:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> WE SPIN, YOU TAKE THE SHOT</p>
+            <p begin="00:14:55:13" end="00:14:58:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">THAT THE ARROW POINTS TO.</p>
+            <p begin="00:14:58:01" end="00:15:02:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">AND THEN LET'S TOAST-- WE LIKE</p>
+            <p begin="00:14:58:01" end="00:15:02:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">TO TOAST HERE IN RUSSIA.</p>
+            <p begin="00:15:02:22" end="00:15:03:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">YOU TOAST RUSSIA, AND I WILL</p>
+            <p begin="00:15:02:22" end="00:15:03:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">TOAST AMERICA.</p>
+            <p begin="00:15:03:22" end="00:15:04:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">LET'S TRY.</p>
+            <p begin="00:15:04:27" end="00:15:07:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">>> STEPHEN: OH, I'D LOVE TO, I'D</p>
+            <p begin="00:15:04:27" end="00:15:07:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">LOVE TO.</p>
+            <p begin="00:15:07:25" end="00:15:15:17" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">WHAT DO WE DO WITH THE PICKLES?</p>
+            <p begin="00:15:15:17" end="00:15:20:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( APPLAUSE )</p>
+            <p begin="00:15:15:17" end="00:15:20:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">>> NO, NO, NO, NO.</p>
+            <p begin="00:15:20:15" end="00:15:23:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">YOU WILL FIND OUT IN THE</p>
+            <p begin="00:15:20:15" end="00:15:23:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">PROCESS.</p>
+            <p begin="00:15:23:17" end="00:15:27:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">YOU WILL RETURN A DIFFERENT MAN</p>
+            <p begin="00:15:23:17" end="00:15:27:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">TO AMERICA, A DIFFERENT MAN.</p>
+            <p begin="00:15:27:07" end="00:15:28:13" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">YOUR LIFE WILL CHANGE.</p>
+            <p begin="00:15:28:13" end="00:15:30:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">COME ON, SPIN.</p>
+            <p begin="00:15:30:26" end="00:15:31:17" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">WELL, GO AHEAD.</p>
+            <p begin="00:15:31:17" end="00:15:33:07" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">PLEASE.</p>
+            <p begin="00:15:33:07" end="00:15:34:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">OKAY, EASY. THAT'S IT.</p>
+            <p begin="00:15:34:03" end="00:15:39:01" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">UH-HUH.</p>
+            <p begin="00:15:39:01" end="00:15:39:29" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">WELL, PROBABLY THIS ONE.</p>
+            <p begin="00:15:39:29" end="00:15:42:12" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">PLEASE.</p>
+            <p begin="00:15:42:12" end="00:15:46:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">TAKE IT OUT CAREFULLY.</p>
+            <p begin="00:15:46:20" end="00:15:48:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">WELL, SAY A TOAST, DRINK, AND</p>
+            <p begin="00:15:46:20" end="00:15:48:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">THEN I'LL SHOW YOU WHAT TO DO</p>
+            <p begin="00:15:48:19" end="00:15:57:29" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">WITH THE PICKLES.</p>
+            <p begin="00:15:57:29" end="00:16:03:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">>> STEPHEN: TO THE BEAUTIFUL AND</p>
+            <p begin="00:15:57:29" end="00:16:03:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">FRIENDLY RUSSIAN PEOPLE.</p>
+            <p begin="00:16:03:06" end="00:16:06:27" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">I DON'T UNDERSTAND WHY NO</p>
+            <p begin="00:16:03:06" end="00:16:06:27" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">MEMBERS OF THE TRUMP</p>
+            <p begin="00:16:06:27" end="00:16:12:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">ADMINISTRATION CAN REMEMBER</p>
+            <p begin="00:16:06:27" end="00:16:12:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">MEETING YOU.</p>
+            <p begin="00:16:12:03" end="00:16:14:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:16:12:03" end="00:16:14:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">>> STEPHEN.</p>
+            <p begin="00:16:14:19" end="00:16:15:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">AND NOW RIGHT AWAY, RIGHT AWAY,</p>
+            <p begin="00:16:14:19" end="00:16:15:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">RIGHT AWAY YOU EAT IT.</p>
+            <p begin="00:16:15:23" end="00:16:17:13" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">THAT'S IT.</p>
+            <p begin="00:16:17:13" end="00:16:18:13" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">EXCELLENT.</p>
+            <p begin="00:16:18:13" end="00:16:19:06" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">GIVE ME THIS SHOT.</p>
+            <p begin="00:16:19:06" end="00:16:22:29" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">>> STEPHEN: IS THIS ALL VODKA?</p>
+            <p begin="00:16:22:29" end="00:16:24:16" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">>> WELL, NATURALLY.</p>
+            <p begin="00:16:24:16" end="00:16:27:26" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">>> STEPHEN: THEN WHY DO WE SPIN</p>
+            <p begin="00:16:24:16" end="00:16:27:26" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="5.63% 5.33%">IT?</p>
+            <p begin="00:16:27:26" end="00:16:30:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">>> BECAUSE IT'S "THE RUSSIAN</p>
+            <p begin="00:16:27:26" end="00:16:30:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">RUSSIAN ROULETTE!"</p>
+            <p begin="00:16:30:11" end="00:16:33:12" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">>> STEPHEN: SO EVERY SINGLE ONE</p>
+            <p begin="00:16:30:11" end="00:16:33:12" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">OF THEM IS A BULLET?</p>
+            <p begin="00:16:33:12" end="00:16:34:24" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">>> OF COURSE!</p>
+            <p begin="00:16:34:24" end="00:16:35:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">WELCOME TO RUSSIA, STEPHEN!</p>
+            <p begin="00:16:35:26" end="00:16:43:13" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">>> STEPHEN: THIS IS SUICIDE.</p>
+            <p begin="00:16:43:13" end="00:16:44:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">>> I'D LIKE TO DRINK, I'D LIKE</p>
+            <p begin="00:16:43:13" end="00:16:44:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">TO TOAST THE WONDERFUL COUNTRY</p>
+            <p begin="00:16:44:28" end="00:16:49:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">AMERICA, THE UNITED STATES,</p>
+            <p begin="00:16:44:28" end="00:16:49:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">WHICH INVENTED INTERNET, THANKS</p>
+            <p begin="00:16:49:29" end="00:16:52:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">TO WHICH WE CAN INFLUENCE THE</p>
+            <p begin="00:16:49:29" end="00:16:52:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">OUTCOME OF THE PRESIDENTIAL</p>
+            <p begin="00:16:52:07" end="00:16:56:24" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">ELECTIONS IN THE U.S.</p>
+            <p begin="00:16:56:24" end="00:17:00:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:16:56:24" end="00:17:00:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">>> STEPHEN: BY THE WAY-- OH, YOU</p>
+            <p begin="00:17:00:11" end="00:17:03:11" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">JUST SMELLED IT?</p>
+            <p begin="00:17:03:11" end="00:17:07:15" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">>> YES, YES, YES.</p>
+            <p begin="00:17:07:15" end="00:17:10:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">>> Stephen: OKAY, SMELLS</p>
+            <p begin="00:17:07:15" end="00:17:10:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">WONDERFUL.</p>
+            <p begin="00:17:10:02" end="00:17:12:05" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">CAN I ANNOUNCE SOMETHING?</p>
+            <p begin="00:17:12:05" end="00:17:12:24" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">>> PLEASE.</p>
+            <p begin="00:17:12:24" end="00:17:14:10" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">>> STEPHEN: I AM HERE IN</p>
+            <p begin="00:17:12:24" end="00:17:14:10" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">RUSSIA... THIS IS NOT SHOWING IN</p>
+            <p begin="00:17:14:10" end="00:17:18:01" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">THE UNITED STATES?</p>
+            <p begin="00:17:18:01" end="00:17:21:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">>> WELL, IT DEPENDS-- THEY SHOW</p>
+            <p begin="00:17:18:01" end="00:17:21:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">IT AT TRUMP TOWER.</p>
+            <p begin="00:17:21:17" end="00:17:28:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:17:21:17" end="00:17:28:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">( APPLAUSE )</p>
+            <p begin="00:17:28:00" end="00:17:28:12" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">>> STEPHEN: OKAY.</p>
+            <p begin="00:17:28:12" end="00:17:31:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">BUT HE DOESN'T REMEMBER.</p>
+            <p begin="00:17:31:03" end="00:17:32:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:17:31:03" end="00:17:32:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">AND I AM HERE TO ANNOUNCE THAT I</p>
+            <p begin="00:17:32:01" end="00:17:37:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">AM CONSIDERING A RUN FOR</p>
+            <p begin="00:17:32:01" end="00:17:37:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">PRESIDENT IN 2020.</p>
+            <p begin="00:17:37:18" end="00:17:42:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:17:37:18" end="00:17:42:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">>> STOP, STOP, STOP.</p>
+            <p begin="00:17:42:09" end="00:17:44:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">>> Stephen: AND I THOUGHT IT</p>
+            <p begin="00:17:42:09" end="00:17:44:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">WOULD JUST BE</p>
+            <p begin="00:17:44:28" end="00:17:46:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">BETTER TO CUT OUT THE MIDDLE MAN</p>
+            <p begin="00:17:44:28" end="00:17:46:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">AND JUST TELL THE RUSSIANS</p>
+            <p begin="00:17:46:03" end="00:17:50:16" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">MYSELF.</p>
+            <p begin="00:17:50:16" end="00:17:51:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">IF ANYONE WOULD LIKE TO WORK ON</p>
+            <p begin="00:17:50:16" end="00:17:51:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">MY CAMPAIGN IN AN UNOFFICIAL</p>
+            <p begin="00:17:51:25" end="00:17:55:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">CAPACITY, PLEASE JUST LET ME</p>
+            <p begin="00:17:51:25" end="00:17:55:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">KNOW.</p>
+            <p begin="00:17:55:01" end="00:17:58:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> STEPHEN, STEPHEN, YOU HAVE</p>
+            <p begin="00:17:55:01" end="00:17:58:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">JUST ENDED THE GAME.</p>
+            <p begin="00:17:58:06" end="00:18:00:21" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">SINCE YOU'VE ANNOUNCED IT</p>
+            <p begin="00:17:58:06" end="00:18:00:21" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">YOURSELF-- WE WERE ACTUALLY</p>
+            <p begin="00:18:00:21" end="00:18:05:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">EXPECTING YOU TO DO THAT AFTER</p>
+            <p begin="00:18:00:21" end="00:18:05:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">WE DRINK ALL OF IT-- I CAN'T</p>
+            <p begin="00:18:05:17" end="00:18:08:26" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">DENY MYSELF THE PLEASURE TO</p>
+            <p begin="00:18:05:17" end="00:18:08:26" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">DRINK WITH THE FUTURE PRESIDENT</p>
+            <p begin="00:18:08:26" end="00:18:10:16" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">OF THE UNITED STATES.</p>
+            <p begin="00:18:10:16" end="00:18:11:18" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">TO YOU, STEPHEN.</p>
+            <p begin="00:18:11:18" end="00:18:13:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">I WISH YOU LUCK.</p>
+            <p begin="00:18:13:25" end="00:18:16:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">WE WILL DO EVERYTHING POSSIBLE</p>
+            <p begin="00:18:13:25" end="00:18:16:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">ON OUR END TO HELP YOU BECOME</p>
+            <p begin="00:18:16:16" end="00:18:18:15" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">THE PRESIDENT.</p>
+            <p begin="00:18:18:15" end="00:18:21:21" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">>> STEPHEN: SPASIBO!</p>
+            <p begin="00:18:21:21" end="00:18:23:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">A STRONG AMERICA, A STRONG</p>
+            <p begin="00:18:21:21" end="00:18:23:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">RUSSIA!</p>
+            <p begin="00:18:23:24" end="00:18:29:15" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">>> STEPHEN COLBERT!</p>
+            <p begin="00:18:29:15" end="00:18:33:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">>> STEPHEN: BEFORE I LEFT, I</p>
+            <p begin="00:18:29:15" end="00:18:33:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">WANTED TO LEAVE MY LATE NIGHT</p>
+            <p begin="00:18:33:11" end="00:18:39:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">COMRADE WITH A CHERISHED GIFT.</p>
+            <p begin="00:18:39:08" end="00:18:43:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> Stephen: THERE WAS A CROW,</p>
+            <p begin="00:18:39:08" end="00:18:43:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">A BLACK BIRD, A CROW.</p>
+            <p begin="00:18:43:11" end="00:18:44:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">AND IT WAS FLYING THROUGH THE</p>
+            <p begin="00:18:43:11" end="00:18:44:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">SKY, AND AS IT CAME TO LAND IT</p>
+            <p begin="00:18:44:17" end="00:18:46:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">HIT A SCHLAGBAUM.</p>
+            <p begin="00:18:46:08" end="00:18:51:13" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">AND THE SIGN MADE THE SOUND--</p>
+            <p begin="00:18:46:08" end="00:18:51:13" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">BAUM BAUM BAUM BAUM BAUM.</p>
+            <p begin="00:18:51:13" end="00:18:52:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">>> THIS IS ONE OF THE MOST</p>
+            <p begin="00:18:51:13" end="00:18:52:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">FUNNIEST JOKES I'VE EVER HEARD</p>
+            <p begin="00:18:52:25" end="00:18:54:11" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">IN MY LIFE.</p>
+            <p begin="00:18:54:11" end="00:18:58:16" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">>> STEPHEN: THANK YOU.</p>
+            <p begin="00:18:58:16" end="00:19:01:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="1.88% 5.33%">♪</p>
+            <p begin="00:18:58:16" end="00:19:01:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">>> Stephen: THANK YOU, IVAN!</p>
+            <p begin="00:19:01:03" end="00:19:04:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="33.75% 5.33%">WE'LL BE BACK WITH</p>
+            <p begin="00:19:01:03" end="00:19:04:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">VICE PRESIDENT AL GORE, STICK</p>
+            <p begin="00:19:04:23" end="00:19:06:24" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">AROUND!</p>
+            <p begin="00:19:06:24" end="00:19:08:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="1.88% 5.33%">♪</p>
+            <p begin="00:19:06:24" end="00:19:08:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:19:18:05" end="00:19:26:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:19:18:05" end="00:19:26:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">( BAND PLAYING )</p>
+            <p begin="00:19:26:01" end="00:19:31:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">>> Stephen: WELCOME BACK,</p>
+            <p begin="00:19:26:01" end="00:19:31:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">EVERYBODY!</p>
+            <p begin="00:19:31:22" end="00:19:35:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:19:31:22" end="00:19:35:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">LADIES AND GENTLEMEN,</p>
+            <p begin="00:19:35:08" end="00:19:39:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">MY FIRST GUEST HAS WON A GRAMMY,</p>
+            <p begin="00:19:35:08" end="00:19:39:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">A NOBEL PEACE PRIZE, AND THE</p>
+            <p begin="00:19:39:23" end="00:19:42:11" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">POPULAR VOTE.</p>
+            <p begin="00:19:42:11" end="00:19:43:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:19:42:11" end="00:19:43:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">HIS NEW FILM IS "AN INCONVENIENT</p>
+            <p begin="00:19:43:15" end="00:19:48:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">SEQUEL."</p>
+            <p begin="00:19:48:20" end="00:19:52:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">>> YOU'RE IN GEORGETOWN WHICH IS</p>
+            <p begin="00:19:48:20" end="00:19:52:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">THE REDDEST CITY AND COUNTY IN</p>
+            <p begin="00:19:52:06" end="00:19:55:05" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">TEXAS AND I'M A CONSERVATIVE</p>
+            <p begin="00:19:52:06" end="00:19:55:05" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">REPUBLICAN.</p>
+            <p begin="00:19:55:05" end="00:19:55:15" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">>> OKAY.</p>
+            <p begin="00:19:55:15" end="00:20:00:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">BUT, YOU KNOW, OUR DUTY TO</p>
+            <p begin="00:19:55:15" end="00:20:00:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">OUR RATE PAYERS IS TO PROVIDE</p>
+            <p begin="00:20:00:08" end="00:20:03:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">THEM WITH THE LOWEST POSSIBILITY</p>
+            <p begin="00:20:00:08" end="00:20:03:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">UTILITY COST.</p>
+            <p begin="00:20:03:25" end="00:20:04:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">>> MONEY TALKS.</p>
+            <p begin="00:20:04:20" end="00:20:07:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">BUT DOESN'T IT MAKE SENSE</p>
+            <p begin="00:20:04:20" end="00:20:07:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">FROM A COMMON SENSE STANDPOINT,</p>
+            <p begin="00:20:07:08" end="00:20:10:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">THE LESS STUFF YOU PUT IN THE</p>
+            <p begin="00:20:07:08" end="00:20:10:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">AIR, THE BETTER IT IS?</p>
+            <p begin="00:20:10:18" end="00:20:10:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">>> YEAH.</p>
+            <p begin="00:20:10:25" end="00:20:12:16" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">I MEAN, COMMON SENSE.</p>
+            <p begin="00:20:12:16" end="00:20:15:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">YOU DON'T NEED SCIENTISTS TO</p>
+            <p begin="00:20:12:16" end="00:20:15:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">DEBATE THAT.</p>
+            <p begin="00:20:15:11" end="00:20:18:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">>> CAN I USE THAT LINE?</p>
+            <p begin="00:20:18:08" end="00:20:18:17" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">ABSOLUTELY.</p>
+            <p begin="00:20:18:17" end="00:20:20:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:20:18:17" end="00:20:20:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">>> SOMEBODY GET A PICTURE OF ME</p>
+            <p begin="00:20:20:20" end="00:20:21:19" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">AND MR. VICE PRESIDENT.</p>
+            <p begin="00:20:21:19" end="00:20:25:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">>> THERE IS NOT AN ENDORSEMENT,</p>
+            <p begin="00:20:21:19" end="00:20:25:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">AS YOU CAN WELL IMAGINE.</p>
+            <p begin="00:20:25:18" end="00:20:26:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">>> STEPHEN: PLEASE WELCOME,</p>
+            <p begin="00:20:25:18" end="00:20:26:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">FORMER VICE PRESIDENT AL</p>
+            <p begin="00:20:26:20" end="00:20:29:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">GORE.</p>
+            <p begin="00:20:29:25" end="00:20:50:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:20:29:25" end="00:20:50:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">( BAND PLAYING )</p>
+            <p begin="00:20:50:22" end="00:20:52:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> Stephen: THANK YOU SO MUCH</p>
+            <p begin="00:20:50:22" end="00:20:52:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">FOR JOINING US TONIGHT.</p>
+            <p begin="00:20:52:22" end="00:20:54:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">>> IT'S GREAT TO BE PART OF</p>
+            <p begin="00:20:52:22" end="00:20:54:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">RUSSIA WEEK.</p>
+            <p begin="00:20:54:07" end="00:20:54:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">>> Stephen: IT IS.</p>
+            <p begin="00:20:54:26" end="00:20:56:15" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">IT IS.</p>
+            <p begin="00:20:56:15" end="00:21:01:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">SPEAKING OF WHICH, I FOUND OUT</p>
+            <p begin="00:20:56:15" end="00:21:01:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">RECENTLY THAT YOU'VE GOT A VERY</p>
+            <p begin="00:21:01:24" end="00:21:07:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">INTERESTING HISTORY WHEN IT</p>
+            <p begin="00:21:01:24" end="00:21:07:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">COMES TO ILLICIT CAMPAIGN HELP.</p>
+            <p begin="00:21:07:22" end="00:21:11:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:21:07:22" end="00:21:11:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">IN 2000, YOU WERE PREPPING FOR</p>
+            <p begin="00:21:11:23" end="00:21:13:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">THE DEBATES AGAINST GEORGE W.</p>
+            <p begin="00:21:13:25" end="00:21:16:05" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="13.13% 5.33%">BUSH --</p>
+            <p begin="00:21:13:25" end="00:21:16:05" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">>> YEAH.</p>
+            <p begin="00:21:16:05" end="00:21:18:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="37.5% 5.33%">>> Stephen: -- AND I</p>
+            <p begin="00:21:16:05" end="00:21:18:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">UNDERSTAND YOU GOT THE DEBATE</p>
+            <p begin="00:21:18:09" end="00:21:21:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">PREP BOOK OR SOMEONE IN YOUR</p>
+            <p begin="00:21:18:09" end="00:21:21:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">CAMPAIGN DID?</p>
+            <p begin="00:21:21:16" end="00:21:25:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">>> YEAH, SOMEONE HAD STOLEN IT,</p>
+            <p begin="00:21:21:16" end="00:21:25:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">EVIDENTLY, FROM THE BUSH</p>
+            <p begin="00:21:25:04" end="00:21:28:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">CAMPAIGN AND MAILED IT TO MY</p>
+            <p begin="00:21:25:04" end="00:21:28:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">CLOSE FRIEND TOM DOWNEY WHO WAS</p>
+            <p begin="00:21:28:29" end="00:21:34:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">GOING TO BE THE BUSH STAND-IN</p>
+            <p begin="00:21:28:29" end="00:21:34:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">AND DEBATE PREP.</p>
+            <p begin="00:21:34:17" end="00:21:34:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">>> RIGHT.</p>
+            <p begin="00:21:34:25" end="00:21:40:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">>. IT WASN'T MAILED FROM MOSCOW,</p>
+            <p begin="00:21:34:25" end="00:21:40:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">BUT IT WAS MAILED FROM TEXAS,</p>
+            <p begin="00:21:40:09" end="00:21:43:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">SOMEBODY VERY UNHAPPY WITH THE</p>
+            <p begin="00:21:40:09" end="00:21:43:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">BUSH CAMPAIGN.</p>
+            <p begin="00:21:43:09" end="00:21:45:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">>> Stephen: BUT YOU DIDN'T</p>
+            <p begin="00:21:43:09" end="00:21:45:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">KEEP IT.</p>
+            <p begin="00:21:45:15" end="00:21:49:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">>> NO, WE IMMEDIATELY TURNED IT</p>
+            <p begin="00:21:45:15" end="00:21:49:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">OVER TO THE F.B.I.</p>
+            <p begin="00:21:49:23" end="00:21:52:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:21:49:23" end="00:21:52:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">AND TOM RECUSED HIMSELF FROM THE</p>
+            <p begin="00:21:52:00" end="00:21:54:16" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">WHOLE DEBATE PROCESS.</p>
+            <p begin="00:21:54:16" end="00:21:58:12" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">>> Stephen: NOW, DID YOU THINK</p>
+            <p begin="00:21:54:16" end="00:21:58:12" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">ABOUT THE OPTION OF KEEPING IT,</p>
+            <p begin="00:21:58:12" end="00:22:01:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">WINNING THE ELECTION AND THEN</p>
+            <p begin="00:21:58:12" end="00:22:01:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">BLAMING THE WHOLE THING ON THE</p>
+            <p begin="00:22:01:15" end="00:22:04:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">SECRET SERVICE?</p>
+            <p begin="00:22:04:03" end="00:22:06:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:22:04:03" end="00:22:06:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">>> DIDN'T OCCUR TO ME AT THE</p>
+            <p begin="00:22:06:16" end="00:22:09:29" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">TIME, BUT IN RETROSPECT -- NO.</p>
+            <p begin="00:22:09:29" end="00:22:12:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:22:09:29" end="00:22:12:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">>> Stephen: YOU MET PUTIN IN</p>
+            <p begin="00:22:12:08" end="00:22:13:09" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">THE '90s?</p>
+            <p begin="00:22:13:09" end="00:22:14:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">>> IN THE '90s.</p>
+            <p begin="00:22:14:08" end="00:22:19:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="41.25% 5.33%">HE WAS DEPUTY PAYOR OF</p>
+            <p begin="00:22:14:08" end="00:22:19:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">ST. PETERSBURG.</p>
+            <p begin="00:22:19:20" end="00:22:21:21" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">THE MAYOR WAS A FORMER LAW</p>
+            <p begin="00:22:19:20" end="00:22:21:21" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">PROFESSOR, AND VLADIMIR PUTIN</p>
+            <p begin="00:22:21:21" end="00:22:26:10" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">WAS IN CHARGE OF MAKING SURE ALL</p>
+            <p begin="00:22:21:21" end="00:22:26:10" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">THE DETAILS WENT RIGHT.</p>
+            <p begin="00:22:26:10" end="00:22:29:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">>> Stephen: WHAT KIND OF</p>
+            <p begin="00:22:26:10" end="00:22:29:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">IMPRESSION DID YOU GET OF THE</p>
+            <p begin="00:22:29:17" end="00:22:30:07" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="7.5% 5.33%">GUY?</p>
+            <p begin="00:22:30:07" end="00:22:34:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> WELL, HE SEEMED COMPETENT,</p>
+            <p begin="00:22:30:07" end="00:22:34:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">BUT IF SOMEBODY HAD TOLD ME AT</p>
+            <p begin="00:22:34:02" end="00:22:36:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">THAT POINT THAT HE WAS GOING TO</p>
+            <p begin="00:22:34:02" end="00:22:36:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">BE PRESIDENT OF RUSSIA, I WOULD</p>
+            <p begin="00:22:36:15" end="00:22:41:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">HAVE SAID, WOW, I'M NOT -- I</p>
+            <p begin="00:22:36:15" end="00:22:41:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">MEAN, I DIDN'T REALLY INTERACT</p>
+            <p begin="00:22:41:00" end="00:22:44:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">WITH HIM ALL THAT MUCH, BUT HE</p>
+            <p begin="00:22:41:00" end="00:22:44:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">DIDN'T IMMEDIATELY JUMP OUT AS A</p>
+            <p begin="00:22:44:28" end="00:22:45:10" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">FUTURE PRESIDENT.</p>
+            <p begin="00:22:45:10" end="00:22:48:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">>> Stephen: AND IF SOMEONE</p>
+            <p begin="00:22:45:10" end="00:22:48:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">TOLD YOU DONALD TRUMP WOULD BE</p>
+            <p begin="00:22:48:20" end="00:22:51:21" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">PRESIDENT OF THE UNITED STATES,</p>
+            <p begin="00:22:48:20" end="00:22:51:21" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">WHAT WOULD YOU REACTION HAVE</p>
+            <p begin="00:22:51:21" end="00:22:53:16" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">BEEN AT THE TIME?</p>
+            <p begin="00:22:53:16" end="00:22:55:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="39.38% 5.33%">>> YEAH, LESS LIKELY,</p>
+            <p begin="00:22:53:16" end="00:22:55:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">ABSOLUTELY.</p>
+            <p begin="00:22:55:23" end="00:22:56:13" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:22:55:23" end="00:22:56:13" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">( APPLAUSE )</p>
+            <p begin="00:22:56:13" end="00:23:04:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">>> Stephen: I WANT TO POINT</p>
+            <p begin="00:22:56:13" end="00:23:04:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">OUT HERE, FOR THE YOUNGENS, WE</p>
+            <p begin="00:23:04:03" end="00:23:06:00" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">HAVE A YOUNG DEMO HERE.</p>
+            <p begin="00:23:06:00" end="00:23:08:21" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">17 YEARS AGO WHEN YOU DID NOT</p>
+            <p begin="00:23:06:00" end="00:23:08:21" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">BECOME PRESIDENT OF THE UNITED</p>
+            <p begin="00:23:08:21" end="00:23:12:26" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">STATES, YOU WENT OFF ALONE FOR A</p>
+            <p begin="00:23:08:21" end="00:23:12:26" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">WHILE.</p>
+            <p begin="00:23:12:26" end="00:23:13:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">>> YES.</p>
+            <p begin="00:23:13:03" end="00:23:15:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">>> Stephen: AND YOU CHANGED</p>
+            <p begin="00:23:13:03" end="00:23:15:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">YOUR LOOK.</p>
+            <p begin="00:23:15:11" end="00:23:20:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">YOU GREW A BEARD, YOU GOT</p>
+            <p begin="00:23:15:11" end="00:23:20:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">HIPSTER BEFORE HIPSTER WAS HIP.</p>
+            <p begin="00:23:20:06" end="00:23:20:13" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">>> YEAH.</p>
+            <p begin="00:23:20:13" end="00:23:23:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="39.38% 5.33%">>> Stephen: WOULD YOU</p>
+            <p begin="00:23:20:13" end="00:23:23:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">RECOMMEND THIS TO ALL OF US?</p>
+            <p begin="00:23:23:29" end="00:23:28:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">SHOULD ALL OF AMERICA JUST GROW</p>
+            <p begin="00:23:23:29" end="00:23:28:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">A BEARD AND TRY TO GET OVER</p>
+            <p begin="00:23:28:02" end="00:23:28:21" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">THIS?</p>
+            <p begin="00:23:28:21" end="00:23:32:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> 18% OF THE AMERICAN PEOPLE</p>
+            <p begin="00:23:28:21" end="00:23:32:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">REALLY LIKED THAT LOOK A LOT,</p>
+            <p begin="00:23:32:07" end="00:23:32:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">YEAH.</p>
+            <p begin="00:23:32:25" end="00:23:33:26" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:23:32:25" end="00:23:33:26" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">>> Stephen: WAS THERE POLLING</p>
+            <p begin="00:23:33:26" end="00:23:34:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">AT THE TIME?</p>
+            <p begin="00:23:34:27" end="00:23:36:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">>> NO, I'M KIDDING.</p>
+            <p begin="00:23:36:08" end="00:23:39:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> Stephen: WAS THERE POLLING</p>
+            <p begin="00:23:36:08" end="00:23:39:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">AT THE TIME?</p>
+            <p begin="00:23:39:07" end="00:23:39:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="7.5% 5.33%">PROS</p>
+            <p begin="00:23:39:07" end="00:23:39:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">( APPLAUSE )</p>
+            <p begin="00:23:39:25" end="00:23:42:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">>> BUT I DON'T WANT TO DISSUADE</p>
+            <p begin="00:23:39:25" end="00:23:42:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">YOU FROM TRYING IT, STEPHEN.</p>
+            <p begin="00:23:42:16" end="00:23:44:04" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">>> Stephen: I'VE TRIED IT.</p>
+            <p begin="00:23:44:04" end="00:23:45:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">I CAN'T DO IT.</p>
+            <p begin="00:23:45:08" end="00:23:46:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">IT'S A LITTLE PATCHY.</p>
+            <p begin="00:23:46:27" end="00:23:48:27" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:23:46:27" end="00:23:48:27" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">NOW YOU ARE THE ONLY OTHER</p>
+            <p begin="00:23:48:27" end="00:23:53:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">LIVING CANDIDATE WHO WON THE</p>
+            <p begin="00:23:48:27" end="00:23:53:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">POPULAR VOTE AND DID NOT BECOME</p>
+            <p begin="00:23:53:17" end="00:23:55:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">PRESIDENT TO HAVE THE UNITED</p>
+            <p begin="00:23:53:17" end="00:23:55:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">STATES.</p>
+            <p begin="00:23:55:02" end="00:23:57:12" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">DID YOU SPEAK TO MRS. CLINTON</p>
+            <p begin="00:23:55:02" end="00:23:57:12" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">AFTER THIS?</p>
+            <p begin="00:23:57:12" end="00:23:57:29" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">>> I DID.</p>
+            <p begin="00:23:57:29" end="00:24:00:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">I SPOKE TO HER AFTER THE</p>
+            <p begin="00:23:57:29" end="00:24:00:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">ELECTION.</p>
+            <p begin="00:24:00:06" end="00:24:02:11" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">SHE'S GOING TO BE FINE.</p>
+            <p begin="00:24:02:11" end="00:24:03:22" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">THE COUNTRY IS ANOTHER MATTER.</p>
+            <p begin="00:24:03:22" end="00:24:06:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:24:03:22" end="00:24:06:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">>> Stephen: IF YOU CAN, DID</p>
+            <p begin="00:24:06:25" end="00:24:11:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">YOU GIVE HER ANY ADVICE ON HOW</p>
+            <p begin="00:24:06:25" end="00:24:11:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">TO DEAL WITH THE RIDICULOUS</p>
+            <p begin="00:24:11:19" end="00:24:13:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">SITUATION AT A CERTAIN LEVEL?</p>
+            <p begin="00:24:13:20" end="00:24:15:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">>> YOU JUST MOVE ON.</p>
+            <p begin="00:24:15:25" end="00:24:18:28" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">SHE DIDN'T NEED MY ADVICE.</p>
+            <p begin="00:24:18:28" end="00:24:24:05" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">JUST MOVE ON, THAT'S WHAT I DID,</p>
+            <p begin="00:24:18:28" end="00:24:24:05" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">AND LOOKED FOR OTHER WAYS TO</p>
+            <p begin="00:24:24:05" end="00:24:24:11" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">SERVE.</p>
+            <p begin="00:24:24:11" end="00:24:28:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">>> Stephen: OBVIOUSLY, YOU</p>
+            <p begin="00:24:24:11" end="00:24:28:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">THREW YOURSELF INTO EDUCATING</p>
+            <p begin="00:24:28:06" end="00:24:31:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">PEOPLE ABOUT GLOBAL WARMING,</p>
+            <p begin="00:24:28:06" end="00:24:31:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">WHAT WAS HAPPENING TO OUR</p>
+            <p begin="00:24:31:01" end="00:24:31:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">CLIMATE.</p>
+            <p begin="00:24:31:08" end="00:24:38:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">NOW, TEN YEARS AFTER "AN</p>
+            <p begin="00:24:31:08" end="00:24:38:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">INCONVENIENT SEQUEL," OUR</p>
+            <p begin="00:24:38:18" end="00:24:46:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">PRESIDENT TRUMP HAS PULLED OUT</p>
+            <p begin="00:24:38:18" end="00:24:46:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">OF THE PARIS ACCORD.</p>
+            <p begin="00:24:46:16" end="00:24:53:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">DOES THAT WORRY YOU AND YOUR</p>
+            <p begin="00:24:46:16" end="00:24:53:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">FRIENDS WHO KNOW ABOUT GLOBAL</p>
+            <p begin="00:24:53:19" end="00:24:53:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">WARMING?</p>
+            <p begin="00:24:53:26" end="00:24:56:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">>> I WORRIED IT WOULD BE A</p>
+            <p begin="00:24:53:26" end="00:24:56:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">DISASTROUS MOVE.</p>
+            <p begin="00:24:56:17" end="00:25:00:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">BUT ALL THE OTHER COUNTRIES IN</p>
+            <p begin="00:24:56:17" end="00:25:00:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">THE WORLD DOUBLED DOWN AND SAID</p>
+            <p begin="00:25:00:04" end="00:25:01:14" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">WE'RE GOING TO DO MORE.</p>
+            <p begin="00:25:01:14" end="00:25:06:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">AND EVEN HERE IN THE U.S., A LOT</p>
+            <p begin="00:25:01:14" end="00:25:06:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">OF OUR MOST IMPORTANT GOVERNORS</p>
+            <p begin="00:25:06:09" end="00:25:11:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">AND BUSINESS LEADERS SAID WE'RE</p>
+            <p begin="00:25:06:09" end="00:25:11:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">STILL IN THE PARIS AGREEMENT AND</p>
+            <p begin="00:25:11:11" end="00:25:13:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">WE'RE GOING TO MEET THE</p>
+            <p begin="00:25:11:11" end="00:25:13:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">COMMITMENTS OF THE COUNTRY</p>
+            <p begin="00:25:13:23" end="00:25:15:21" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">REGARDLESS OF WHAT DONALD TRUMP</p>
+            <p begin="00:25:13:23" end="00:25:15:21" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">TWEETS.</p>
+            <p begin="00:25:15:21" end="00:25:18:26" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:25:15:21" end="00:25:18:26" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">( PIANO RIFF )</p>
+            <p begin="00:25:18:26" end="00:25:21:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="41.25% 5.33%">>> Stephen: IF I'M NOT</p>
+            <p begin="00:25:18:26" end="00:25:21:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">MISTAKEN, DID YOU GET A CHANCE</p>
+            <p begin="00:25:21:29" end="00:25:24:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">TO TALK TO DONALD TRUMP ABOUT</p>
+            <p begin="00:25:21:29" end="00:25:24:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">THIS BEFORE HE PULLED OUT?</p>
+            <p begin="00:25:24:16" end="00:25:25:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">>> I DID.</p>
+            <p begin="00:25:25:26" end="00:25:29:10" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">I WENT TO TRUMP TOWER AFTER THE</p>
+            <p begin="00:25:25:26" end="00:25:29:10" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">ELECTION, AND THAT WAS NOT THE</p>
+            <p begin="00:25:29:10" end="00:25:32:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">ONLY CONVERSATION I HAD WITH</p>
+            <p begin="00:25:29:10" end="00:25:32:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">HIM, AND I THOUGHT THAT THERE</p>
+            <p begin="00:25:32:08" end="00:25:37:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">WAS A CHANCE HE WOULD COME TO</p>
+            <p begin="00:25:32:08" end="00:25:37:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">HIS SENSES, BUT I WAS WRONG.</p>
+            <p begin="00:25:37:07" end="00:25:42:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">>> Stephen: WELL, DOES IT --</p>
+            <p begin="00:25:37:07" end="00:25:42:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">WHEN YOU HEAR THAT A PIECE OF</p>
+            <p begin="00:25:42:17" end="00:25:49:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">ICE HAS BROKEN OFF, AN ICE SHELF</p>
+            <p begin="00:25:42:17" end="00:25:49:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">IN ANTARCTICA ABOUT THE SIZE OF</p>
+            <p begin="00:25:49:09" end="00:25:54:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">DELAWARE, DO YOU THINK THAT'S A</p>
+            <p begin="00:25:49:09" end="00:25:54:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">DIRECT ATTACK AT JOE BIDEN AND</p>
+            <p begin="00:25:54:04" end="00:25:55:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">THE STATE OF DELAWARE?</p>
+            <p begin="00:25:55:03" end="00:26:00:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">I GUESS MY QUESTION IS WHY IS</p>
+            <p begin="00:25:55:03" end="00:26:00:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">ICE ALWAYS MEASURED IN THE SIZE</p>
+            <p begin="00:26:00:03" end="00:26:03:10" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">OF U.S. EASTERN SEABOARD STATES?</p>
+            <p begin="00:26:03:10" end="00:26:05:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="39.38% 5.33%">IS THAT A SIGNIFICANT</p>
+            <p begin="00:26:03:10" end="00:26:05:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">DEVELOPMENT OR JUST MORE PAR FOR</p>
+            <p begin="00:26:05:24" end="00:26:07:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">THE COURSE?</p>
+            <p begin="00:26:07:03" end="00:26:11:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">>> WELL, IT'S SIGNIFICANT AS A</p>
+            <p begin="00:26:07:03" end="00:26:11:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">SIGN OF WHAT IS HAPPENING TO</p>
+            <p begin="00:26:11:09" end="00:26:12:17" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">ANTARCTICA AS A WHOLE.</p>
+            <p begin="00:26:12:17" end="00:26:17:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">THIS PARTICULAR ICE SHELF, IT'S</p>
+            <p begin="00:26:12:17" end="00:26:17:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">ALREADY FLOATING, SO IT WON'T</p>
+            <p begin="00:26:17:28" end="00:26:20:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">RAISE SEA LEVEL, BUT IF THE</p>
+            <p begin="00:26:17:28" end="00:26:20:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">OTHERS BEHIND IT ALSO COME OFF,</p>
+            <p begin="00:26:20:28" end="00:26:26:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">THAT COULD RELEASE MORE</p>
+            <p begin="00:26:20:28" end="00:26:26:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">LAND-BASED ICE THAT WOULD RAISE</p>
+            <p begin="00:26:26:16" end="00:26:31:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">SEA LEVEL, AND SIGNIFICANT PART</p>
+            <p begin="00:26:26:16" end="00:26:31:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">OF WEST ANTARCTICA HAS ALREADY</p>
+            <p begin="00:26:31:24" end="00:26:33:21" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">CROSSED A POINT OF NO RETURN.</p>
+            <p begin="00:26:33:21" end="00:26:36:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">>> Stephen: WHAT DOES THAT</p>
+            <p begin="00:26:33:21" end="00:26:36:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">MEAN, NO RETURN?</p>
+            <p begin="00:26:36:08" end="00:26:39:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">I'M ASKING FOR A FRIEND WHO HAS</p>
+            <p begin="00:26:36:08" end="00:26:39:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">A BEACH HOUSE.</p>
+            <p begin="00:26:39:03" end="00:26:40:22" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">>> I UNDERSTAND.</p>
+            <p begin="00:26:40:22" end="00:26:44:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">THE ICE SCIENTISTS SAY,</p>
+            <p begin="00:26:40:22" end="00:26:44:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">UNFORTUNATELY, THERE WILL BE</p>
+            <p begin="00:26:44:15" end="00:26:48:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">CONTINUED SEA LEVEL RISE, BUT WE</p>
+            <p begin="00:26:44:15" end="00:26:48:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">STILL HAVE THE ABILITY TO HAVE</p>
+            <p begin="00:26:48:09" end="00:26:52:05" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">AN IMPACT ON HOW LONG THAT TAKES</p>
+            <p begin="00:26:48:09" end="00:26:52:05" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">AND WHETHER OR NOT OTHER BIG</p>
+            <p begin="00:26:52:05" end="00:26:56:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">PARTS OF ANTARCTICA MELT IN TURN</p>
+            <p begin="00:26:52:05" end="00:26:56:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">BECAUSE, IF THEY DID, WE WOULD</p>
+            <p begin="00:26:56:20" end="00:26:59:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">LOSE A LOT OF COASTAL CITIES IN</p>
+            <p begin="00:26:56:20" end="00:26:59:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">THE U.S. AND AROUND THE WORLD.</p>
+            <p begin="00:26:59:14" end="00:27:06:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">>> Stephen: WELL, THE NEW FILM</p>
+            <p begin="00:26:59:14" end="00:27:06:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">IS INCONVENIENT SEQUEL TRUTH TO</p>
+            <p begin="00:27:06:15" end="00:27:07:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">POWER.</p>
+            <p begin="00:27:07:08" end="00:27:14:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">NORMALLY A SEQUEL TWO MOVIE IS A</p>
+            <p begin="00:27:07:08" end="00:27:14:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">SIGN IT WAS SUCCESSFUL.</p>
+            <p begin="00:27:14:02" end="00:27:17:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="41.25% 5.33%">IS IT A SIGN IT WASN'T</p>
+            <p begin="00:27:14:02" end="00:27:17:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">SUCCESSFUL BECAUSE WE NEED A</p>
+            <p begin="00:27:17:07" end="00:27:18:19" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">SEQUEL TO THIS ONE?</p>
+            <p begin="00:27:18:19" end="00:27:20:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">SHOULD WE HAVE DONE MORE BY NOW?</p>
+            <p begin="00:27:20:20" end="00:27:23:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">I GUESS THAT'S WHAT I'M ASKING.</p>
+            <p begin="00:27:23:03" end="00:27:27:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">>> WE SHOULD HAVE DONE MORE,</p>
+            <p begin="00:27:23:03" end="00:27:27:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">YES, BUT 18 MONTHS AGO THERE WAS</p>
+            <p begin="00:27:27:15" end="00:27:31:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">AN HISTORIC BREAKTHROUGH WITH</p>
+            <p begin="00:27:27:15" end="00:27:31:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">THE AGREEMENT IN PRIX PARIS</p>
+            <p begin="00:27:31:22" end="00:27:38:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">WHERE JUST ABOUT EVERYBODY IN</p>
+            <p begin="00:27:31:22" end="00:27:38:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">THE WORLD AGREED TO BRING</p>
+            <p begin="00:27:38:08" end="00:27:44:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">POLLUTION DOWN TO ZERO IN THE</p>
+            <p begin="00:27:38:08" end="00:27:44:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">EARLY PART OF THE SECOND CENTURY</p>
+            <p begin="00:27:44:15" end="00:27:45:24" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">AND THAT'S ENCOURAGING.</p>
+            <p begin="00:27:45:24" end="00:27:47:01" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">WE HAVE MADE PROGRESS.</p>
+            <p begin="00:27:47:01" end="00:27:51:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">THE OTHER EXCITING THING IS THE</p>
+            <p begin="00:27:47:01" end="00:27:51:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">COST OF ELECTRICITY FROM SOLAR</p>
+            <p begin="00:27:51:03" end="00:27:55:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">PANELS AND WIND MILLS HAS COME</p>
+            <p begin="00:27:51:03" end="00:27:55:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">DOWN INCREDIBLY FAST AND, IN</p>
+            <p begin="00:27:55:01" end="00:27:59:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">MANY AREAS, IT'S NOW CHEAPER</p>
+            <p begin="00:27:55:01" end="00:27:59:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">THAN ELECTRICITY FROM BURNING</p>
+            <p begin="00:27:59:14" end="00:28:00:14" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">FOSSIL FUELS.</p>
+            <p begin="00:28:00:14" end="00:28:03:12" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">BATTERIES ARE COMING DOWN IN</p>
+            <p begin="00:28:00:14" end="00:28:03:12" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">COST AND ELECTRIC VEHICLES ARE</p>
+            <p begin="00:28:03:12" end="00:28:06:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">BECOMING MORE POPULAR, SO WE</p>
+            <p begin="00:28:03:12" end="00:28:06:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">HAVE A LOT GOING FOR US.</p>
+            <p begin="00:28:06:15" end="00:28:10:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">WE CAN AND WILL SOLVE THIS BUT</p>
+            <p begin="00:28:06:15" end="00:28:10:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">THE REAL PURPOSE OF THIS MOVIE</p>
+            <p begin="00:28:10:07" end="00:28:15:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">IS TO ENCOURAGE EVERYBODY TO GET</p>
+            <p begin="00:28:10:07" end="00:28:15:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">INVOLVED WHO'S INTERESTING TO</p>
+            <p begin="00:28:15:08" end="00:28:16:01" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">HELP SOLVE THIS.</p>
+            <p begin="00:28:16:01" end="00:28:20:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">LEARN ABOUT IT, GO TO THE MOVIE,</p>
+            <p begin="00:28:16:01" end="00:28:20:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">GET THE BOOK, GO TO THE</p>
+            <p begin="00:28:20:01" end="00:28:24:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="41.25% 5.33%">WEB SITE, INCONVENIENT</p>
+            <p begin="00:28:20:01" end="00:28:24:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">SEQUEL.com, AND THEN USE YOUR</p>
+            <p begin="00:28:24:23" end="00:28:30:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">VOTE AND VOICE IN CONVERSATION</p>
+            <p begin="00:28:24:23" end="00:28:30:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">ON CLIMATE, AND WHEN CANDIDATES</p>
+            <p begin="00:28:30:00" end="00:28:34:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">ASK FOR YOUR SUPPORT, TELL THEM</p>
+            <p begin="00:28:30:00" end="00:28:34:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">THIS IS IMPORTANT TO ME, AND</p>
+            <p begin="00:28:34:11" end="00:28:37:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">DEPENDING ON THEIR POSITION,</p>
+            <p begin="00:28:34:11" end="00:28:37:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">TELL THEM YOU ARE BE FOR THEM OR</p>
+            <p begin="00:28:37:22" end="00:28:41:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">DO EVERYTHING IN YOUR POWER TO</p>
+            <p begin="00:28:37:22" end="00:28:41:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">DEFEAT THEM.</p>
+            <p begin="00:28:41:06" end="00:28:43:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( APPLAUSE )</p>
+            <p begin="00:28:41:06" end="00:28:43:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">>> Stephen: YOU'VE GOT TO GO</p>
+            <p begin="00:28:43:09" end="00:28:45:10" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">BUT MOST IMPORTANT QUESTION.</p>
+            <p begin="00:28:45:10" end="00:28:45:17" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">>> YEAH.</p>
+            <p begin="00:28:45:17" end="00:28:48:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">>> Stephen: WE'VE GOT TO GO,</p>
+            <p begin="00:28:45:17" end="00:28:48:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">BUT THE MOST IMPORTANT QUESTION</p>
+            <p begin="00:28:48:16" end="00:28:51:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">I COULD ASK IS I KNOW A LOT OF</p>
+            <p begin="00:28:48:16" end="00:28:51:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">YOUNG PEOPLE FEELING HOPELESS</p>
+            <p begin="00:28:51:25" end="00:28:55:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">ABOUT THIS AND THEY READ</p>
+            <p begin="00:28:51:25" end="00:28:55:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">ARTICLES AND MAGAZINES OR SEE</p>
+            <p begin="00:28:55:15" end="00:28:59:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">INTERVIEWS ON TV AND HEAR IT IS</p>
+            <p begin="00:28:55:15" end="00:28:59:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">TOO LATE -- YOU KNOW, DON'T EVEN</p>
+            <p begin="00:28:59:08" end="00:29:02:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">HAVE KIDS BECAUSE YOU WILL ONLY</p>
+            <p begin="00:28:59:08" end="00:29:02:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">HELP DESTROY THE PLANET AND</p>
+            <p begin="00:29:02:17" end="00:29:04:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">THERE WILL BE NO FUTURE FOR</p>
+            <p begin="00:29:02:17" end="00:29:04:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">THEM.</p>
+            <p begin="00:29:04:04" end="00:29:07:07" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">IS THERE HOPE, AL GORE?</p>
+            <p begin="00:29:07:07" end="00:29:07:17" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">>> ABSOLUTELY.</p>
+            <p begin="00:29:07:17" end="00:29:08:06" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">GO SEE THE MOVIE.</p>
+            <p begin="00:29:08:06" end="00:29:10:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">YOU WILL SEE THERE IS TREMENDOUS</p>
+            <p begin="00:29:08:06" end="00:29:10:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">HOPE.</p>
+            <p begin="00:29:10:16" end="00:29:11:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">WE ARE GOING TO WIN THIS.</p>
+            <p begin="00:29:11:27" end="00:29:15:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">THE ONLY QUESTION IS HOW LONG IT</p>
+            <p begin="00:29:11:27" end="00:29:15:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">WILL TAKE, AND TO YOUNG PEOPLE</p>
+            <p begin="00:29:15:02" end="00:29:19:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">IN PARTICULAR, I REALLY</p>
+            <p begin="00:29:15:02" end="00:29:19:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">RECOMMEND THIS MOVIE AS A DATE</p>
+            <p begin="00:29:19:24" end="00:29:20:00" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">MOVIE.</p>
+            <p begin="00:29:20:00" end="00:29:22:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:29:20:00" end="00:29:22:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">ATES HOT DATE MOVIE.</p>
+            <p begin="00:29:22:19" end="00:29:25:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">IT'S AN AMAZINGLY HOT DATE</p>
+            <p begin="00:29:22:19" end="00:29:25:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">MOVIE.</p>
+            <p begin="00:29:25:08" end="00:29:28:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">>> Stephen: BECAUSE IF THE END</p>
+            <p begin="00:29:25:08" end="00:29:28:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">OF THE WORLD IS COMING, YOU</p>
+            <p begin="00:29:28:00" end="00:29:31:28" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">MIGHT AS WELL HOOK UP WITH ME.</p>
+            <p begin="00:29:31:28" end="00:29:36:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:29:31:28" end="00:29:36:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">THANK YOU SO MUCH,</p>
+            <p begin="00:29:36:15" end="00:29:36:28" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">MR. VICE PRESIDENT.</p>
+            <p begin="00:29:36:28" end="00:29:39:27" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">"AN INCONVENIENT SEQUEL," TRUTH</p>
+            <p begin="00:29:36:28" end="00:29:39:27" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">TO POWER, IN SELECT THEATERS</p>
+            <p begin="00:29:39:27" end="00:29:43:01" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">JULY 28 AND NATIONWIDE ON</p>
+            <p begin="00:29:39:27" end="00:29:43:01" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">AUGUST 4.</p>
+            <p begin="00:29:43:01" end="00:29:44:05" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">AL GORE, EVERYBODY!</p>
+            <p begin="00:29:44:05" end="00:29:45:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">WE'LL BE BACK WITH ISSA RAE!</p>
+            <p begin="00:29:45:26" end="00:29:46:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">STICK AROUND!</p>
+            <p begin="00:29:52:21" end="00:30:04:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:29:52:21" end="00:30:04:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">( BAND PLAYING )</p>
+            <p begin="00:30:04:06" end="00:30:06:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">>> Stephen: WELCOME BACK,</p>
+            <p begin="00:30:04:06" end="00:30:06:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">EVERYBODY!</p>
+            <p begin="00:30:06:04" end="00:30:10:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">FOLKS, MY NEXT GUEST WENT</p>
+            <p begin="00:30:06:04" end="00:30:10:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">FROM CREATING A YOUTUBE SERIES</p>
+            <p begin="00:30:10:29" end="00:30:13:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">ABOUT HER LIFE TO CREATING AN</p>
+            <p begin="00:30:10:29" end="00:30:13:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">HBO SERIES ABOUT HER LIFE.</p>
+            <p begin="00:30:13:11" end="00:30:19:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">PLEASE WELCOME, THE STAR OF</p>
+            <p begin="00:30:13:11" end="00:30:19:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">"INSECURE," ISSA RAE!</p>
+            <p begin="00:30:19:19" end="00:30:33:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:30:19:19" end="00:30:33:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">( BAND PLAYING )</p>
+            <p begin="00:30:33:17" end="00:30:33:24" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="5.63% 5.33%">HI.</p>
+            <p begin="00:30:33:24" end="00:30:34:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">NICE TO MEET YOU.</p>
+            <p begin="00:30:34:25" end="00:30:36:09" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">>> YOU GOT ME THROUGH COLLEGE.</p>
+            <p begin="00:30:36:09" end="00:30:37:21" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">>> Stephen: DID I?</p>
+            <p begin="00:30:37:21" end="00:30:41:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">YEAH, I GAVE YOU MY DIPLOMA</p>
+            <p begin="00:30:37:21" end="00:30:41:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">BUT I NEVER PICKED IT UP.</p>
+            <p begin="00:30:41:04" end="00:30:43:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">>> Stephen: YOU CAN CLEAR</p>
+            <p begin="00:30:41:04" end="00:30:43:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">SOMETHING UP FOR ME.</p>
+            <p begin="00:30:43:15" end="00:30:44:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">I HAVE A QUESTION ABOUT YOU.</p>
+            <p begin="00:30:44:20" end="00:30:50:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">THAT IS YOU HAD A POPULAR</p>
+            <p begin="00:30:44:20" end="00:30:50:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">YOUTUBE SERIES CALLED "THE</p>
+            <p begin="00:30:50:29" end="00:30:53:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">MISADVENTURES OF AWKWARD BLACK</p>
+            <p begin="00:30:50:29" end="00:30:53:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">GIRL."</p>
+            <p begin="00:30:53:04" end="00:30:53:11" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">>> YES.</p>
+            <p begin="00:30:53:11" end="00:30:57:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">>> Stephen: YOU SEEM LIKE A</p>
+            <p begin="00:30:53:11" end="00:30:57:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">SELF-POSSESSED AFRICAN-AMERICAN</p>
+            <p begin="00:30:57:03" end="00:30:57:09" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">WOMAN.</p>
+            <p begin="00:30:57:09" end="00:31:04:26" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">WHAT MAKES YOU AN AWKWARD BLACK</p>
+            <p begin="00:30:57:09" end="00:31:04:26" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">GIRL?</p>
+            <p begin="00:31:04:26" end="00:31:06:10" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">>> JUST LIFE.</p>
+            <p begin="00:31:06:10" end="00:31:07:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">FEELING UNCOMFORTABLE AT ALL</p>
+            <p begin="00:31:06:10" end="00:31:07:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">TIMES.</p>
+            <p begin="00:31:07:18" end="00:31:10:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">I GREW UP IN PREDOMINANTLY WHITE</p>
+            <p begin="00:31:07:18" end="00:31:10:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">NEIGHBORS AND --</p>
+            <p begin="00:31:10:25" end="00:31:12:02" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">>> Stephen: ME, TOO.</p>
+            <p begin="00:31:12:02" end="00:31:14:04" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">I CAN UNDERSTAND.</p>
+            <p begin="00:31:14:04" end="00:31:19:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">>> I'M AFRICAN AND IT WAS ALWAYS</p>
+            <p begin="00:31:14:04" end="00:31:19:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">A STATE OF TRANSITION.</p>
+            <p begin="00:31:19:00" end="00:31:22:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">A LOT OF PEOPLE TRY TO BRIDGE</p>
+            <p begin="00:31:19:00" end="00:31:22:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">THE GAP, HAVING CONVERSATIONS</p>
+            <p begin="00:31:22:11" end="00:31:26:06" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">WITH WHITE CO-WORKERS, THINGS</p>
+            <p begin="00:31:22:11" end="00:31:26:06" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">LIKE THAT, THEY ALWAYS TRY TO</p>
+            <p begin="00:31:26:06" end="00:31:28:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">FIND A CONNECTIVE TISSUE WITH</p>
+            <p begin="00:31:26:06" end="00:31:28:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="5.63% 5.33%">US.</p>
+            <p begin="00:31:28:03" end="00:31:29:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">I WOULD BE BONDING WITH SOMEONE.</p>
+            <p begin="00:31:29:26" end="00:31:31:14" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">>> Stephen: YOU AND I.</p>
+            <p begin="00:31:31:14" end="00:31:32:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">DOESN'T GET ANY WHITER.</p>
+            <p begin="00:31:32:27" end="00:31:34:04" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">>> YOU AND I WERE TALKING.</p>
+            <p begin="00:31:34:04" end="00:31:38:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">I THOUGHT WE HAD A MOMENT, AND</p>
+            <p begin="00:31:34:04" end="00:31:38:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">ALL OF A SUDDEN, YOU WERE LIKE,</p>
+            <p begin="00:31:38:29" end="00:31:39:18" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">AND GIRL!</p>
+            <p begin="00:31:39:18" end="00:31:48:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">YOU PUT ON A BLACK ACCENT --</p>
+            <p begin="00:31:39:18" end="00:31:48:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">>> Stephen: LET ME ASK YOU A</p>
+            <p begin="00:31:48:29" end="00:31:50:11" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">QUESTION -- GIRL!</p>
+            <p begin="00:31:50:11" end="00:31:51:28" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">>> PLEASE DO NOT DO THAT.</p>
+            <p begin="00:31:51:28" end="00:31:54:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">DON'T START SENTENCES WITH, HEY,</p>
+            <p begin="00:31:51:28" end="00:31:54:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">DO BLACK PEOPLE.</p>
+            <p begin="00:31:54:20" end="00:31:56:14" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">DON'T DO THAT.</p>
+            <p begin="00:31:56:14" end="00:31:57:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">>> Reporter: BECAUSE THEY</p>
+            <p begin="00:31:56:14" end="00:31:57:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">DON'T?</p>
+            <p begin="00:31:57:28" end="00:31:58:22" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">>> I DON'T KNOW.</p>
+            <p begin="00:31:58:22" end="00:32:01:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">I DON'T KNOW WHAT OTHER BLACK</p>
+            <p begin="00:31:58:22" end="00:32:01:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">PEOPLE TO.</p>
+            <p begin="00:32:01:20" end="00:32:02:02" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">I DON'T.</p>
+            <p begin="00:32:02:02" end="00:32:06:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">>> Stephen: YOU CAN ASK ME</p>
+            <p begin="00:32:02:02" end="00:32:06:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">ABOUT WHITE PEOPLE IF YOU WANT.</p>
+            <p begin="00:32:06:14" end="00:32:09:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="39.38% 5.33%">>> DO WHITE PEOPLE --</p>
+            <p begin="00:32:06:14" end="00:32:09:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">>> Stephen: NOPE.</p>
+            <p begin="00:32:09:15" end="00:32:11:05" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">HMM MMM.</p>
+            <p begin="00:32:11:05" end="00:32:14:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:32:11:05" end="00:32:14:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">YOU'VE GONE FROM YOUTUBE TO AN</p>
+            <p begin="00:32:14:14" end="00:32:15:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">HOBB SHOW.</p>
+            <p begin="00:32:15:03" end="00:32:18:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">NOW THAT IT'S A LITTLE BIT OF A</p>
+            <p begin="00:32:15:03" end="00:32:18:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">HIRING PROFILE BEING ON HOBB.</p>
+            <p begin="00:32:18:14" end="00:32:21:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">THEY MARKET YOU, YOU KNOW, THEY</p>
+            <p begin="00:32:18:14" end="00:32:21:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">WANT YOU NOT TO BE ABLE TO WALK</p>
+            <p begin="00:32:21:24" end="00:32:22:10" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">DOWN THE STREET.</p>
+            <p begin="00:32:22:10" end="00:32:23:19" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">THEY WANT YOU TO BE FAMOUS.</p>
+            <p begin="00:32:23:19" end="00:32:27:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">HAS THAT BEEN DIFFERENT FOR YOU</p>
+            <p begin="00:32:23:19" end="00:32:27:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">GOING OUT THERE BEING SEEN AND</p>
+            <p begin="00:32:27:04" end="00:32:28:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">RECOGNIZED EVERYWHERE YOU GO?</p>
+            <p begin="00:32:28:27" end="00:32:32:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="46.88% 5.33%">>> IT JUST FEELS LIKE I'M</p>
+            <p begin="00:32:28:27" end="00:32:32:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="48.75% 5.33%">POPULAR IN HIGH SCHOOL, IF</p>
+            <p begin="00:32:32:15" end="00:32:32:23" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">ANYTHING.</p>
+            <p begin="00:32:32:23" end="00:32:35:13" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">IT'S NOT REALLY, LIKE I'M NOT</p>
+            <p begin="00:32:32:23" end="00:32:35:13" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">REALLY WELL KNOWN.</p>
+            <p begin="00:32:35:13" end="00:32:38:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">>> Stephen: AFTER TONIGHT, YOU</p>
+            <p begin="00:32:35:13" end="00:32:38:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">WILL BE EXTREMELY WELL KNOWN.</p>
+            <p begin="00:32:38:15" end="00:32:38:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">>> THANK YOU.</p>
+            <p begin="00:32:38:25" end="00:32:42:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">>> Stephen: IT'S OVER.</p>
+            <p begin="00:32:42:03" end="00:32:43:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( APPLAUSE )</p>
+            <p begin="00:32:42:03" end="00:32:43:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">IF YOU HAVE ANY VICES, GET THEM</p>
+            <p begin="00:32:43:29" end="00:32:46:10" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">DONE BETWEEN NOW AND THE TIME</p>
+            <p begin="00:32:43:29" end="00:32:46:10" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">THE SHOW BROADCASTS.</p>
+            <p begin="00:32:46:10" end="00:32:46:24" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">>> GOOD TO KNOW.</p>
+            <p begin="00:32:46:24" end="00:32:47:28" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">>> Stephen: YEAH.</p>
+            <p begin="00:32:47:28" end="00:32:52:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">HELPING MY FRIEND RETURN</p>
+            <p begin="00:32:47:28" end="00:32:52:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">SOMETHING THAT BLOOMINGDALE'S</p>
+            <p begin="00:32:52:24" end="00:32:55:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">AND I WAS STAND BIG THE CASHIER,</p>
+            <p begin="00:32:52:24" end="00:32:55:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">BEING BORED.</p>
+            <p begin="00:32:55:22" end="00:32:58:17" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">AND THE CASHIER WAS, LIKE, WAIT,</p>
+            <p begin="00:32:55:22" end="00:32:58:17" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">WAIT!</p>
+            <p begin="00:32:58:17" end="00:32:59:11" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">I KNOW YOU!</p>
+            <p begin="00:32:59:11" end="00:33:00:24" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">I LOVE YOU SO MUCH!</p>
+            <p begin="00:33:00:24" end="00:33:03:01" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">I LOVE YOUR MUSIC!</p>
+            <p begin="00:33:03:01" end="00:33:08:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">I WAS, LIKE, WHO DO YOU THINK I</p>
+            <p begin="00:33:03:01" end="00:33:08:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="5.63% 5.33%">AM?</p>
+            <p begin="00:33:08:24" end="00:33:12:12" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">AND SHE THOUGHT I WAS A</p>
+            <p begin="00:33:08:24" end="00:33:12:12" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">BEAUTIFUL RAPPER AND I SAID, NO,</p>
+            <p begin="00:33:12:12" end="00:33:14:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">THANK YOU FOR THE COMPLIMENT,</p>
+            <p begin="00:33:12:12" end="00:33:14:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">SHE'S BEAUTIFUL.</p>
+            <p begin="00:33:14:20" end="00:33:18:12" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">TWO MINUTES LATER, THIS PERSON</p>
+            <p begin="00:33:14:20" end="00:33:18:12" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">COMES UP TO ME AND SAYS, YO!</p>
+            <p begin="00:33:18:12" end="00:33:19:19" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">I LOVE YOU SO MUCH!</p>
+            <p begin="00:33:19:19" end="00:33:23:05" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">AND THE CASHIER DIDN'T HEAR THE</p>
+            <p begin="00:33:19:19" end="00:33:23:05" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">BEGINNING PART.</p>
+            <p begin="00:33:23:05" end="00:33:27:05" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">SHE SAID, I LOVE YOU SO MUCH, I</p>
+            <p begin="00:33:23:05" end="00:33:27:05" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">LOVE YOUR SHOW, CAN I TAKE A</p>
+            <p begin="00:33:27:05" end="00:33:28:21" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">PICTURE WITH YOU?</p>
+            <p begin="00:33:28:21" end="00:33:33:23" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">AND THE CASHIER SAW ME TAKING</p>
+            <p begin="00:33:28:21" end="00:33:33:23" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">THE PICTURE AND SAID, PITCH, DID</p>
+            <p begin="00:33:33:23" end="00:33:34:20" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">YOU LIE TO ME?</p>
+            <p begin="00:33:34:20" end="00:33:37:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">I SAID, NO, I'M A DIFFERENT</p>
+            <p begin="00:33:34:20" end="00:33:37:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">PERSON.</p>
+            <p begin="00:33:37:07" end="00:33:37:29" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">I'M SORRY.</p>
+            <p begin="00:33:37:29" end="00:33:39:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( LAUGHTER )</p>
+            <p begin="00:33:37:29" end="00:33:39:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">>> Stephen: I GET A LOT OF, I</p>
+            <p begin="00:33:39:14" end="00:33:42:02" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">LOVE YOU, STEVE CARELL.</p>
+            <p begin="00:33:42:02" end="00:33:43:25" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">I'M, LIKE, I'M NOT HIM.</p>
+            <p begin="00:33:43:25" end="00:33:46:13" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">I WISH I WAS.</p>
+            <p begin="00:33:46:13" end="00:33:49:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">NOW, THIS IS BASED ON YOUR OWN</p>
+            <p begin="00:33:46:13" end="00:33:49:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">LIFE, THIS SERIES?</p>
+            <p begin="00:33:49:19" end="00:33:53:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">>> IT'S PARTIALLY BASED OFF OF</p>
+            <p begin="00:33:49:19" end="00:33:53:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">EXPERIENCES AND A LOT OF MY</p>
+            <p begin="00:33:53:08" end="00:33:53:15" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">FRIENDS.</p>
+            <p begin="00:33:53:15" end="00:33:59:29" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">I HONESTLY JUST WANTED TO CREATE</p>
+            <p begin="00:33:53:15" end="00:33:59:29" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">SOMETHING I FELT LIKE WAS</p>
+            <p begin="00:33:59:29" end="00:34:02:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">RELATABLE AND WAS SOMETHING KIND</p>
+            <p begin="00:33:59:29" end="00:34:02:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">OF FOR US BANED US.</p>
+            <p begin="00:34:02:25" end="00:34:04:13" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">>> Stephen: WE HAVE A CLIP</p>
+            <p begin="00:34:02:25" end="00:34:04:13" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">HERE.</p>
+            <p begin="00:34:04:13" end="00:34:07:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">CAN YOU TELL ME WHAT'S HAPPENING</p>
+            <p begin="00:34:04:13" end="00:34:07:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="22.5% 5.33%">IN THIS ONE?</p>
+            <p begin="00:34:07:15" end="00:34:11:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">>> SO WE OPENED THE SEASON WITH</p>
+            <p begin="00:34:07:15" end="00:34:11:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">MY CHARACTER WHO IS ALSO KNOWN</p>
+            <p begin="00:34:11:24" end="00:34:12:00" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">ISSA.</p>
+            <p begin="00:34:12:00" end="00:34:15:26" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">GOING AND ADVENTURING INTO THE</p>
+            <p begin="00:34:12:00" end="00:34:15:26" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">DATING WORLD AND FEELING LIKE IT</p>
+            <p begin="00:34:15:26" end="00:34:18:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">GETS A BIT REDUNDANT AFTER A</p>
+            <p begin="00:34:15:26" end="00:34:18:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%">WHILE.</p>
+            <p begin="00:34:18:15" end="00:34:20:02" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">>> Stephen: OKAY.</p>
+            <p begin="00:34:20:02" end="00:34:20:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="7.5% 5.33%">JIM?</p>
+            <p begin="00:34:20:08" end="00:34:21:24" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">>> WHERE ARE YOU FROM?</p>
+            <p begin="00:34:21:24" end="00:34:27:27" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">HONESTLY, DOESN'T MATTER WHAT</p>
+            <p begin="00:34:21:24" end="00:34:27:27" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">I SAY BECAUSE THIS ISN'T GOING</p>
+            <p begin="00:34:27:27" end="00:34:29:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">ANYWHERE.</p>
+            <p begin="00:34:29:26" end="00:34:30:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">>> YEAH.</p>
+            <p begin="00:34:30:03" end="00:34:32:11" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">I'M INTO BURRITOS NOW.</p>
+            <p begin="00:34:32:11" end="00:34:33:19" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">>> HIGH SCHOOL KIDS?</p>
+            <p begin="00:34:33:19" end="00:34:35:01" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">SOUNDS TOUGH.</p>
+            <p begin="00:34:35:01" end="00:34:37:09" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">YOU LIKE WORKING WITH KIDS?</p>
+            <p begin="00:34:37:09" end="00:34:38:29" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">>> HOW'S IT WORKING WITH KIDS.</p>
+            <p begin="00:34:38:29" end="00:34:40:19" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">TO BE HONEST, (BLEEP).</p>
+            <p begin="00:34:40:19" end="00:34:43:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">BUT I'M TRASHED, TOO, SO.</p>
+            <p begin="00:34:43:08" end="00:34:46:02" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">>> SO HOW LONG HAVE YOU BEEN</p>
+            <p begin="00:34:43:08" end="00:34:46:02" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="16.88% 5.33%">UNHINGED?</p>
+            <p begin="00:34:46:02" end="00:34:47:22" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">>> HOW LONG YOU BEEN ON BOOM?</p>
+            <p begin="00:34:47:22" end="00:34:50:12" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">ARE YOU STILL SINGLE?</p>
+            <p begin="00:34:54:02" end="00:34:59:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="22.5% 5.33%">( APPLAUSE )</p>
+            <p begin="00:34:54:02" end="00:34:59:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">>> Stephen: I UNDERSTAND THAT</p>
+            <p begin="00:34:59:11" end="00:35:08:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">A MUSIC CONSULTANT OR SUPERVISOR</p>
+            <p begin="00:34:59:11" end="00:35:08:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">ON YOUR SHOW IS S SOLANGE KNOWLE</p>
+            <p begin="00:35:08:07" end="00:35:11:01" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="54.38% 5.33%">>> YES, FOR THE FIRST SEASON.</p>
+            <p begin="00:35:11:01" end="00:35:11:10" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="20.63% 5.33%">INCREDIBLE.</p>
+            <p begin="00:35:11:10" end="00:35:15:19" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">>> Stephen: ANY WAY YOU CAN</p>
+            <p begin="00:35:11:10" end="00:35:15:19" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">GET ME INVITED TO A PARTY WITH</p>
+            <p begin="00:35:15:19" end="00:35:15:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="15% 5.33%">BEYONCE?</p>
+            <p begin="00:35:15:27" end="00:35:17:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">>> I CAN'T EVEN GET INTO A PARTY</p>
+            <p begin="00:35:15:27" end="00:35:17:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="24.38% 5.33%">WITH BEYONCE.</p>
+            <p begin="00:35:17:24" end="00:35:22:05" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">I ALWAYS JUST MISS HER AND IT</p>
+            <p begin="00:35:17:24" end="00:35:22:05" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">JUST HAS BEEN DRIVING ME CRAZY.</p>
+            <p begin="00:35:22:05" end="00:35:24:04" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">I WOULD LOVE TO MEET HER.</p>
+            <p begin="00:35:24:04" end="00:35:31:10" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">IT'S CRAZY, EVEN TALKING TO</p>
+            <p begin="00:35:24:04" end="00:35:31:10" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">SOLANGE ABOUT, WHEN SHE WAS AN</p>
+            <p begin="00:35:31:10" end="00:35:35:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">EMPLOYEE ON THE SHOW, HEARING</p>
+            <p begin="00:35:31:10" end="00:35:35:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">HER HAVE CASUAL CONVERSATIONS,</p>
+            <p begin="00:35:35:28" end="00:35:40:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">YEAH, ME AND MY SISTER -- AND I</p>
+            <p begin="00:35:35:28" end="00:35:40:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%">ZONE OUT IMMEDIATELY BECAUSE</p>
+            <p begin="00:35:40:04" end="00:35:43:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="52.5% 5.33%">SHE'S TALKING ABOUT BEYONCE,</p>
+            <p begin="00:35:40:04" end="00:35:43:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">BEYONCE IS HER SISTER!</p>
+            <p begin="00:35:43:08" end="00:35:44:28" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">SO IT GOT VERY CHALLENGING.</p>
+            <p begin="00:35:44:28" end="00:35:47:22" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> Stephen: BECAUSE I'LL HOLD</p>
+            <p begin="00:35:44:28" end="00:35:47:22" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="60% 5.33%">THE BABIES OR ANYTHING LIKE THAT</p>
+            <p begin="00:35:47:22" end="00:35:49:29" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">IF SHE NEEDS THE BREAK.</p>
+            <p begin="00:35:49:29" end="00:35:53:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="50.63% 5.33%">>> HONESTLY, IF YOU'RE BABY</p>
+            <p begin="00:35:49:29" end="00:35:53:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="58.13% 5.33%">SITTING, I'M BABY SITTING, TOO.</p>
+            <p begin="00:35:53:14" end="00:35:55:07" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="45% 5.33%">>> Stephen: IT'S A DEAL.</p>
+            <p begin="00:35:55:07" end="00:35:59:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">SEASON TWO OF "INSECURE" BEGINS</p>
+            <p begin="00:35:55:07" end="00:35:59:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">THIS SUNDAY ON HBO.</p>
+            <p begin="00:35:59:14" end="00:36:00:28" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">ISSA RAE, EVERYBODY!</p>
+            <p begin="00:36:00:28" end="00:36:02:08" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">WE'LL BE RIGHT BACK!</p>
+            <p begin="00:36:31:07" end="00:36:32:10" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="45% 5.33%">>> STEPHEN: AND NOW HERE</p>
+            <p begin="00:36:31:07" end="00:36:32:10" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">PERFORMING "MERCURY" PLEASE</p>
+            <p begin="00:36:32:10" end="00:36:36:06" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">WELCOME PLANETARIUM!</p>
+            <p begin="00:36:46:17" end="00:36:48:24" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:36:46:17" end="00:36:48:24" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">♪ ALL THAT I'VE KNOWN</p>
+            <p begin="00:36:48:24" end="00:36:52:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="24.38% 5.33%">TO BE OF LIFE</p>
+            <p begin="00:36:48:24" end="00:36:52:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">♪ AND I AM GENTLE</p>
+            <p begin="00:36:52:11" end="00:36:58:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">YOU RAN OFF WITH IT ALL</p>
+            <p begin="00:36:52:11" end="00:36:58:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">♪ AND I AM FAITHFUL</p>
+            <p begin="00:36:58:18" end="00:37:04:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">ALL THAT I FELT WITHIN MY ARMS</p>
+            <p begin="00:36:58:18" end="00:37:04:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">♪ AND I AM WEIGHTLESS</p>
+            <p begin="00:37:04:11" end="00:37:10:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">YOU RAN OFF WITH IT ALL</p>
+            <p begin="00:37:04:11" end="00:37:10:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">♪ AND I AM SPEECHLESS</p>
+            <p begin="00:37:10:28" end="00:37:16:12" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="58.13% 5.33%">ALL THAT I SAID TO GET IT RIGHT</p>
+            <p begin="00:37:10:28" end="00:37:16:12" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">♪ AND I AM CONFIDENT</p>
+            <p begin="00:37:16:12" end="00:37:22:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">YOU RAN OFF WITH IT ALL</p>
+            <p begin="00:37:16:12" end="00:37:22:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">♪ AND I AM STEADFAST</p>
+            <p begin="00:37:22:16" end="00:37:28:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="60% 5.33%">ALL THAT I THOUGHT TO BE PRECISE</p>
+            <p begin="00:37:22:16" end="00:37:28:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="41.25% 5.33%">♪ AND I AM CONSEQUENCE</p>
+            <p begin="00:37:28:11" end="00:37:33:25" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">YOU RAN OFF WITH IT ALL</p>
+            <p begin="00:37:28:11" end="00:37:33:25" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">♪ AND I AM SORRY</p>
+            <p begin="00:37:33:25" end="00:37:46:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="26.25% 5.33%">AND I AM SORRY</p>
+            <p begin="00:37:33:25" end="00:37:46:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:37:46:03" end="00:37:48:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="26.25% 5.33%">AND I AM SORRY</p>
+            <p begin="00:37:46:03" end="00:37:48:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="39.38% 5.33%">♪ ALL THAT I'VE KNOWN</p>
+            <p begin="00:37:48:16" end="00:37:52:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="26.25% 5.33%">TO BE AT PEACE</p>
+            <p begin="00:37:48:16" end="00:37:52:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">♪ AND I AM DESPERATE</p>
+            <p begin="00:37:52:09" end="00:37:58:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">YOU RAN OFF WITH IT ALL</p>
+            <p begin="00:37:52:09" end="00:37:58:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="35.63% 5.33%">♪ AND I AM RESTLESS</p>
+            <p begin="00:37:58:07" end="00:38:03:21" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="35.63% 5.33%">ALL THAT I'VE KNOWN</p>
+            <p begin="00:37:58:07" end="00:38:03:21" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="26.25% 5.33%">TO BE OF  LOVE</p>
+            <p begin="00:38:03:21" end="00:38:08:05" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="31.88% 5.33%">♪ AND I AM GENTLE</p>
+            <p begin="00:38:03:21" end="00:38:08:05" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">YOU RAN OFF WITH IT ALL</p>
+            <p begin="00:38:08:05" end="00:38:14:03" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="37.5% 5.33%">♪ AND I AM DESPERATE</p>
+            <p begin="00:38:08:05" end="00:38:14:03" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">ALL THAT I DREAM</p>
+            <p begin="00:38:14:03" end="00:38:20:11" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="33.75% 5.33%">♪ WHERE DO YOU RUN</p>
+            <p begin="00:38:14:03" end="00:38:20:11" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">WHERE DO YOU RUN TO?</p>
+            <p begin="00:38:20:11" end="00:38:25:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="35.63% 5.33%">♪ AND I AM EVIDENCE</p>
+            <p begin="00:38:20:11" end="00:38:25:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">ALL THAT I DREAM</p>
+            <p begin="00:38:25:28" end="00:38:34:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="33.75% 5.33%">♪ WHERE DO YOU RUN</p>
+            <p begin="00:38:25:28" end="00:38:34:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">WHERE DO YOU RUN TO?</p>
+            <p begin="00:38:34:14" end="00:38:38:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="37.5% 5.33%">♪ AND I AM FAITHLESS</p>
+            <p begin="00:38:34:14" end="00:38:38:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">ALL THAT I DREAM</p>
+            <p begin="00:38:38:04" end="00:38:44:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="33.75% 5.33%">♪ WHERE DO YOU RUN</p>
+            <p begin="00:38:38:04" end="00:38:44:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">WHERE DO YOU RUN TO?</p>
+            <p begin="00:38:44:07" end="00:38:49:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="37.5% 5.33%">♪ NOW I AM MESSED UP</p>
+            <p begin="00:38:44:07" end="00:38:49:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="30% 5.33%">ALL THAT I DREAM</p>
+            <p begin="00:38:49:28" end="00:38:55:08" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="33.75% 5.33%">♪ WHERE DO YOU RUN</p>
+            <p begin="00:38:49:28" end="00:38:55:08" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">WHERE DO YOU RUN TO?</p>
+            <p begin="00:38:55:08" end="00:39:02:16" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="31.88% 5.33%">♪ CARRIER, FRIEND</p>
+            <p begin="00:38:55:08" end="00:39:02:16" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="31.88% 5.33%">WHERE DO YOU RUN?</p>
+            <p begin="00:39:02:16" end="00:39:09:07" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:39:02:16" end="00:39:09:07" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%"> ♪ ♪ ♪</p>
+            <p begin="00:39:09:07" end="00:39:16:09" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:39:09:07" end="00:39:16:09" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%"> ♪ ♪ ♪</p>
+            <p begin="00:39:16:09" end="00:39:23:13" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:39:16:09" end="00:39:23:13" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%"> ♪ ♪ ♪</p>
+            <p begin="00:39:23:13" end="00:39:29:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:39:23:13" end="00:39:29:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%"> ♪ ♪ ♪</p>
+            <p begin="00:39:29:14" end="00:39:36:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:39:29:14" end="00:39:36:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%"> ♪ ♪ ♪</p>
+            <p begin="00:39:36:28" end="00:39:43:20" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:39:36:28" end="00:39:43:20" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%"> ♪ ♪ ♪</p>
+            <p begin="00:39:43:20" end="00:39:50:15" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:39:43:20" end="00:39:50:15" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%"> ♪ ♪ ♪</p>
+            <p begin="00:39:50:15" end="00:39:57:28" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:39:50:15" end="00:39:57:28" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%"> ♪ ♪ ♪</p>
+            <p begin="00:39:57:28" end="00:40:05:10" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:39:57:28" end="00:40:05:10" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%"> ♪ ♪ ♪</p>
+            <p begin="00:40:05:10" end="00:40:21:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:40:05:10" end="00:40:21:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="11.25% 5.33%"> ♪ ♪ ♪</p>
+            <p begin="00:40:21:18" end="00:40:22:18" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="9.38% 5.33%">♪ ♪ ♪</p>
+            <p begin="00:40:21:18" end="00:40:22:18" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="56.25% 5.33%">>> Stephen: THANK YOU SO MUCH.</p>
+            <p begin="00:40:24:01" end="00:40:26:00" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="28.13% 5.33%">THANKS SO MUCH.</p>
+            <p begin="00:40:26:00" end="00:40:26:27" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">PLANETARIUM, EVERYBODY!</p>
+            <p begin="00:40:26:27" end="00:40:27:29" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="37.5% 5.33%">WE'LL BE RIGHT BACK!</p>
+            <p begin="00:40:27:29" end="00:40:28:17" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:40:39:22" end="00:40:41:10" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">>> STEPHEN: THAT'S IT FOR THE</p>
+            <p begin="00:40:39:22" end="00:40:41:10" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">LATE SHOW.</p>
+            <p begin="00:40:41:10" end="00:40:45:05" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="56.25% 5.33%">TUNE IN TOMORROW FOR MORE FROM</p>
+            <p begin="00:40:41:10" end="00:40:45:05" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="33.75% 5.33%">MY TRIP TO RUSSIA!</p>
+            <p begin="00:40:45:05" end="00:40:48:00" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="54.38% 5.33%">PLUS MY GUESTS WILL BE KEEGAN</p>
+            <p begin="00:40:45:05" end="00:40:48:00" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%">MICHAEL KEY, CILLIAN MURPHY</p>
+            <p begin="00:40:48:00" end="00:40:49:03" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="46.88% 5.33%">AND COMEDIAN MATTEO LANE.</p>
+            <p begin="00:40:49:03" end="00:40:50:27" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="48.75% 5.33%">NOW STICK AROUND FOR JAMES</p>
+            <p begin="00:40:49:03" end="00:40:50:27" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="13.13% 5.33%">CORDEN.</p>
+            <p begin="00:40:50:27" end="00:40:53:26" region="pop1" style="basic" tts:origin="20% 84.67%" tts:extent="18.75% 5.33%">GOODNIGHT!</p>
+            <p begin="00:40:53:26" end="00:40:54:14" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="43.13% 5.33%">( CHEERS AND APPLAUSE )</p>
+            <p begin="00:40:53:26" end="00:40:54:14" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="52.5% 5.33%"><span tts:color="yellow"> Captioning sponsored by CBS</span></p>
+            <p begin="00:40:59:07" end="00:41:01:04" region="pop1" style="basic" tts:origin="20% 79.33%" tts:extent="24.38% 5.33%"> Captioned by</p>
+            <p begin="00:40:59:07" end="00:41:01:04" region="pop2" style="basic" tts:origin="20% 84.67%" tts:extent="50.63% 5.33%"><span tts:color="cyan"> Media Access Group at WGBH</span></p>
+            <p begin="00:41:01:04" end="00:41:04:04" region="pop1" style="basic" tts:origin="20% 74%" tts:extent="30% 5.33%"> access.wgbh.org</p>
+        </div>
+    </body>
+</tt>
