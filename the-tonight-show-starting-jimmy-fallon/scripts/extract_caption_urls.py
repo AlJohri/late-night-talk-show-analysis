@@ -43,4 +43,4 @@ with open('data/nbc_metadata.json') as f:
 
 print('Saving caption urls')
 with open('data/caption_urls.json', 'w') as f:
-    json.dump(caption_urls, f)
+    json.dump(caption_urls, f, indent=4)
