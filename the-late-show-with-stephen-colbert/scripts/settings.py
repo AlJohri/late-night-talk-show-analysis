@@ -1,4 +1,8 @@
-LATEST_EPISODE_NUMBER = 408 # http://www.imdb.com/title/tt3697842/episodes
+# season 1: 202 episodes
+# season 2: 206 episodes
+# season 3: 64 episodes (as of 1/5)
+
+LATEST_EPISODE_NUMBER = 472 # http://www.imdb.com/title/tt3697842/episodes
 IMDB_SERIES_ID = "tt3697842"
 
 KINDS = ['SMPTE', 'DFXP']
